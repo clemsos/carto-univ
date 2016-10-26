@@ -34,8 +34,8 @@
     // setup map
     let map = L.map('map').setView([51.505, -0.09], 4);
 
-    let url = 'http://tile.stamen.com/toner/{z}/{x}/{y}.png'
-    let attribution = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    let url = 'http://tile.thunderforest.com/transport/{z}/{x}/{y}.png'
+    let attribution = '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 
     L.tileLayer(url, {
         attribution: attribution,
@@ -49,10 +49,8 @@
 
     // store all circles objects
     const coords = {}
-
-
     // load geo coordinates
-    d3.json("data/geocodes-bing.json", geoData => {
+    d3.json("data/geocodes-google.json", geoData => {
       Object.keys(geoData).forEach( (d,i) => {
         let geo = geoData[d]
         if(geo.lat && geo.lng) coords[d] = [geo.lat, geo.lng]
@@ -116,18 +114,16 @@
           })
 
           circles[name].bindPopup(d, { showOnMouseOver: true });
-
           markers.addLayer(circles[name])
         }
       })
-
-
+      map.addLayer(markers)
+      markers.bringToFront()
     }
 
     function updateMarkers(data, year){
 
-      // markers.clearLayers();
-
+      console.log("updated")
       // loop through data
       data.map(d => {
 
@@ -141,7 +137,6 @@
 
           let coord = coords[name]
           let c = parseInt(count[1])
-
 
           circle.setRadius(c*30)
           markers.addLayer(circle)
