@@ -1,0 +1,96 @@
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.css" media="screen" title="no title" charset="utf-8">
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
+
+  <style>
+
+    input[type=range] {
+      width: 100%
+    }
+
+    #map {
+      height: 80%;
+    }
+
+  </style>
+
+</head>
+<body>
+
+  <div id="slider"></div>
+  <p>Selection : <span id="year">1400</span></p>
+
+   <div id="map"></div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js" charset="utf-8"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.js
+  " charset="utf-8"></script>
+  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
+
+
+  <script>
+
+    // setup map
+    let map = L.map('map').setView([51.505, -0.09], 6);
+
+    let url = 'http://tile.stamen.com/toner/{z}/{x}/{y}.png'
+    let attribution = 'Map tiles by <a href="http://stamen.com">Stamen Design</a>, <a href="http://creativecommons.org/licenses/by/3.0">CC BY 3.0</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+
+    L.tileLayer(url, {
+        attribution: attribution,
+        minZoom: 0,
+      	maxZoom: 20,
+      	ext: 'png'
+    }).addTo(map);
+
+    d3.csv("data/universites.csv", data => {
+      const years = Object.keys(data[0]).map(d => parseInt(d) )
+
+      // default values
+      console.log(d3.min(years), d3.max(years))
+
+      let year = d3.min(years)
+
+      // create slider
+      const slider = document.getElementById('slider')
+
+      noUiSlider.create(slider, {
+      	start: year,
+      	connect: true,
+        step: 20,
+      	range: {
+      		'min': d3.min(years),
+      		'max': d3.max(years)
+      	}
+      })
+
+      // show slider value on the page
+      slider.noUiSlider.on('slide', value => {
+
+        year  = Math.floor(value)
+        d3.select("#year").text(year)
+
+        // show elements on the map
+        data.forEach( (d,i) => {
+          console.log(d[year])
+        })
+
+      })
+
+
+      // var circle = L.circle([51.508, -0.11], {
+      //     color: 'red',
+      //     fillColor: '#f03',
+      //     fillOpacity: 0.5,
+      //     radius: 500
+      // }).addTo(map);
+
+
+
+
+
+
+    })
+  </script>
+</body>
