@@ -1,0 +1,236 @@
+{
+  "Angers": {
+    "status": "OK", 
+    "city": "Angers", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "provider": "bing", 
+    "location": "Angers", 
+    "state": "Loire Region", 
+    "bbox": {
+      "northeast": [
+        47.500389099121094, 
+        -0.5242084860801697
+      ], 
+      "southwest": [
+        47.44504928588867, 
+        -0.5897926092147827
+      ]
+    }, 
+    "address": "Angers, Maine-et-Loire, France", 
+    "lat": 47.474300384521484, 
+    "lng": -0.567579984664917, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Altamura": {
+    "status": "OK", 
+    "city": "Altamura", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italy", 
+    "provider": "bing", 
+    "location": "Altamura", 
+    "state": "Pugl.", 
+    "bbox": {
+      "northeast": [
+        40.87594985961914, 
+        16.66262435913086
+      ], 
+      "southwest": [
+        40.77203369140625, 
+        16.440439224243164
+      ]
+    }, 
+    "address": "Altamura, Pugl., Italy", 
+    "lat": 40.8202018737793, 
+    "lng": 16.55030059814453, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Aix-en-Provence": {
+    "status": "OK", 
+    "city": "Aix-en-Provence", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "provider": "bing", 
+    "location": "Aix-en-Provence", 
+    "state": "PACA", 
+    "bbox": {
+      "northeast": [
+        43.64506912231445, 
+        5.7241668701171875
+      ], 
+      "southwest": [
+        43.40260314941406, 
+        5.183115005493164
+      ]
+    }, 
+    "address": "Aix-en-Provence, Bouches-du-Rh\u00f4ne, France", 
+    "lat": 43.516300201416016, 
+    "lng": 5.466770172119141, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Ancona": {
+    "status": "OK", 
+    "city": "Ancona", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italy", 
+    "provider": "bing", 
+    "location": "Ancona", 
+    "state": "Marc.", 
+    "bbox": {
+      "northeast": [
+        43.670345306396484, 
+        13.627856254577637
+      ], 
+      "southwest": [
+        43.56643295288086, 
+        13.395612716674805
+      ]
+    }, 
+    "address": "Ancona, Marc., Italy", 
+    "lat": 43.617000579833984, 
+    "lng": 13.512399673461914, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Abo": {
+    "status": "OK", 
+    "city": "Turku", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Finland", 
+    "provider": "bing", 
+    "location": "Abo", 
+    "state": "Southwest Finland", 
+    "bbox": {
+      "northeast": [
+        60.5042839050293, 
+        22.43178939819336
+      ], 
+      "southwest": [
+        60.40383529663086, 
+        22.102197647094727
+      ]
+    }, 
+    "address": "Turku, Finland", 
+    "lat": 60.45405960083008, 
+    "lng": 22.26699447631836, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Altdorf bei Nuremberg": {
+    "status": "OK", 
+    "city": "Altdorf", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Germany", 
+    "provider": "bing", 
+    "location": "Altdorf bei Nuremberg", 
+    "state": "BY", 
+    "bbox": {
+      "northeast": [
+        49.43524932861328, 
+        11.478775024414062
+      ], 
+      "southwest": [
+        49.33479690551758, 
+        11.229104995727539
+      ]
+    }, 
+    "address": "Altdorf, BY, Germany", 
+    "lat": 49.385501861572266, 
+    "lng": 11.354499816894531, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Almagro": {
+    "status": "OK", 
+    "city": "Almagro", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Spain", 
+    "provider": "bing", 
+    "location": "Almagro", 
+    "state": "Castile-La Mancha", 
+    "bbox": {
+      "northeast": [
+        38.937347412109375, 
+        -3.608274221420288
+      ], 
+      "southwest": [
+        38.83689880371094, 
+        -3.8170766830444336
+      ]
+    }, 
+    "address": "Almagro, Castile-La Mancha, Spain", 
+    "lat": 38.890499114990234, 
+    "lng": -3.717780113220215, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Aberdeen": {
+    "status": "OK", 
+    "city": "Aberdeen", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "United States", 
+    "provider": "bing", 
+    "location": "Aberdeen", 
+    "state": "WA", 
+    "bbox": {
+      "northeast": [
+        46.999244689941406, 
+        -123.77365112304688
+      ], 
+      "southwest": [
+        46.95184326171875, 
+        -123.85823822021484
+      ]
+    }, 
+    "address": "Aberdeen, WA", 
+    "lat": 46.975860595703125, 
+    "lng": -123.81597900390625, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }, 
+  "Alcal\u00e0 de Henares": {
+    "status": "OK", 
+    "city": "Alcal\u00e1 de Henares", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Spain", 
+    "provider": "bing", 
+    "location": "Alcal\u00e0 de Henares", 
+    "state": "Community of Madrid", 
+    "bbox": {
+      "northeast": [
+        40.51678466796875, 
+        -3.3271877765655518
+      ], 
+      "southwest": [
+        40.4532470703125, 
+        -3.422661066055298
+      ]
+    }, 
+    "address": "Alcal\u00e1 de Henares, Community of Madrid, Spain", 
+    "lat": 40.48899841308594, 
+    "lng": -3.378659963607788, 
+    "quality": "PopulatedPlace", 
+    "accuracy": "Rooftop"
+  }
+}

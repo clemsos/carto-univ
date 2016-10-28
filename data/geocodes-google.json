@@ -1,0 +1,5449 @@
+{
+  "": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "encoding": "utf-8"
+  }, 
+  "Innsburck": {
+    "status": "OK", 
+    "city": "Innsbruck", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "AT", 
+    "provider": "google", 
+    "state_long": "Tyrol", 
+    "location": "Innsburck", 
+    "country_long": "Austria", 
+    "county": "Innsbruck", 
+    "state": "Tyrol", 
+    "city_long": "Innsbruck", 
+    "bbox": {
+      "northeast": [
+        47.35993000000001, 
+        11.45593
+      ], 
+      "southwest": [
+        47.21098000000001, 
+        11.30165
+      ]
+    }, 
+    "address": "Innsbruck, Austria", 
+    "lat": 47.2692124, 
+    "lng": 11.4041024, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Dilligen": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Dilligen", 
+    "encoding": "utf-8"
+  }, 
+  "Torino": {
+    "status": "OK", 
+    "city": "Turin", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Piedmont", 
+    "location": "Torino", 
+    "country_long": "Italy", 
+    "county": "TO", 
+    "state": "Piedmont", 
+    "city_long": "Turin", 
+    "bbox": {
+      "northeast": [
+        45.1335013, 
+        7.762328299999999
+      ], 
+      "southwest": [
+        45.00677659999999, 
+        7.5778502
+      ]
+    }, 
+    "address": "Turin, Italy", 
+    "lat": 45.070312, 
+    "lng": 7.686856499999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Bologne": {
+    "status": "OK", 
+    "city": "Bologna", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Emilia-Romagna", 
+    "location": "Bologne", 
+    "country_long": "Italy", 
+    "county": "BO", 
+    "state": "Emilia-Romagna", 
+    "city_long": "Bologna", 
+    "bbox": {
+      "northeast": [
+        44.5561987, 
+        11.4337169
+      ], 
+      "southwest": [
+        44.4420376, 
+        11.2296541
+      ]
+    }, 
+    "address": "Bologna, Italy", 
+    "lat": 44.494887, 
+    "lng": 11.3426163, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Mondovi": {
+    "status": "OK", 
+    "city": "Mondov\u00ec", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Piedmont", 
+    "location": "Mondovi", 
+    "country_long": "Italy", 
+    "county": "CN", 
+    "state": "Piedmont", 
+    "city_long": "Mondov\u00ec", 
+    "bbox": {
+      "northeast": [
+        44.4169031, 
+        7.8377162
+      ], 
+      "southwest": [
+        44.3773032, 
+        7.803182599999999
+      ]
+    }, 
+    "address": "12084 Mondov\u00ec, Province of Cuneo, Italy", 
+    "lat": 44.3953434, 
+    "lng": 7.819670899999999, 
+    "postal": "12084", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Ancona": {
+    "status": "OK", 
+    "city": "Ancona", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Marche", 
+    "location": "Ancona", 
+    "country_long": "Italy", 
+    "county": "AN", 
+    "state": "Marche", 
+    "city_long": "Ancona", 
+    "bbox": {
+      "northeast": [
+        43.6314669, 
+        13.549857
+      ], 
+      "southwest": [
+        43.532833, 
+        13.4637957
+      ]
+    }, 
+    "address": "Ancona, Italy", 
+    "lat": 43.6158299, 
+    "lng": 13.518915, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Pavia": {
+    "status": "OK", 
+    "city": "Pavia", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Lombardia", 
+    "location": "Pavia", 
+    "country_long": "Italy", 
+    "county": "PV", 
+    "state": "Lombardia", 
+    "city_long": "Pavia", 
+    "bbox": {
+      "northeast": [
+        45.2099335, 
+        9.207372099999999
+      ], 
+      "southwest": [
+        45.1655945, 
+        9.104418299999999
+      ]
+    }, 
+    "address": "27100 Pavia PV, Italy", 
+    "lat": 45.1847248, 
+    "lng": 9.1582069, 
+    "postal": "27100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Pont-\u00e0-Mousson": {
+    "status": "OK", 
+    "city": "Pont-\u00e0-Mousson", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Alsace-Champagne-Ardenne-Lorraine", 
+    "location": "Pont-\u00e0-Mousson", 
+    "country_long": "France", 
+    "county": "Meurthe-et-Moselle", 
+    "state": "Alsace-Champagne-Ardenne-Lorraine", 
+    "city_long": "Pont-\u00e0-Mousson", 
+    "bbox": {
+      "northeast": [
+        48.953629, 
+        6.089047
+      ], 
+      "southwest": [
+        48.890798, 
+        6.004827
+      ]
+    }, 
+    "address": "54700 Pont-\u00e0-Mousson, France", 
+    "lat": 48.90329, 
+    "lng": 6.054868, 
+    "postal": "54700", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Giessen": {
+    "status": "OK", 
+    "city": "Giessen", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Hesse", 
+    "location": "Giessen", 
+    "country_long": "Germany", 
+    "county": "GI", 
+    "state": "HE", 
+    "city_long": "Giessen", 
+    "bbox": {
+      "northeast": [
+        50.63524169999999, 
+        8.7641993
+      ], 
+      "southwest": [
+        50.52633849999999, 
+        8.555754199999999
+      ]
+    }, 
+    "address": "Giessen, Germany", 
+    "lat": 50.5840512, 
+    "lng": 8.678403099999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Modena": {
+    "status": "OK", 
+    "city": "Modena", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Emilia-Romagna", 
+    "location": "Modena", 
+    "country_long": "Italy", 
+    "county": "MO", 
+    "state": "Emilia-Romagna", 
+    "city_long": "Modena", 
+    "bbox": {
+      "northeast": [
+        44.694198, 
+        10.9902841
+      ], 
+      "southwest": [
+        44.6061561, 
+        10.8531803
+      ]
+    }, 
+    "address": "Modena, Province of Modena, Italy", 
+    "lat": 44.647128, 
+    "lng": 10.9252269, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Valence": {
+    "status": "OK", 
+    "city": "Valence", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Auvergne-Rh\u00f4ne-Alpes", 
+    "location": "Valence", 
+    "country_long": "France", 
+    "county": "Dr\u00f4me", 
+    "state": "Auvergne-Rh\u00f4ne-Alpes", 
+    "city_long": "Valence", 
+    "bbox": {
+      "northeast": [
+        44.959722, 
+        4.97839
+      ], 
+      "southwest": [
+        44.88686, 
+        4.854378
+      ]
+    }, 
+    "address": "26000 Valence, France", 
+    "lat": 44.933393, 
+    "lng": 4.89236, 
+    "postal": "26000", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Fulda": {
+    "status": "OK", 
+    "city": "Fulda", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Hesse", 
+    "location": "Fulda", 
+    "country_long": "Germany", 
+    "county": "KS", 
+    "state": "HE", 
+    "city_long": "Fulda", 
+    "bbox": {
+      "northeast": [
+        50.62937849999999, 
+        9.7331007
+      ], 
+      "southwest": [
+        50.49947239999999, 
+        9.5659712
+      ]
+    }, 
+    "address": "Fulda, Germany", 
+    "lat": 50.5558095, 
+    "lng": 9.6808449, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "J\u00a0: coll\u00e8ge j\u00e9suites": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "J\u00a0: coll\u00e8ge j\u00e9suites", 
+    "encoding": "utf-8"
+  }, 
+  "Aix-en-Provence": {
+    "status": "OK", 
+    "city": "Aix-en-Provence", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Provence-Alpes-C\u00f4te d'Azur", 
+    "location": "Aix-en-Provence", 
+    "country_long": "France", 
+    "county": "Bouches-du-Rhone", 
+    "state": "Provence-Alpes-C\u00f4te d'Azur", 
+    "city_long": "Aix-en-Provence", 
+    "bbox": {
+      "northeast": [
+        43.62598, 
+        5.506364899999999
+      ], 
+      "southwest": [
+        43.445968, 
+        5.269528999999999
+      ]
+    }, 
+    "address": "Aix-en-Provence, France", 
+    "lat": 43.529742, 
+    "lng": 5.447426999999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Ingolstadt": {
+    "status": "OK", 
+    "city": "Ingolstadt", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Bavaria", 
+    "location": "Ingolstadt", 
+    "country_long": "Germany", 
+    "county": "Upper Bavaria", 
+    "state": "BY", 
+    "city_long": "Ingolstadt", 
+    "bbox": {
+      "northeast": [
+        48.8228908, 
+        11.5033301
+      ], 
+      "southwest": [
+        48.6838581, 
+        11.2559732
+      ]
+    }, 
+    "address": "Ingolstadt, Germany", 
+    "lat": 48.7665351, 
+    "lng": 11.4257541, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Paris": {
+    "status": "OK", 
+    "city": "Paris", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "\u00cele-de-France", 
+    "location": "Paris", 
+    "country_long": "France", 
+    "county": "Paris", 
+    "state": "\u00cele-de-France", 
+    "city_long": "Paris", 
+    "bbox": {
+      "northeast": [
+        48.9021449, 
+        2.4699209
+      ], 
+      "southwest": [
+        48.815573, 
+        2.225193
+      ]
+    }, 
+    "address": "Paris, France", 
+    "lat": 48.856614, 
+    "lng": 2.3522219, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Douai": {
+    "status": "OK", 
+    "city": "Douai", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Nord-Pas-de-Calais-Picardie", 
+    "location": "Douai", 
+    "country_long": "France", 
+    "county": "Nord", 
+    "state": "Nord-Pas-de-Calais-Picardie", 
+    "city_long": "Douai", 
+    "bbox": {
+      "northeast": [
+        50.410596, 
+        3.1494171
+      ], 
+      "southwest": [
+        50.349205, 
+        3.051476
+      ]
+    }, 
+    "address": "Douai, France", 
+    "lat": 50.367874, 
+    "lng": 3.080602, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Harderwijk": {
+    "status": "OK", 
+    "city": "Harderwijk", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "NL", 
+    "provider": "google", 
+    "state_long": "Gelderland", 
+    "location": "Harderwijk", 
+    "country_long": "Netherlands", 
+    "county": "Harderwijk", 
+    "state": "GE", 
+    "city_long": "Harderwijk", 
+    "bbox": {
+      "northeast": [
+        52.3683367, 
+        5.7131475
+      ], 
+      "southwest": [
+        52.3015754, 
+        5.575803
+      ]
+    }, 
+    "address": "Harderwijk, Netherlands", 
+    "lat": 52.3422025, 
+    "lng": 5.6367423, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Rinteln": {
+    "status": "OK", 
+    "city": "Rinteln", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Lower Saxony", 
+    "location": "Rinteln", 
+    "country_long": "Germany", 
+    "county": "Detmold", 
+    "state": "NDS", 
+    "city_long": "Rinteln", 
+    "bbox": {
+      "northeast": [
+        52.225937, 
+        9.248338799999999
+      ], 
+      "southwest": [
+        52.0942204, 
+        8.9862143
+      ]
+    }, 
+    "address": "Rinteln, Germany", 
+    "lat": 52.2020461, 
+    "lng": 9.0759703, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Catania": {
+    "status": "OK", 
+    "city": "Catania", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Sicily", 
+    "location": "Catania", 
+    "country_long": "Italy", 
+    "county": "CT", 
+    "state": "Sicily", 
+    "city_long": "Catania", 
+    "bbox": {
+      "northeast": [
+        37.5608759, 
+        15.1259397
+      ], 
+      "southwest": [
+        37.4205463, 
+        15.0290962
+      ]
+    }, 
+    "address": "Catania, Province of Catania, Italy", 
+    "lat": 37.5078772, 
+    "lng": 15.0830304, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Valladolid": {
+    "status": "OK", 
+    "city": "Valladolid", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castile and Le\u00f3n", 
+    "location": "Valladolid", 
+    "country_long": "Spain", 
+    "county": "VA", 
+    "state": "CL", 
+    "city_long": "Valladolid", 
+    "bbox": {
+      "northeast": [
+        41.6780955, 
+        -4.689444
+      ], 
+      "southwest": [
+        41.5909982, 
+        -4.7754894
+      ]
+    }, 
+    "address": "Valladolid, Spain", 
+    "lat": 41.652251, 
+    "lng": -4.724532099999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Perpignan": {
+    "status": "OK", 
+    "city": "Perpignan", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "location": "Perpignan", 
+    "country_long": "France", 
+    "county": "Pyr\u00e9n\u00e9es-Orientales", 
+    "state": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "city_long": "Perpignan", 
+    "bbox": {
+      "northeast": [
+        42.7488459, 
+        2.9827209
+      ], 
+      "southwest": [
+        42.649256, 
+        2.826282
+      ]
+    }, 
+    "address": "Perpignan, France", 
+    "lat": 42.6886591, 
+    "lng": 2.8948332, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Caen": {
+    "status": "OK", 
+    "city": "Caen", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Normandy", 
+    "location": "Caen", 
+    "country_long": "France", 
+    "county": "Calvados", 
+    "state": "Normandy", 
+    "city_long": "Caen", 
+    "bbox": {
+      "northeast": [
+        49.21626879999999, 
+        -0.330739
+      ], 
+      "southwest": [
+        49.15298689999999, 
+        -0.4137789000000001
+      ]
+    }, 
+    "address": "14000 Caen, France", 
+    "lat": 49.182863, 
+    "lng": -0.370679, 
+    "postal": "14000", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Nantes": {
+    "status": "OK", 
+    "city": "Nantes", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Pays de la Loire", 
+    "location": "Nantes", 
+    "country_long": "France", 
+    "county": "Loire-Atlantique", 
+    "state": "Pays de la Loire", 
+    "city_long": "Nantes", 
+    "bbox": {
+      "northeast": [
+        47.29582689999999, 
+        -1.4802542
+      ], 
+      "southwest": [
+        47.180617, 
+        -1.6411864
+      ]
+    }, 
+    "address": "Nantes, France", 
+    "lat": 47.218371, 
+    "lng": -1.553621, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Solsona": {
+    "status": "OK", 
+    "city": "Solsona", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Catalonia", 
+    "location": "Solsona", 
+    "country_long": "Spain", 
+    "county": "Lleida", 
+    "state": "CT", 
+    "city_long": "Solsona", 
+    "bbox": {
+      "northeast": [
+        42.0018105, 
+        1.5275998
+      ], 
+      "southwest": [
+        41.9865709, 
+        1.5082948
+      ]
+    }, 
+    "address": "25280 Solsona, Lleida, Spain", 
+    "lat": 41.9933358, 
+    "lng": 1.515464, 
+    "postal": "25280", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "I\u00e9na": {
+    "status": "OK", 
+    "city": "J", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Thuringia", 
+    "location": "I\u00e9na", 
+    "country_long": "Germany", 
+    "state": "Thuringia", 
+    "city_long": "Jena", 
+    "bbox": {
+      "northeast": [
+        50.9890092, 
+        11.6730449
+      ], 
+      "southwest": [
+        50.8560166, 
+        11.4989029
+      ]
+    }, 
+    "address": "Jena, Germany", 
+    "lat": 50.927054, 
+    "lng": 11.5892372, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Napoli": {
+    "status": "OK", 
+    "city": "Naples", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Campania", 
+    "location": "Napoli", 
+    "country_long": "Italy", 
+    "county": "NA", 
+    "state": "Campania", 
+    "city_long": "Naples", 
+    "bbox": {
+      "northeast": [
+        40.9159348, 
+        14.3537147
+      ], 
+      "southwest": [
+        40.7920363, 
+        14.1394899
+      ]
+    }, 
+    "address": "Naples, Italy", 
+    "lat": 40.8517746, 
+    "lng": 14.2681244, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Die": {
+    "status": "OK", 
+    "city": "Die", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Auvergne-Rh\u00f4ne-Alpes", 
+    "location": "Die", 
+    "country_long": "France", 
+    "county": "Dr\u00f4me", 
+    "state": "Auvergne-Rh\u00f4ne-Alpes", 
+    "city_long": "Die", 
+    "bbox": {
+      "northeast": [
+        44.7918789, 
+        5.4612079
+      ], 
+      "southwest": [
+        44.7112189, 
+        5.314334
+      ]
+    }, 
+    "address": "26150 Die, France", 
+    "lat": 44.751036, 
+    "lng": 5.370536, 
+    "postal": "26150", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Dublin": {
+    "status": "OK", 
+    "city": "Dublin", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "US", 
+    "provider": "google", 
+    "state_long": "Ohio", 
+    "location": "Dublin", 
+    "country_long": "United States", 
+    "county": "Franklin County", 
+    "state": "OH", 
+    "city_long": "Dublin", 
+    "bbox": {
+      "northeast": [
+        40.1632729, 
+        -83.08977809999999
+      ], 
+      "southwest": [
+        40.06368399999999, 
+        -83.2020691
+      ]
+    }, 
+    "address": "Dublin, OH, USA", 
+    "lat": 40.0992294, 
+    "lng": -83.1140771, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Avila": {
+    "status": "OK", 
+    "city": "\u00c1vila\u200e", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castile and Le\u00f3n", 
+    "location": "Avila", 
+    "country_long": "Spain", 
+    "county": "\u00c1vila", 
+    "state": "CL", 
+    "city_long": "\u00c1vila\u200e", 
+    "bbox": {
+      "northeast": [
+        40.6759492, 
+        -4.6566675
+      ], 
+      "southwest": [
+        40.6378228, 
+        -4.707720000000001
+      ]
+    }, 
+    "address": "\u00c1vila\u200e, \u00c1vila, Spain", 
+    "lat": 40.656685, 
+    "lng": -4.6812086, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Monb\u00e9liard": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Monb\u00e9liard", 
+    "encoding": "utf-8"
+  }, 
+  "Fermo": {
+    "status": "OK", 
+    "city": "Fermo", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Marche", 
+    "location": "Fermo", 
+    "country_long": "Italy", 
+    "county": "FM", 
+    "state": "Marche", 
+    "city_long": "Fermo", 
+    "bbox": {
+      "northeast": [
+        43.17858529999999, 
+        13.7617123
+      ], 
+      "southwest": [
+        43.1478961, 
+        13.6938604
+      ]
+    }, 
+    "address": "63900 Fermo, Province of Fermo, Italy", 
+    "lat": 43.1588734, 
+    "lng": 13.7200884, 
+    "postal": "63900", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Rome": {
+    "status": "OK", 
+    "city": "Rome", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Lazio", 
+    "location": "Rome", 
+    "country_long": "Italy", 
+    "county": "RM", 
+    "state": "Lazio", 
+    "city_long": "Rome", 
+    "bbox": {
+      "northeast": [
+        42.0505462, 
+        12.7302887
+      ], 
+      "southwest": [
+        41.769596, 
+        12.341707
+      ]
+    }, 
+    "address": "Rome, Italy", 
+    "lat": 41.9027835, 
+    "lng": 12.4963655, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Pisa": {
+    "status": "OK", 
+    "city": "Pisa", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Tuscany", 
+    "location": "Pisa", 
+    "country_long": "Italy", 
+    "county": "PI", 
+    "state": "Tuscany", 
+    "city_long": "Pisa", 
+    "bbox": {
+      "northeast": [
+        43.7394812, 
+        10.4453806
+      ], 
+      "southwest": [
+        43.67402, 
+        10.3453755
+      ]
+    }, 
+    "address": "Pisa, Province of Pisa, Italy", 
+    "lat": 43.7228386, 
+    "lng": 10.4016888, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "G\u00f6ttingen": {
+    "status": "OK", 
+    "city": "G\u00f6ttingen", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Lower Saxony", 
+    "location": "G\u00f6ttingen", 
+    "country_long": "Germany", 
+    "state": "NDS", 
+    "city_long": "G\u00f6ttingen", 
+    "bbox": {
+      "northeast": [
+        51.5908549, 
+        10.0535674
+      ], 
+      "southwest": [
+        51.4830198, 
+        9.800138200000001
+      ]
+    }, 
+    "address": "G\u00f6ttingen, Germany", 
+    "lat": 51.54128040000001, 
+    "lng": 9.915803499999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Basle": {
+    "status": "OK", 
+    "city": "Basel", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "CH", 
+    "provider": "google", 
+    "state_long": "Basel-Stadt", 
+    "location": "Basle", 
+    "country_long": "Switzerland", 
+    "county": "Basel-Stadt", 
+    "state": "BS", 
+    "city_long": "Basel", 
+    "bbox": {
+      "northeast": [
+        47.58992, 
+        7.634100099999999
+      ], 
+      "southwest": [
+        47.51931, 
+        7.554819900000001
+      ]
+    }, 
+    "address": "Basel, Switzerland", 
+    "lat": 47.5595986, 
+    "lng": 7.5885761, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Eperjes": {
+    "status": "OK", 
+    "city": "Pre\u0161ov", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "SK", 
+    "provider": "google", 
+    "state_long": "Pre\u0161ov Region", 
+    "location": "Eperjes", 
+    "country_long": "Slovakia", 
+    "county": "Pre\u0161ov District", 
+    "state": "Pre\u0161ov Region", 
+    "city_long": "Pre\u0161ov", 
+    "bbox": {
+      "northeast": [
+        49.046852, 
+        21.3351196
+      ], 
+      "southwest": [
+        48.9448155, 
+        21.1569882
+      ]
+    }, 
+    "address": "Pre\u0161ov, Slovakia", 
+    "lat": 49.0018324, 
+    "lng": 21.2393119, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Lucca": {
+    "status": "OK", 
+    "city": "Lucca", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Tuscany", 
+    "location": "Lucca", 
+    "country_long": "Italy", 
+    "county": "LU", 
+    "state": "Tuscany", 
+    "city_long": "Lucca", 
+    "bbox": {
+      "northeast": [
+        43.9307158, 
+        10.559524
+      ], 
+      "southwest": [
+        43.7687028, 
+        10.385155
+      ]
+    }, 
+    "address": "55100 Lucca, Province of Lucca, Italy", 
+    "lat": 43.8376211, 
+    "lng": 10.4950609, 
+    "postal": "55100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Marburg": {
+    "status": "OK", 
+    "city": "Marburg", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Hesse", 
+    "location": "Marburg", 
+    "country_long": "Germany", 
+    "county": "GI", 
+    "state": "HE", 
+    "city_long": "Marburg", 
+    "bbox": {
+      "northeast": [
+        50.8587298, 
+        8.858185899999999
+      ], 
+      "southwest": [
+        50.7378724, 
+        8.6274421
+      ]
+    }, 
+    "address": "Marburg, Germany", 
+    "lat": 50.8021728, 
+    "lng": 8.7667933, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "T\u00fcbingen": {
+    "status": "OK", 
+    "city": "T\u00fcbingen", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Baden-W\u00fcrttemberg", 
+    "location": "T\u00fcbingen", 
+    "country_long": "Germany", 
+    "county": "T\u00dc", 
+    "state": "BW", 
+    "city_long": "T\u00fcbingen", 
+    "bbox": {
+      "northeast": [
+        48.5937085, 
+        9.131081600000002
+      ], 
+      "southwest": [
+        48.4505798, 
+        8.9644853
+      ]
+    }, 
+    "address": "T\u00fcbingen, Germany", 
+    "lat": 48.5216364, 
+    "lng": 9.0576448, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Salamanque": {
+    "status": "OK", 
+    "city": "Salamanca", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castile and Le\u00f3n", 
+    "location": "Salamanque", 
+    "country_long": "Spain", 
+    "county": "SA", 
+    "state": "CL", 
+    "city_long": "Salamanca", 
+    "bbox": {
+      "northeast": [
+        40.9850971, 
+        -5.631203999999999
+      ], 
+      "southwest": [
+        40.9417799, 
+        -5.707220299999999
+      ]
+    }, 
+    "address": "Salamanca, Spain", 
+    "lat": 40.9701039, 
+    "lng": -5.663539699999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Frankfurt-on-Oder": {
+    "status": "OK", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "provider": "google", 
+    "location": "Frankfurt-on-Oder", 
+    "bbox": {
+      "northeast": [
+        53.1442753, 
+        18.3519703
+      ], 
+      "southwest": [
+        49.6161046, 
+        14.120899
+      ]
+    }, 
+    "address": "Oder", 
+    "lat": 51.38019, 
+    "lng": 16.2364347, 
+    "quality": "establishment", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "O\u00f1ate": {
+    "status": "OK", 
+    "city": "O\u00f1ati", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Basque Country", 
+    "location": "O\u00f1ate", 
+    "country_long": "Spain", 
+    "county": "SS", 
+    "state": "PV", 
+    "city_long": "O\u00f1ati", 
+    "bbox": {
+      "northeast": [
+        43.0472049, 
+        -2.3949547
+      ], 
+      "southwest": [
+        43.0249956, 
+        -2.4304156
+      ]
+    }, 
+    "address": "O\u00f1ati, Gipuzkoa, Spain", 
+    "lat": 43.0341127, 
+    "lng": -2.4171658, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Co\u00efmbra": {
+    "status": "OK", 
+    "city": "Coimbra", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "PT", 
+    "provider": "google", 
+    "state_long": "Coimbra District", 
+    "location": "Co\u00efmbra", 
+    "country_long": "Portugal", 
+    "state": "Coimbra District", 
+    "city_long": "Coimbra", 
+    "bbox": {
+      "northeast": [
+        40.2861476, 
+        -8.3229077
+      ], 
+      "southwest": [
+        40.1713722, 
+        -8.509641199999999
+      ]
+    }, 
+    "address": "Coimbra, Portugal", 
+    "lat": 40.2033145, 
+    "lng": -8.4102573, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Duisburg": {
+    "status": "OK", 
+    "city": "DU", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "North Rhine-Westphalia", 
+    "location": "Duisburg", 
+    "country_long": "Germany", 
+    "county": "D\u00fcsseldorf", 
+    "state": "NRW", 
+    "city_long": "Duisburg", 
+    "bbox": {
+      "northeast": [
+        51.5598361, 
+        6.8302372
+      ], 
+      "southwest": [
+        51.3343089, 
+        6.6257119
+      ]
+    }, 
+    "address": "Duisburg, Germany", 
+    "lat": 51.4344079, 
+    "lng": 6.762329299999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Zamosc": {
+    "status": "OK", 
+    "city": "Zamosc", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "PL", 
+    "provider": "google", 
+    "state_long": "Lublin Voivodeship", 
+    "location": "Zamosc", 
+    "country_long": "Poland", 
+    "county": "Zamo\u015b\u0107 County", 
+    "state": "Lublin Voivodeship", 
+    "city_long": "Zamosc", 
+    "bbox": {
+      "northeast": [
+        50.7503648, 
+        23.3067912
+      ], 
+      "southwest": [
+        50.6924001, 
+        23.190234
+      ]
+    }, 
+    "address": "Zamosc, Poland", 
+    "lat": 50.7230879, 
+    "lng": 23.2519686, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Huesca ": {
+    "status": "OK", 
+    "city": "Huesca", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Aragon", 
+    "location": "Huesca ", 
+    "country_long": "Spain", 
+    "county": "Huesca", 
+    "state": "Aragon", 
+    "city_long": "Huesca", 
+    "bbox": {
+      "northeast": [
+        42.1468303, 
+        -0.3885935
+      ], 
+      "southwest": [
+        42.1249822, 
+        -0.4231034
+      ]
+    }, 
+    "address": "Huesca, Spain", 
+    "lat": 42.131845, 
+    "lng": -0.4078058, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Baeza": {
+    "status": "OK", 
+    "city": "Baeza", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Andalusia", 
+    "location": "Baeza", 
+    "country_long": "Spain", 
+    "county": "Ja\u00e9n", 
+    "state": "AL", 
+    "city_long": "Baeza", 
+    "bbox": {
+      "northeast": [
+        38.00413289999999, 
+        -3.4517162
+      ], 
+      "southwest": [
+        37.9877438, 
+        -3.4790522
+      ]
+    }, 
+    "address": "23440 Baeza, Ja\u00e9n, Spain", 
+    "lat": 37.9966884, 
+    "lng": -3.4676157, 
+    "postal": "23440", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Kassel": {
+    "status": "OK", 
+    "city": "Kassel", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Hesse", 
+    "location": "Kassel", 
+    "country_long": "Germany", 
+    "county": "KS", 
+    "state": "HE", 
+    "city_long": "Kassel", 
+    "bbox": {
+      "northeast": [
+        51.36940509999999, 
+        9.5701282
+      ], 
+      "southwest": [
+        51.260367, 
+        9.3511016
+      ]
+    }, 
+    "address": "Kassel, Germany", 
+    "lat": 51.3127114, 
+    "lng": 9.4797461, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Urbino": {
+    "status": "OK", 
+    "city": "Urbino", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Marche", 
+    "location": "Urbino", 
+    "country_long": "Italy", 
+    "county": "PU", 
+    "state": "Marche", 
+    "city_long": "Urbino", 
+    "bbox": {
+      "northeast": [
+        43.7470408, 
+        12.6467963
+      ], 
+      "southwest": [
+        43.71142680000001, 
+        12.6140442
+      ]
+    }, 
+    "address": "61029 Urbino, Province of Pesaro and Urbino, Italy", 
+    "lat": 43.7262567, 
+    "lng": 12.6365633, 
+    "postal": "61029", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Trier": {
+    "status": "OK", 
+    "city": "TR", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Rhineland-Palatinate", 
+    "location": "Trier", 
+    "country_long": "Germany", 
+    "state": "RP", 
+    "city_long": "Trier", 
+    "bbox": {
+      "northeast": [
+        49.8571326, 
+        6.7471828
+      ], 
+      "southwest": [
+        49.69862999999999, 
+        6.5517368
+      ]
+    }, 
+    "address": "Trier, Germany", 
+    "lat": 49.749992, 
+    "lng": 6.6371433, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Strasbourg": {
+    "status": "OK", 
+    "city": "Strasbourg", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Alsace-Champagne-Ardenne-Lorraine", 
+    "location": "Strasbourg", 
+    "country_long": "France", 
+    "county": "Bas-Rhin", 
+    "state": "Alsace-Champagne-Ardenne-Lorraine", 
+    "city_long": "Strasbourg", 
+    "bbox": {
+      "northeast": [
+        48.64622199999999, 
+        7.836045099999999
+      ], 
+      "southwest": [
+        48.4920049, 
+        7.688142900000001
+      ]
+    }, 
+    "address": "Strasbourg, France", 
+    "lat": 48.5734053, 
+    "lng": 7.752111299999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Uppsala": {
+    "status": "OK", 
+    "city": "Uppsala", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "SE", 
+    "provider": "google", 
+    "state_long": "Uppsala County", 
+    "location": "Uppsala", 
+    "country_long": "Sweden", 
+    "county": "Uppsala", 
+    "state": "Uppsala County", 
+    "city_long": "Uppsala", 
+    "bbox": {
+      "northeast": [
+        59.9041459, 
+        17.77099
+      ], 
+      "southwest": [
+        59.762413, 
+        17.5459042
+      ]
+    }, 
+    "address": "Uppsala, Sweden", 
+    "lat": 59.85856380000001, 
+    "lng": 17.6389267, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Orl\u00e9ans": {
+    "status": "OK", 
+    "city": "Orl\u00e9ans", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Centre-Val de Loire", 
+    "location": "Orl\u00e9ans", 
+    "country_long": "France", 
+    "county": "Loiret", 
+    "state": "Centre-Val de Loire", 
+    "city_long": "Orl\u00e9ans", 
+    "bbox": {
+      "northeast": [
+        47.9335359, 
+        1.948677
+      ], 
+      "southwest": [
+        47.813296, 
+        1.8757401
+      ]
+    }, 
+    "address": "Orl\u00e9ans, France", 
+    "lat": 47.902964, 
+    "lng": 1.909251, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Bourges": {
+    "status": "OK", 
+    "city": "Bourges", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Centre-Val de Loire", 
+    "location": "Bourges", 
+    "country_long": "France", 
+    "county": "Cher", 
+    "state": "Centre-Val de Loire", 
+    "city_long": "Bourges", 
+    "bbox": {
+      "northeast": [
+        47.1301139, 
+        2.472585
+      ], 
+      "southwest": [
+        47.025962, 
+        2.3240219
+      ]
+    }, 
+    "address": "Bourges, France", 
+    "lat": 47.081012, 
+    "lng": 2.398782, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Avignon": {
+    "status": "OK", 
+    "city": "Avignon", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Provence-Alpes-C\u00f4te d'Azur", 
+    "location": "Avignon", 
+    "country_long": "France", 
+    "county": "Vaucluse", 
+    "state": "Provence-Alpes-C\u00f4te d'Azur", 
+    "city_long": "Avignon", 
+    "bbox": {
+      "northeast": [
+        43.9966409, 
+        4.927226
+      ], 
+      "southwest": [
+        43.886473, 
+        4.739279
+      ]
+    }, 
+    "address": "Avignon, France", 
+    "lat": 43.94931700000001, 
+    "lng": 4.805528, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "S\u00e9ville": {
+    "status": "OK", 
+    "city": "Seville", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Andalusia", 
+    "location": "S\u00e9ville", 
+    "country_long": "Spain", 
+    "county": "Sevilla", 
+    "state": "AL", 
+    "city_long": "Seville", 
+    "bbox": {
+      "northeast": [
+        37.4355211, 
+        -5.8884587
+      ], 
+      "southwest": [
+        37.3152202, 
+        -6.0216579
+      ]
+    }, 
+    "address": "Seville, Sevilla, Spain", 
+    "lat": 37.3890924, 
+    "lng": -5.9844589, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Siena": {
+    "status": "OK", 
+    "city": "Siena", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Tuscany", 
+    "location": "Siena", 
+    "country_long": "Italy", 
+    "county": "SI", 
+    "state": "Tuscany", 
+    "city_long": "Siena", 
+    "bbox": {
+      "northeast": [
+        43.3515691, 
+        11.3635396
+      ], 
+      "southwest": [
+        43.2804475, 
+        11.2917586
+      ]
+    }, 
+    "address": "53100 Siena, Province of Siena, Italy", 
+    "lat": 43.31880899999999, 
+    "lng": 11.3307574, 
+    "postal": "53100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Orange": {
+    "status": "OK", 
+    "city": "Orange", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "US", 
+    "provider": "google", 
+    "state_long": "California", 
+    "location": "Orange", 
+    "country_long": "United States", 
+    "county": "Orange County", 
+    "state": "CA", 
+    "city_long": "Orange", 
+    "bbox": {
+      "northeast": [
+        33.847415, 
+        -117.736118
+      ], 
+      "southwest": [
+        33.7736169, 
+        -117.904336
+      ]
+    }, 
+    "address": "Orange, CA, USA", 
+    "lat": 33.7877944, 
+    "lng": -117.8531119, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Vienna": {
+    "status": "OK", 
+    "city": "Vienna", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "AT", 
+    "provider": "google", 
+    "state_long": "Vienna", 
+    "location": "Vienna", 
+    "country_long": "Austria", 
+    "state": "Vienna", 
+    "city_long": "Vienna", 
+    "bbox": {
+      "northeast": [
+        48.3230999, 
+        16.5774999
+      ], 
+      "southwest": [
+        48.1182699, 
+        16.18262
+      ]
+    }, 
+    "address": "Vienna, Austria", 
+    "lat": 48.2081743, 
+    "lng": 16.3738189, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Reims": {
+    "status": "OK", 
+    "city": "Reims", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Alsace-Champagne-Ardenne-Lorraine", 
+    "location": "Reims", 
+    "country_long": "France", 
+    "county": "Marne", 
+    "state": "Alsace-Champagne-Ardenne-Lorraine", 
+    "city_long": "Reims", 
+    "bbox": {
+      "northeast": [
+        49.303174, 
+        4.1241371
+      ], 
+      "southwest": [
+        49.2039281, 
+        3.9860401
+      ]
+    }, 
+    "address": "Reims, France", 
+    "lat": 49.258329, 
+    "lng": 4.031696, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Rostock": {
+    "status": "OK", 
+    "city": "Rostock", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Mecklenburg-Vorpommern", 
+    "location": "Rostock", 
+    "country_long": "Germany", 
+    "state": "MV", 
+    "city_long": "Rostock", 
+    "bbox": {
+      "northeast": [
+        54.2445586, 
+        12.2956017
+      ], 
+      "southwest": [
+        54.0505435, 
+        11.9983048
+      ]
+    }, 
+    "address": "Rostock, Germany", 
+    "lat": 54.0924406, 
+    "lng": 12.0991466, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Linz": {
+    "status": "OK", 
+    "city": "Linz", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "AT", 
+    "provider": "google", 
+    "state_long": "Upper Austria", 
+    "location": "Linz", 
+    "country_long": "Austria", 
+    "county": "Linz", 
+    "state": "Upper Austria", 
+    "city_long": "Linz", 
+    "bbox": {
+      "northeast": [
+        48.37876, 
+        14.40908
+      ], 
+      "southwest": [
+        48.2113699, 
+        14.24573
+      ]
+    }, 
+    "address": "Linz, Austria", 
+    "lat": 48.30694, 
+    "lng": 14.28583, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Leiden": {
+    "status": "OK", 
+    "city": "Leiden", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "NL", 
+    "provider": "google", 
+    "state_long": "South Holland", 
+    "location": "Leiden", 
+    "country_long": "Netherlands", 
+    "county": "Leiden", 
+    "state": "ZH", 
+    "city_long": "Leiden", 
+    "bbox": {
+      "northeast": [
+        52.1846511, 
+        4.5240515
+      ], 
+      "southwest": [
+        52.1188225, 
+        4.439287999999999
+      ]
+    }, 
+    "address": "Leiden, Netherlands", 
+    "lat": 52.1601144, 
+    "lng": 4.4970097, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Groninguen": {
+    "status": "OK", 
+    "city": "Groningen", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "NL", 
+    "provider": "google", 
+    "state_long": "Groningen", 
+    "location": "Groninguen", 
+    "country_long": "Netherlands", 
+    "county": "Groningen", 
+    "state": "GR", 
+    "city_long": "Groningen", 
+    "bbox": {
+      "northeast": [
+        53.26472589999999, 
+        6.666904499999999
+      ], 
+      "southwest": [
+        53.1786842, 
+        6.4625995
+      ]
+    }, 
+    "address": "Groningen, Netherlands", 
+    "lat": 53.2193835, 
+    "lng": 6.566501799999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Lleida": {
+    "status": "OK", 
+    "city": "Lleida", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Catalonia", 
+    "location": "Lleida", 
+    "country_long": "Spain", 
+    "county": "Lleida", 
+    "state": "CT", 
+    "city_long": "Lleida", 
+    "bbox": {
+      "northeast": [
+        41.6396481, 
+        0.6497571999999999
+      ], 
+      "southwest": [
+        41.5970365, 
+        0.5901124999999999
+      ]
+    }, 
+    "address": "Lleida, Spain", 
+    "lat": 41.6175899, 
+    "lng": 0.6200146, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Altdorf bei Nuremberg": {
+    "status": "OK", 
+    "city": "Altdorf bei N\u00fcrnberg", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Bavaria", 
+    "location": "Altdorf bei Nuremberg", 
+    "country_long": "Germany", 
+    "county": "Middle Franconia", 
+    "state": "BY", 
+    "city_long": "Altdorf bei N\u00fcrnberg", 
+    "bbox": {
+      "northeast": [
+        49.43297159999999, 
+        11.4612163
+      ], 
+      "southwest": [
+        49.3532413, 
+        11.3109992
+      ]
+    }, 
+    "address": "90518 Altdorf bei N\u00fcrnberg, Germany", 
+    "lat": 49.3856621, 
+    "lng": 11.3564834, 
+    "postal": "90518", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Lwow": {
+    "status": "OK", 
+    "city": "Lviv", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "UA", 
+    "provider": "google", 
+    "state_long": "Lviv Oblast", 
+    "location": "Lwow", 
+    "country_long": "Ukraine", 
+    "state": "Lviv Oblast", 
+    "city_long": "Lviv", 
+    "bbox": {
+      "northeast": [
+        49.897471, 
+        24.118191
+      ], 
+      "southwest": [
+        49.767907, 
+        23.9062801
+      ]
+    }, 
+    "address": "Lviv, Lviv Oblast, Ukraine", 
+    "lat": 49.839683, 
+    "lng": 24.029717, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Cracow": {
+    "status": "OK", 
+    "city": "Krak\u00f3w", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "PL", 
+    "provider": "google", 
+    "state_long": "Lesser Poland Voivodeship", 
+    "location": "Cracow", 
+    "country_long": "Poland", 
+    "county": "Krak\u00f3w County", 
+    "state": "Lesser Poland Voivodeship", 
+    "city_long": "Krak\u00f3w", 
+    "bbox": {
+      "northeast": [
+        50.1261259, 
+        20.217475
+      ], 
+      "southwest": [
+        49.9674053, 
+        19.7922485
+      ]
+    }, 
+    "address": "Krak\u00f3w, Poland", 
+    "lat": 50.06465009999999, 
+    "lng": 19.9449799, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Dorpat": {
+    "status": "OK", 
+    "city": "Tartu", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "EE", 
+    "provider": "google", 
+    "state_long": "Tartu County", 
+    "location": "Dorpat", 
+    "country_long": "Estonia", 
+    "county": "Tartu linn", 
+    "state": "Tartu County", 
+    "city_long": "Tartu", 
+    "bbox": {
+      "northeast": [
+        58.4109399, 
+        26.798116
+      ], 
+      "southwest": [
+        58.3391728, 
+        26.667076
+      ]
+    }, 
+    "address": "Tartu, Estonia", 
+    "lat": 58.3776252, 
+    "lng": 26.7290063, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Sedan": {
+    "status": "OK", 
+    "city": "Sedan", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "US", 
+    "provider": "google", 
+    "state_long": "Kansas", 
+    "location": "Sedan", 
+    "country_long": "United States", 
+    "county": "Chautauqua County", 
+    "state": "KS", 
+    "city_long": "Sedan", 
+    "bbox": {
+      "northeast": [
+        37.134657, 
+        -96.1723109
+      ], 
+      "southwest": [
+        37.1212189, 
+        -96.19411509999999
+      ]
+    }, 
+    "address": "Sedan, KS 67361, USA", 
+    "lat": 37.1267196, 
+    "lng": -96.1869361, 
+    "postal": "67361", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Verceil": {
+    "status": "OK", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Piedmont", 
+    "location": "Verceil", 
+    "country_long": "Italy", 
+    "county": "VC", 
+    "state": "Piedmont", 
+    "bbox": {
+      "northeast": [
+        45.9504536, 
+        8.5812146
+      ], 
+      "southwest": [
+        45.159509, 
+        7.8613944
+      ]
+    }, 
+    "address": "Province of Vercelli, Italy", 
+    "lat": 45.3202204, 
+    "lng": 8.418508, 
+    "quality": "administrative_area_level_2", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Grenoble": {
+    "status": "OK", 
+    "city": "Grenoble", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Auvergne-Rh\u00f4ne-Alpes", 
+    "location": "Grenoble", 
+    "country_long": "France", 
+    "county": "Isere", 
+    "state": "Auvergne-Rh\u00f4ne-Alpes", 
+    "city_long": "Grenoble", 
+    "bbox": {
+      "northeast": [
+        45.214326, 
+        5.7530811
+      ], 
+      "southwest": [
+        45.154005, 
+        5.678003899999999
+      ]
+    }, 
+    "address": "Grenoble, France", 
+    "lat": 45.188529, 
+    "lng": 5.724524, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Edimbourg": {
+    "status": "OK", 
+    "city": "Edinburgh", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "GB", 
+    "provider": "google", 
+    "state_long": "Scotland", 
+    "location": "Edimbourg", 
+    "country_long": "United Kingdom", 
+    "county": "Edinburgh", 
+    "state": "Scotland", 
+    "city_long": "Edinburgh", 
+    "bbox": {
+      "northeast": [
+        55.9917083, 
+        -3.0777482
+      ], 
+      "southwest": [
+        55.8904228, 
+        -3.3330186
+      ]
+    }, 
+    "address": "Edinburgh, UK", 
+    "lat": 55.953252, 
+    "lng": -3.188267, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Angers": {
+    "status": "OK", 
+    "city": "Angers", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Pays de la Loire", 
+    "location": "Angers", 
+    "country_long": "France", 
+    "county": "Maine-et-Loire", 
+    "state": "Pays de la Loire", 
+    "city_long": "Angers", 
+    "bbox": {
+      "northeast": [
+        47.5263839, 
+        -0.508143
+      ], 
+      "southwest": [
+        47.4373929, 
+        -0.617726
+      ]
+    }, 
+    "address": "Angers, France", 
+    "lat": 47.478419, 
+    "lng": -0.5631659999999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Burgo de Osma": {
+    "status": "OK", 
+    "city": "El Burgo de Osma", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castilla y Le\u00f3n", 
+    "location": "Burgo de Osma", 
+    "country_long": "Spain", 
+    "county": "Soria", 
+    "state": "CL", 
+    "city_long": "El Burgo de Osma", 
+    "bbox": {
+      "northeast": [
+        41.5932806, 
+        -3.0561906
+      ], 
+      "southwest": [
+        41.5800881, 
+        -3.0791498
+      ]
+    }, 
+    "address": "42300 El Burgo de Osma, Soria, Spain", 
+    "lat": 41.587565, 
+    "lng": -3.0668549, 
+    "postal": "42300", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Paderborn": {
+    "status": "OK", 
+    "city": "Paderborn", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "North Rhine-Westphalia", 
+    "location": "Paderborn", 
+    "country_long": "Germany", 
+    "county": "Detmold", 
+    "state": "NRW", 
+    "city_long": "Paderborn", 
+    "bbox": {
+      "northeast": [
+        51.8009577, 
+        8.9005637
+      ], 
+      "southwest": [
+        51.6542549, 
+        8.6363015
+      ]
+    }, 
+    "address": "Paderborn, Germany", 
+    "lat": 51.7189205, 
+    "lng": 8.757509299999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Zaragoza": {
+    "status": "OK", 
+    "city": "Zaragoza", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Aragon", 
+    "location": "Zaragoza", 
+    "country_long": "Spain", 
+    "county": "Z", 
+    "state": "Aragon", 
+    "city_long": "Zaragoza", 
+    "bbox": {
+      "northeast": [
+        41.6894078, 
+        -0.8427317999999999
+      ], 
+      "southwest": [
+        41.6139746, 
+        -0.9472301000000001
+      ]
+    }, 
+    "address": "Zaragoza, Spain", 
+    "lat": 41.6488226, 
+    "lng": -0.8890853, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Salzburg": {
+    "status": "OK", 
+    "city": "Salzburg", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "AT", 
+    "provider": "google", 
+    "state_long": "Salzburg", 
+    "location": "Salzburg", 
+    "country_long": "Austria", 
+    "county": "Salzburg", 
+    "state": "Salzburg", 
+    "city_long": "Salzburg", 
+    "bbox": {
+      "northeast": [
+        47.8543099, 
+        13.12688
+      ], 
+      "southwest": [
+        47.75131, 
+        12.9859801
+      ]
+    }, 
+    "address": "Salzburg, Austria", 
+    "lat": 47.80949, 
+    "lng": 13.05501, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "N\u00eemes": {
+    "status": "OK", 
+    "city": "Nimes", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "location": "N\u00eemes", 
+    "country_long": "France", 
+    "county": "Gard", 
+    "state": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "city_long": "Nimes", 
+    "bbox": {
+      "northeast": [
+        43.9228799, 
+        4.4499169
+      ], 
+      "southwest": [
+        43.741438, 
+        4.23579
+      ]
+    }, 
+    "address": "Nimes, France", 
+    "lat": 43.836699, 
+    "lng": 4.360054, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Camerino": {
+    "status": "OK", 
+    "city": "Camerino", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Marche", 
+    "location": "Camerino", 
+    "country_long": "Italy", 
+    "county": "MC", 
+    "state": "Marche", 
+    "city_long": "Camerino", 
+    "bbox": {
+      "northeast": [
+        43.15062469999999, 
+        13.0853987
+      ], 
+      "southwest": [
+        43.1259875, 
+        13.0527882
+      ]
+    }, 
+    "address": "62032 Camerino, Province of Macerata, Italy", 
+    "lat": 43.13565029999999, 
+    "lng": 13.0683254, 
+    "postal": "62032", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Pau": {
+    "status": "OK", 
+    "city": "Pau", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Aquitaine-Limousin-Poitou-Charentes", 
+    "location": "Pau", 
+    "country_long": "France", 
+    "county": "Pyr\u00e9n\u00e9es-Atlantiques", 
+    "state": "Aquitaine-Limousin-Poitou-Charentes", 
+    "city_long": "Pau", 
+    "bbox": {
+      "northeast": [
+        43.3580329, 
+        -0.294777
+      ], 
+      "southwest": [
+        43.285778, 
+        -0.3925371
+      ]
+    }, 
+    "address": "Pau, France", 
+    "lat": 43.2951, 
+    "lng": -0.370797, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Sig\u00fcenza": {
+    "status": "OK", 
+    "city": "Sig\u00fcenza", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castilla-La Mancha", 
+    "location": "Sig\u00fcenza", 
+    "country_long": "Spain", 
+    "county": "Guadalajara", 
+    "state": "CM", 
+    "city_long": "Sig\u00fcenza", 
+    "bbox": {
+      "northeast": [
+        41.0751082, 
+        -2.6294333
+      ], 
+      "southwest": [
+        41.05809790000001, 
+        -2.654953
+      ]
+    }, 
+    "address": "19250 Sig\u00fcenza, Guadalajara, Spain", 
+    "lat": 41.067066, 
+    "lng": -2.6462262, 
+    "postal": "19250", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Nimeguen": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Nimeguen", 
+    "encoding": "utf-8"
+  }, 
+  "Lisbonne": {
+    "status": "OK", 
+    "city": "Lisbon", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "PT", 
+    "provider": "google", 
+    "state_long": "Lisbon", 
+    "location": "Lisbonne", 
+    "country_long": "Portugal", 
+    "state": "Lisbon", 
+    "city_long": "Lisbon", 
+    "bbox": {
+      "northeast": [
+        38.7958537, 
+        -9.090572
+      ], 
+      "southwest": [
+        38.6913993, 
+        -9.2298356
+      ]
+    }, 
+    "address": "Lisbon, Portugal", 
+    "lat": 38.7222524, 
+    "lng": -9.1393366, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Ferrara": {
+    "status": "OK", 
+    "city": "Ferrara", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Emilia-Romagna", 
+    "location": "Ferrara", 
+    "country_long": "Italy", 
+    "county": "FE", 
+    "state": "Emilia-Romagna", 
+    "city_long": "Ferrara", 
+    "bbox": {
+      "northeast": [
+        44.8746838, 
+        11.6641086
+      ], 
+      "southwest": [
+        44.7977948, 
+        11.5487829
+      ]
+    }, 
+    "address": "Ferrara, Province of Ferrara, Italy", 
+    "lat": 44.8381237, 
+    "lng": 11.619787, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Tol\u00e8de": {
+    "status": "OK", 
+    "city": "Toledo", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castile-La Mancha", 
+    "location": "Tol\u00e8de", 
+    "country_long": "Spain", 
+    "county": "TO", 
+    "state": "CM", 
+    "city_long": "Toledo", 
+    "bbox": {
+      "northeast": [
+        39.8860509, 
+        -3.9192424
+      ], 
+      "southwest": [
+        39.8383676, 
+        -4.0796176
+      ]
+    }, 
+    "address": "Toledo, Spain", 
+    "lat": 39.8628316, 
+    "lng": -4.027323099999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Oviedo": {
+    "status": "OK", 
+    "city": "Oviedo", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Asturias", 
+    "location": "Oviedo", 
+    "country_long": "Spain", 
+    "county": "O", 
+    "state": "Asturias", 
+    "city_long": "Oviedo", 
+    "bbox": {
+      "northeast": [
+        43.3920385, 
+        -5.812127299999999
+      ], 
+      "southwest": [
+        43.34693499999999, 
+        -5.8851885
+      ]
+    }, 
+    "address": "Oviedo, Asturias, Spain", 
+    "lat": 43.3619145, 
+    "lng": -5.8493887, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Mainz": {
+    "status": "OK", 
+    "city": "MZ", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Rhineland-Palatinate", 
+    "location": "Mainz", 
+    "country_long": "Germany", 
+    "county": "DA", 
+    "state": "RP", 
+    "city_long": "Mainz", 
+    "bbox": {
+      "northeast": [
+        50.0340456, 
+        8.340755
+      ], 
+      "southwest": [
+        49.8954528, 
+        8.141982
+      ]
+    }, 
+    "address": "Mainz, Germany", 
+    "lat": 49.9928617, 
+    "lng": 8.2472526, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Cambridge": {
+    "status": "OK", 
+    "city": "Cambridge", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "US", 
+    "provider": "google", 
+    "state_long": "Massachusetts", 
+    "location": "Cambridge", 
+    "country_long": "United States", 
+    "county": "Middlesex County", 
+    "state": "MA", 
+    "city_long": "Cambridge", 
+    "bbox": {
+      "northeast": [
+        42.4043839, 
+        -71.0654873
+      ], 
+      "southwest": [
+        42.3523969, 
+        -71.16033209999999
+      ]
+    }, 
+    "address": "Cambridge, MA, USA", 
+    "lat": 42.3736158, 
+    "lng": -71.10973349999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Stuttgart": {
+    "status": "OK", 
+    "city": "Stuttgart", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Baden-W\u00fcrttemberg", 
+    "location": "Stuttgart", 
+    "country_long": "Germany", 
+    "county": "S\u00fcd", 
+    "state": "BW", 
+    "city_long": "Stuttgart", 
+    "bbox": {
+      "northeast": [
+        48.86639940000001, 
+        9.315825199999999
+      ], 
+      "southwest": [
+        48.6920187, 
+        9.0386054
+      ]
+    }, 
+    "address": "Stuttgart, Germany", 
+    "lat": 48.7758459, 
+    "lng": 9.1829321, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Orthez": {
+    "status": "OK", 
+    "city": "Orthez", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Aquitaine-Limousin-Poitou-Charentes", 
+    "location": "Orthez", 
+    "country_long": "France", 
+    "county": "Pyr\u00e9n\u00e9es-Atlantiques", 
+    "state": "Aquitaine-Limousin-Poitou-Charentes", 
+    "city_long": "Orthez", 
+    "bbox": {
+      "northeast": [
+        43.5331029, 
+        -0.716113
+      ], 
+      "southwest": [
+        43.4560349, 
+        -0.8393351
+      ]
+    }, 
+    "address": "64300 Orthez, France", 
+    "lat": 43.48755999999999, 
+    "lng": -0.7739279, 
+    "postal": "64300", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Vilnius": {
+    "status": "OK", 
+    "city": "Vilnius", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "LT", 
+    "provider": "google", 
+    "state_long": "Vilnius County", 
+    "location": "Vilnius", 
+    "country_long": "Lithuania", 
+    "county": "Vilnius city municipality", 
+    "state": "Vilnius County", 
+    "city_long": "Vilnius", 
+    "bbox": {
+      "northeast": [
+        54.8325439, 
+        25.4814883
+      ], 
+      "southwest": [
+        54.567798, 
+        25.0243761
+      ]
+    }, 
+    "address": "Vilnius, Lithuania", 
+    "lat": 54.6871555, 
+    "lng": 25.2796514, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Utrecht": {
+    "status": "OK", 
+    "city": "Utrecht", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "NL", 
+    "provider": "google", 
+    "state_long": "Utrecht", 
+    "location": "Utrecht", 
+    "country_long": "Netherlands", 
+    "county": "Utrecht", 
+    "state": "UT", 
+    "city_long": "Utrecht", 
+    "bbox": {
+      "northeast": [
+        52.1422104, 
+        5.1952073
+      ], 
+      "southwest": [
+        52.026111, 
+        4.9697758
+      ]
+    }, 
+    "address": "Utrecht, Netherlands", 
+    "lat": 52.09073739999999, 
+    "lng": 5.1214201, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Corte": {
+    "status": "OK", 
+    "city": "Corte", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Corsica", 
+    "location": "Corte", 
+    "country_long": "France", 
+    "county": "Haute-Corse", 
+    "state": "Corsica", 
+    "city_long": "Corte", 
+    "bbox": {
+      "northeast": [
+        42.3443009, 
+        9.2128329
+      ], 
+      "southwest": [
+        42.202985, 
+        8.9265329
+      ]
+    }, 
+    "address": "20250 Corte, France", 
+    "lat": 42.309409, 
+    "lng": 9.149022, 
+    "postal": "20250", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "M\u00a0: matricules": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "M\u00a0: matricules", 
+    "encoding": "utf-8"
+  }, 
+  "K\u00f6ln": {
+    "status": "OK", 
+    "city": "Cologne", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "North Rhine-Westphalia", 
+    "location": "K\u00f6ln", 
+    "country_long": "Germany", 
+    "county": "K", 
+    "state": "NRW", 
+    "city_long": "Cologne", 
+    "bbox": {
+      "northeast": [
+        51.0849631, 
+        7.1620628
+      ], 
+      "southwest": [
+        50.8304427, 
+        6.7725819
+      ]
+    }, 
+    "address": "Cologne, Germany", 
+    "lat": 50.937531, 
+    "lng": 6.9602786, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Nagyszombat": {
+    "status": "OK", 
+    "city": "Trnava", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "SK", 
+    "provider": "google", 
+    "state_long": "Trnava Region", 
+    "location": "Nagyszombat", 
+    "country_long": "Slovakia", 
+    "county": "Trnava District", 
+    "state": "Trnava Region", 
+    "city_long": "Trnava", 
+    "bbox": {
+      "northeast": [
+        48.4277388, 
+        17.6594613
+      ], 
+      "southwest": [
+        48.3215475, 
+        17.4874752
+      ]
+    }, 
+    "address": "Trnava, Slovakia", 
+    "lat": 48.3709108, 
+    "lng": 17.5833218, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Greifswald": {
+    "status": "OK", 
+    "city": "Greifswald", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Mecklenburg-Vorpommern", 
+    "location": "Greifswald", 
+    "country_long": "Germany", 
+    "state": "MV", 
+    "city_long": "Greifswald", 
+    "bbox": {
+      "northeast": [
+        54.1224877, 
+        13.5073277
+      ], 
+      "southwest": [
+        54.0540446, 
+        13.3193124
+      ]
+    }, 
+    "address": "Greifswald, Germany", 
+    "lat": 54.08654629999999, 
+    "lng": 13.3923414, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Altamura": {
+    "status": "OK", 
+    "city": "Altamura", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Apulia", 
+    "location": "Altamura", 
+    "country_long": "Italy", 
+    "county": "BA", 
+    "state": "Apulia", 
+    "city_long": "Altamura", 
+    "bbox": {
+      "northeast": [
+        40.8404055, 
+        16.5728921
+      ], 
+      "southwest": [
+        40.8102919, 
+        16.5167044
+      ]
+    }, 
+    "address": "70022 Altamura, Metropolitan City of Bari, Italy", 
+    "lat": 40.8253924, 
+    "lng": 16.5527874, 
+    "postal": "70022", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Osuna": {
+    "status": "OK", 
+    "city": "Osuna", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Andalusia", 
+    "location": "Osuna", 
+    "country_long": "Spain", 
+    "county": "Sevilla", 
+    "state": "AL", 
+    "city_long": "Osuna", 
+    "bbox": {
+      "northeast": [
+        37.2476656, 
+        -5.095767899999999
+      ], 
+      "southwest": [
+        37.2301064, 
+        -5.117119
+      ]
+    }, 
+    "address": "41640 Osuna, Sevilla, Spain", 
+    "lat": 37.2373642, 
+    "lng": -5.1033081, 
+    "postal": "41640", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Braunsberg": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Braunsberg", 
+    "encoding": "utf-8"
+  }, 
+  "Erfurt": {
+    "status": "OK", 
+    "city": "EF", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Thuringia", 
+    "location": "Erfurt", 
+    "country_long": "Germany", 
+    "state": "Thuringia", 
+    "city_long": "Erfurt", 
+    "bbox": {
+      "northeast": [
+        51.0798955, 
+        11.1752701
+      ], 
+      "southwest": [
+        50.8907853, 
+        10.855401
+      ]
+    }, 
+    "address": "Erfurt, Germany", 
+    "lat": 50.98476789999999, 
+    "lng": 11.0298799, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Salerno": {
+    "status": "OK", 
+    "city": "Salerno", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Campania", 
+    "location": "Salerno", 
+    "country_long": "Italy", 
+    "county": "SA", 
+    "state": "Campania", 
+    "city_long": "Salerno", 
+    "bbox": {
+      "northeast": [
+        40.7121639, 
+        14.8513141
+      ], 
+      "southwest": [
+        40.6373235, 
+        14.7339981
+      ]
+    }, 
+    "address": "Salerno, Province of Salerno, Italy", 
+    "lat": 40.68244079999999, 
+    "lng": 14.7680961, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Kassa": {
+    "status": "OK", 
+    "city": "Ko\u0161ice", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "SK", 
+    "provider": "google", 
+    "state_long": "Ko\u0161ice Region", 
+    "location": "Kassa", 
+    "country_long": "Slovakia", 
+    "state": "Ko\u0161ice Region", 
+    "city_long": "Ko\u0161ice", 
+    "bbox": {
+      "northeast": [
+        48.8242797, 
+        21.3584561
+      ], 
+      "southwest": [
+        48.5705499, 
+        21.1199289
+      ]
+    }, 
+    "address": "Ko\u0161ice, Slovakia", 
+    "lat": 48.7163857, 
+    "lng": 21.2610746, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Orihuela": {
+    "status": "OK", 
+    "city": "Orihuela", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Valencian Community", 
+    "location": "Orihuela", 
+    "country_long": "Spain", 
+    "county": "A", 
+    "state": "Valencian Community", 
+    "city_long": "Orihuela", 
+    "bbox": {
+      "northeast": [
+        38.0971106, 
+        -0.9232894
+      ], 
+      "southwest": [
+        38.072375, 
+        -0.9734741000000001
+      ]
+    }, 
+    "address": "Orihuela, Alicante, Spain", 
+    "lat": 38.08555279999999, 
+    "lng": -0.9480050999999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Messina": {
+    "status": "OK", 
+    "city": "Messina", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Sicily", 
+    "location": "Messina", 
+    "country_long": "Italy", 
+    "county": "ME", 
+    "state": "Sicily", 
+    "city_long": "Messina", 
+    "bbox": {
+      "northeast": [
+        38.3014497, 
+        15.6361361
+      ], 
+      "southwest": [
+        38.0546576, 
+        15.4659407
+      ]
+    }, 
+    "address": "Messina, Province of Messina, Italy", 
+    "lat": 38.1938137, 
+    "lng": 15.5540152, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Nice": {
+    "status": "OK", 
+    "city": "Nice", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Provence-Alpes-C\u00f4te d'Azur", 
+    "location": "Nice", 
+    "country_long": "France", 
+    "county": "Alpes-Maritimes", 
+    "state": "Provence-Alpes-C\u00f4te d'Azur", 
+    "city_long": "Nice", 
+    "bbox": {
+      "northeast": [
+        43.7606496, 
+        7.323480999999999
+      ], 
+      "southwest": [
+        43.6454759, 
+        7.1823876
+      ]
+    }, 
+    "address": "Nice, France", 
+    "lat": 43.7101728, 
+    "lng": 7.261953200000001, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Kiel ": {
+    "status": "OK", 
+    "city": "KI", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Schleswig-Holstein", 
+    "location": "Kiel ", 
+    "country_long": "Germany", 
+    "state": "SH", 
+    "city_long": "Kiel", 
+    "bbox": {
+      "northeast": [
+        54.4329274, 
+        10.2186004
+      ], 
+      "southwest": [
+        54.2506983, 
+        10.0327537
+      ]
+    }, 
+    "address": "Kiel, Germany", 
+    "lat": 54.3232927, 
+    "lng": 10.1227652, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Pozsony": {
+    "status": "OK", 
+    "city": "Bratislava", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "SK", 
+    "provider": "google", 
+    "state_long": "Bratislava Region", 
+    "location": "Pozsony", 
+    "country_long": "Slovakia", 
+    "state": "Bratislava Region", 
+    "city_long": "Bratislava", 
+    "bbox": {
+      "northeast": [
+        48.2650461, 
+        17.2856594
+      ], 
+      "southwest": [
+        48.0065146, 
+        16.9461747
+      ]
+    }, 
+    "address": "Bratislava, Slovakia", 
+    "lat": 48.1485965, 
+    "lng": 17.1077477, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Poitier": {
+    "status": "OK", 
+    "city": "Poitiers", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Aquitaine-Limousin-Poitou-Charentes", 
+    "location": "Poitier", 
+    "country_long": "France", 
+    "county": "Vienne", 
+    "state": "Aquitaine-Limousin-Poitou-Charentes", 
+    "city_long": "Poitiers", 
+    "bbox": {
+      "northeast": [
+        46.627038, 
+        0.45185
+      ], 
+      "southwest": [
+        46.5422299, 
+        0.291089
+      ]
+    }, 
+    "address": "86000 Poitiers, France", 
+    "lat": 46.58022400000001, 
+    "lng": 0.340375, 
+    "postal": "86000", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Gerona": {
+    "status": "OK", 
+    "city": "Girona", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Catalonia", 
+    "location": "Gerona", 
+    "country_long": "Spain", 
+    "county": "Province of Girona", 
+    "state": "CT", 
+    "city_long": "Girona", 
+    "bbox": {
+      "northeast": [
+        42.0142088, 
+        2.8389561
+      ], 
+      "southwest": [
+        41.9462966, 
+        2.7983782
+      ]
+    }, 
+    "address": "Girona, Province of Girona, Spain", 
+    "lat": 41.9794005, 
+    "lng": 2.8214264, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Cagliari": {
+    "status": "OK", 
+    "city": "Cagliari", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Sardinia", 
+    "location": "Cagliari", 
+    "country_long": "Italy", 
+    "county": "CA", 
+    "state": "Sardinia", 
+    "city_long": "Cagliari", 
+    "bbox": {
+      "northeast": [
+        39.2657029, 
+        9.177219299999999
+      ], 
+      "southwest": [
+        39.1851056, 
+        9.079536700000002
+      ]
+    }, 
+    "address": "Cagliari, Italy", 
+    "lat": 39.2238411, 
+    "lng": 9.1216613, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Est\u00a0: Estimation": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Est\u00a0: Estimation", 
+    "encoding": "utf-8"
+  }, 
+  "Moskva": {
+    "status": "OK", 
+    "city": "Moscow", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "RU", 
+    "provider": "google", 
+    "state_long": "Moscow", 
+    "location": "Moskva", 
+    "country_long": "Russia", 
+    "county": "g. Moskva", 
+    "state": "Moscow", 
+    "city_long": "Moscow", 
+    "bbox": {
+      "northeast": [
+        56.0096569, 
+        37.9456611
+      ], 
+      "southwest": [
+        55.48992699999999, 
+        37.3193289
+      ]
+    }, 
+    "address": "Moscow, Russia", 
+    "lat": 55.755826, 
+    "lng": 37.6173, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Molsheim": {
+    "status": "OK", 
+    "city": "Molsheim", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Alsace-Champagne-Ardenne-Lorraine", 
+    "location": "Molsheim", 
+    "country_long": "France", 
+    "county": "Bas-Rhin", 
+    "state": "Alsace-Champagne-Ardenne-Lorraine", 
+    "city_long": "Molsheim", 
+    "bbox": {
+      "northeast": [
+        48.56199789999999, 
+        7.534158
+      ], 
+      "southwest": [
+        48.529295, 
+        7.463557000000001
+      ]
+    }, 
+    "address": "67120 Molsheim, France", 
+    "lat": 48.543715, 
+    "lng": 7.491511999999999, 
+    "postal": "67120", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Palermo": {
+    "status": "OK", 
+    "city": "Palermo", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Sicily", 
+    "location": "Palermo", 
+    "country_long": "Italy", 
+    "county": "PA", 
+    "state": "Sicily", 
+    "city_long": "Palermo", 
+    "bbox": {
+      "northeast": [
+        38.2194316, 
+        13.4471566
+      ], 
+      "southwest": [
+        38.0615391, 
+        13.2674204
+      ]
+    }, 
+    "address": "Palermo, Italy", 
+    "lat": 38.1156879, 
+    "lng": 13.3612671, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Besan\u00e7on": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Besan\u00e7on", 
+    "encoding": "utf-8"
+  }, 
+  "Saumur": {
+    "status": "OK", 
+    "city": "Saumur", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Pays de la Loire", 
+    "location": "Saumur", 
+    "country_long": "France", 
+    "county": "Maine-et-Loire", 
+    "state": "Pays de la Loire", 
+    "city_long": "Saumur", 
+    "bbox": {
+      "northeast": [
+        47.31671009999999, 
+        -0.0092518
+      ], 
+      "southwest": [
+        47.21230310000001, 
+        -0.1599739
+      ]
+    }, 
+    "address": "49400 Saumur, France", 
+    "lat": 47.260135, 
+    "lng": -0.08089299999999999, 
+    "postal": "49400", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Vich": {
+    "status": "OK", 
+    "city": "Vichy", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Auvergne-Rh\u00f4ne-Alpes", 
+    "location": "Vich", 
+    "country_long": "France", 
+    "county": "Allier", 
+    "state": "Auvergne-Rh\u00f4ne-Alpes", 
+    "city_long": "Vichy", 
+    "bbox": {
+      "northeast": [
+        46.1537869, 
+        3.445636
+      ], 
+      "southwest": [
+        46.1106529, 
+        3.405268
+      ]
+    }, 
+    "address": "Vichy, France", 
+    "lat": 46.131859, 
+    "lng": 3.425488, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Dijon": {
+    "status": "OK", 
+    "city": "Dijon", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Bourgogne-Franche-Comt\u00e9", 
+    "location": "Dijon", 
+    "country_long": "France", 
+    "county": "C\u00f4te-d'Or", 
+    "state": "Bourgogne-Franche-Comt\u00e9", 
+    "city_long": "Dijon", 
+    "bbox": {
+      "northeast": [
+        47.377463, 
+        5.101999
+      ], 
+      "southwest": [
+        47.286299, 
+        4.9624431
+      ]
+    }, 
+    "address": "21000 Dijon, France", 
+    "lat": 47.322047, 
+    "lng": 5.04148, 
+    "postal": "21000", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Milano": {
+    "status": "OK", 
+    "city": "Milan", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Lombardy", 
+    "location": "Milano", 
+    "country_long": "Italy", 
+    "county": "MI", 
+    "state": "Lombardy", 
+    "city_long": "Milan", 
+    "bbox": {
+      "northeast": [
+        45.5356889, 
+        9.2903463
+      ], 
+      "southwest": [
+        45.3897787, 
+        9.065118199999999
+      ]
+    }, 
+    "address": "Milan, Italy", 
+    "lat": 45.4654219, 
+    "lng": 9.1859243, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Leuven": {
+    "status": "OK", 
+    "city": "Leuven", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "BE", 
+    "provider": "google", 
+    "state_long": "Flanders", 
+    "location": "Leuven", 
+    "country_long": "Belgium", 
+    "county": "VB", 
+    "state": "Flanders", 
+    "city_long": "Leuven", 
+    "bbox": {
+      "northeast": [
+        50.9440299, 
+        4.7703101
+      ], 
+      "southwest": [
+        50.82418999999999, 
+        4.64055
+      ]
+    }, 
+    "address": "Leuven, Belgium", 
+    "lat": 50.8798438, 
+    "lng": 4.7005176, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Breslau": {
+    "status": "OK", 
+    "city": "Wroc\u0142aw", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "PL", 
+    "provider": "google", 
+    "state_long": "Lower Silesian Voivodeship", 
+    "location": "Breslau", 
+    "country_long": "Poland", 
+    "county": "Wroc\u0142aw County", 
+    "state": "Lower Silesian Voivodeship", 
+    "city_long": "Wroc\u0142aw", 
+    "bbox": {
+      "northeast": [
+        51.2114735, 
+        17.1763479
+      ], 
+      "southwest": [
+        51.04268219999999, 
+        16.8073801
+      ]
+    }, 
+    "address": "Wroc\u0142aw, Poland", 
+    "lat": 51.1078852, 
+    "lng": 17.0385376, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Bordeaux": {
+    "status": "OK", 
+    "city": "Bordeaux", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Aquitaine-Limousin-Poitou-Charentes", 
+    "location": "Bordeaux", 
+    "country_long": "France", 
+    "county": "Gironde", 
+    "state": "Aquitaine-Limousin-Poitou-Charentes", 
+    "city_long": "Bordeaux", 
+    "bbox": {
+      "northeast": [
+        44.91670389999999, 
+        -0.5333089999999999
+      ], 
+      "southwest": [
+        44.810752, 
+        -0.638973
+      ]
+    }, 
+    "address": "Bordeaux, France", 
+    "lat": 44.837789, 
+    "lng": -0.57918, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Genoa": {
+    "status": "OK", 
+    "city": "Genoa", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Liguria", 
+    "location": "Genoa", 
+    "country_long": "Italy", 
+    "county": "GE", 
+    "state": "Liguria", 
+    "city_long": "Genoa", 
+    "bbox": {
+      "northeast": [
+        44.514882, 
+        9.065572999999999
+      ], 
+      "southwest": [
+        44.379119, 
+        8.7160912
+      ]
+    }, 
+    "address": "Genoa, Italy", 
+    "lat": 44.4056499, 
+    "lng": 8.946256, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Helmstedt": {
+    "status": "OK", 
+    "city": "Helmstedt", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Lower Saxony", 
+    "location": "Helmstedt", 
+    "country_long": "Germany", 
+    "state": "NDS", 
+    "city_long": "Helmstedt", 
+    "bbox": {
+      "northeast": [
+        52.2872281, 
+        11.0789116
+      ], 
+      "southwest": [
+        52.1753705, 
+        10.913312
+      ]
+    }, 
+    "address": "38350 Helmstedt, Germany", 
+    "lat": 52.22896600000001, 
+    "lng": 11.009544, 
+    "postal": "38350", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Toulouse": {
+    "status": "OK", 
+    "city": "Toulouse", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "location": "Toulouse", 
+    "country_long": "France", 
+    "county": "Haute-Garonne", 
+    "state": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "city_long": "Toulouse", 
+    "bbox": {
+      "northeast": [
+        43.6686919, 
+        1.515354
+      ], 
+      "southwest": [
+        43.532708, 
+        1.3503279
+      ]
+    }, 
+    "address": "Toulouse, France", 
+    "lat": 43.604652, 
+    "lng": 1.444209, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Rome, Curie": {
+    "encoding": "utf-8", 
+    "county": "RM", 
+    "city_long": "Roma", 
+    "lng": 12.4854311, 
+    "quality": "establishment", 
+    "city": "Roma", 
+    "confidence": 9, 
+    "state": "Lazio", 
+    "location": "Rome, Curie", 
+    "provider": "google", 
+    "accuracy": "APPROXIMATE", 
+    "status": "OK", 
+    "state_long": "Lazio", 
+    "bbox": {
+      "northeast": [
+        41.8943325802915, 
+        12.4867800802915
+      ], 
+      "southwest": [
+        41.8916346197085, 
+        12.4840821197085
+      ]
+    }, 
+    "address": "Curia Iulia, Via dei Fori Imperiali, 00186 Roma, Italy", 
+    "lat": 41.8929836, 
+    "postal": "00186", 
+    "ok": true, 
+    "road_long": "Via dei Fori Imperiali", 
+    "country": "IT", 
+    "country_long": "Italy", 
+    "street": "Via dei Fori Imperiali"
+  }, 
+  "Halle": {
+    "status": "OK", 
+    "city": "Halle (Saale)", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Saxony-Anhalt", 
+    "location": "Halle", 
+    "country_long": "Germany", 
+    "state": "SA", 
+    "city_long": "Halle (Saale)", 
+    "bbox": {
+      "northeast": [
+        51.54366340000001, 
+        12.0892164
+      ], 
+      "southwest": [
+        51.40210159999999, 
+        11.8555298
+      ]
+    }, 
+    "address": "Halle (Saale), Germany", 
+    "lat": 51.4969802, 
+    "lng": 11.9688029, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Macerata": {
+    "status": "OK", 
+    "city": "Macerata", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Marche", 
+    "location": "Macerata", 
+    "country_long": "Italy", 
+    "county": "MC", 
+    "state": "Marche", 
+    "city_long": "Macerata", 
+    "bbox": {
+      "northeast": [
+        43.3133078, 
+        13.4876283
+      ], 
+      "southwest": [
+        43.2789767, 
+        13.4161256
+      ]
+    }, 
+    "address": "62100 Macerata, Province of Macerata, Italy", 
+    "lat": 43.2984268, 
+    "lng": 13.4534767, 
+    "postal": "62100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Tortosa": {
+    "status": "OK", 
+    "city": "Tortosa", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Catalonia", 
+    "location": "Tortosa", 
+    "country_long": "Spain", 
+    "county": "T", 
+    "state": "CT", 
+    "city_long": "Tortosa", 
+    "bbox": {
+      "northeast": [
+        40.82098430000001, 
+        0.536445
+      ], 
+      "southwest": [
+        40.7912048, 
+        0.5055897
+      ]
+    }, 
+    "address": "Tortosa, Tarragona, Spain", 
+    "lat": 40.8125777, 
+    "lng": 0.5214423, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Perugia": {
+    "status": "OK", 
+    "city": "Perugia", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Umbria", 
+    "location": "Perugia", 
+    "country_long": "Italy", 
+    "county": "PG", 
+    "state": "Umbria", 
+    "city_long": "Perugia", 
+    "bbox": {
+      "northeast": [
+        43.1499405, 
+        12.4521977
+      ], 
+      "southwest": [
+        43.0400962, 
+        12.3084506
+      ]
+    }, 
+    "address": "Perugia, Italy", 
+    "lat": 43.1107168, 
+    "lng": 12.3908279, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Freiburg-im-Breisgau": {
+    "status": "OK", 
+    "city": "Freiburg", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Baden-W\u00fcrttemberg", 
+    "location": "Freiburg-im-Breisgau", 
+    "country_long": "Germany", 
+    "county": "Freiburg", 
+    "state": "BW", 
+    "city_long": "Freiburg", 
+    "bbox": {
+      "northeast": [
+        48.07104469999999, 
+        7.930832299999999
+      ], 
+      "southwest": [
+        47.9035775, 
+        7.662007900000001
+      ]
+    }, 
+    "address": "Freiburg, Germany", 
+    "lat": 47.9990077, 
+    "lng": 7.842104299999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Praha": {
+    "status": "OK", 
+    "city": "Prague", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "CZ", 
+    "provider": "google", 
+    "state_long": "Prague", 
+    "location": "Praha", 
+    "country_long": "Czech Republic", 
+    "county": "Hlavn\u00ed m\u011bsto Praha", 
+    "state": "Prague", 
+    "city_long": "Prague", 
+    "bbox": {
+      "northeast": [
+        50.177403, 
+        14.7067946
+      ], 
+      "southwest": [
+        49.9419362, 
+        14.2244534
+      ]
+    }, 
+    "address": "Prague, Czech Republic", 
+    "lat": 50.0755381, 
+    "lng": 14.4378005, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Almagro": {
+    "status": "OK", 
+    "city": "Almagro", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castilla-La Mancha", 
+    "location": "Almagro", 
+    "country_long": "Spain", 
+    "county": "Cdad. Real", 
+    "state": "CM", 
+    "city_long": "Almagro", 
+    "bbox": {
+      "northeast": [
+        38.8956857, 
+        -3.701904
+      ], 
+      "southwest": [
+        38.8819619, 
+        -3.7203776
+      ]
+    }, 
+    "address": "13270 Almagro, Cdad. Real, Spain", 
+    "lat": 38.8884312, 
+    "lng": -3.7117806, 
+    "postal": "13270", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Escorial": {
+    "status": "OK", 
+    "city": "Escorial", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "CL", 
+    "provider": "google", 
+    "state_long": "IX Regi\u00f3n", 
+    "location": "Escorial", 
+    "country_long": "Chile", 
+    "county": "Caut\u00edn", 
+    "state": "IX Regi\u00f3n", 
+    "city_long": "Escorial", 
+    "bbox": {
+      "northeast": [
+        -38.8222792, 
+        -71.6582975
+      ], 
+      "southwest": [
+        -38.8396633, 
+        -71.6903123
+      ]
+    }, 
+    "address": "Escorial, Melipeuco, IX Regi\u00f3n, Chile", 
+    "lat": -38.8309718, 
+    "lng": -71.6743049, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Lund": {
+    "status": "OK", 
+    "city": "Lund", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "SE", 
+    "provider": "google", 
+    "state_long": "Sk\u00e5ne County", 
+    "location": "Lund", 
+    "country_long": "Sweden", 
+    "county": "Lund", 
+    "state": "Sk\u00e5ne County", 
+    "city_long": "Lund", 
+    "bbox": {
+      "northeast": [
+        55.744079, 
+        13.260202
+      ], 
+      "southwest": [
+        55.66952389999999, 
+        13.1357901
+      ]
+    }, 
+    "address": "Lund, Sweden", 
+    "lat": 55.7046601, 
+    "lng": 13.1910073, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Olomouc": {
+    "status": "OK", 
+    "city": "Olomouc", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "CZ", 
+    "provider": "google", 
+    "state_long": "Olomouc Region", 
+    "location": "Olomouc", 
+    "country_long": "Czech Republic", 
+    "county": "Olomouc District", 
+    "state": "Olomouc Region", 
+    "city_long": "Olomouc", 
+    "bbox": {
+      "northeast": [
+        49.65465529999999, 
+        17.396027
+      ], 
+      "southwest": [
+        49.5329452, 
+        17.1630437
+      ]
+    }, 
+    "address": "Olomouc, Czech Republic", 
+    "lat": 49.593778, 
+    "lng": 17.2508787, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Florence": {
+    "status": "OK", 
+    "city": "Florence", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Tuscany", 
+    "location": "Florence", 
+    "country_long": "Italy", 
+    "county": "FI", 
+    "state": "Tuscany", 
+    "city_long": "Florence", 
+    "bbox": {
+      "northeast": [
+        43.8329368, 
+        11.3278993
+      ], 
+      "southwest": [
+        43.7269795, 
+        11.1540365
+      ]
+    }, 
+    "address": "Florence, Italy", 
+    "lat": 43.7695604, 
+    "lng": 11.2558136, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Pamplona": {
+    "status": "OK", 
+    "city": "Pamplona", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Navarre", 
+    "location": "Pamplona", 
+    "country_long": "Spain", 
+    "county": "NA", 
+    "state": "Navarre", 
+    "city_long": "Pamplona", 
+    "bbox": {
+      "northeast": [
+        42.8381175, 
+        -1.6046592
+      ], 
+      "southwest": [
+        42.79341429999999, 
+        -1.6953841
+      ]
+    }, 
+    "address": "Pamplona, Navarre, Spain", 
+    "lat": 42.812526, 
+    "lng": -1.6457745, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Granada": {
+    "status": "OK", 
+    "city": "Granada", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Andalusia", 
+    "location": "Granada", 
+    "country_long": "Spain", 
+    "county": "Granada", 
+    "state": "AL", 
+    "city_long": "Granada", 
+    "bbox": {
+      "northeast": [
+        37.2124648, 
+        -3.5487084
+      ], 
+      "southwest": [
+        37.1494276, 
+        -3.6338352
+      ]
+    }, 
+    "address": "Granada, Spain", 
+    "lat": 37.1773363, 
+    "lng": -3.5985571, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Santiago de Compostella": {
+    "status": "OK", 
+    "city": "Santiago de Compostela", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Galicia", 
+    "location": "Santiago de Compostella", 
+    "country_long": "Spain", 
+    "county": "C", 
+    "state": "GA", 
+    "city_long": "Santiago de Compostela", 
+    "bbox": {
+      "northeast": [
+        42.9056882, 
+        -8.520756
+      ], 
+      "southwest": [
+        42.8547216, 
+        -8.5687834
+      ]
+    }, 
+    "address": "Santiago de Compostela, A Coru\u00f1a, Spain", 
+    "lat": 42.8782132, 
+    "lng": -8.5448445, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Alcal\u00e0 de Henares": {
+    "status": "OK", 
+    "city": "Alcala de Henares", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Community of Madrid", 
+    "location": "Alcal\u00e0 de Henares", 
+    "country_long": "Spain", 
+    "county": "M", 
+    "state": "Community of Madrid", 
+    "city_long": "Alcala de Henares", 
+    "bbox": {
+      "northeast": [
+        40.5229801, 
+        -3.3154892
+      ], 
+      "southwest": [
+        40.4665996, 
+        -3.4178627
+      ]
+    }, 
+    "address": "Alcala de Henares, Madrid, Spain", 
+    "lat": 40.4819791, 
+    "lng": -3.3635421, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Abo": {
+    "status": "OK", 
+    "city": "Turku", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FI", 
+    "provider": "google", 
+    "location": "Abo", 
+    "country_long": "Finland", 
+    "city_long": "Turku", 
+    "bbox": {
+      "northeast": [
+        60.5304531, 
+        22.3819783
+      ], 
+      "southwest": [
+        60.33485039999999, 
+        22.0688207
+      ]
+    }, 
+    "address": "Turku, Finland", 
+    "lat": 60.4518126, 
+    "lng": 22.2666303, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Tr\u00e8vise": {
+    "status": "OK", 
+    "city": "Treviso", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Veneto", 
+    "location": "Tr\u00e8vise", 
+    "country_long": "Italy", 
+    "county": "TV", 
+    "state": "Veneto", 
+    "city_long": "Treviso", 
+    "bbox": {
+      "northeast": [
+        45.7030676, 
+        12.2873065
+      ], 
+      "southwest": [
+        45.63740139999999, 
+        12.1828565
+      ]
+    }, 
+    "address": "31100 Treviso, Province of Treviso, Italy", 
+    "lat": 45.6668893, 
+    "lng": 12.2430437, 
+    "postal": "31100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Saint-Andrews": {
+    "encoding": "utf-8", 
+    "county": "New Castle County", 
+    "city_long": "Bear", 
+    "lng": -75.6953889, 
+    "quality": "establishment", 
+    "city": "Bear", 
+    "confidence": 9, 
+    "state": "DE", 
+    "location": "Saint-Andrews", 
+    "provider": "google", 
+    "housenumber": "50", 
+    "accuracy": "APPROXIMATE", 
+    "status": "OK", 
+    "state_long": "Delaware", 
+    "bbox": {
+      "northeast": [
+        39.6109818802915, 
+        -75.69403991970849
+      ], 
+      "southwest": [
+        39.6082839197085, 
+        -75.69673788029151
+      ]
+    }, 
+    "address": "St Andrews Apartments, 50 Turnberry Ct, Bear, DE 19701, USA", 
+    "lat": 39.6096329, 
+    "postal": "19701", 
+    "ok": true, 
+    "road_long": "Turnberry Court", 
+    "country": "US", 
+    "country_long": "United States", 
+    "street": "Turnberry Ct"
+  }, 
+  "Parma": {
+    "status": "OK", 
+    "city": "Parma", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Emilia-Romagna", 
+    "location": "Parma", 
+    "country_long": "Italy", 
+    "county": "PR", 
+    "state": "Emilia-Romagna", 
+    "city_long": "Parma", 
+    "bbox": {
+      "northeast": [
+        44.8395029, 
+        10.3842979
+      ], 
+      "southwest": [
+        44.7554042, 
+        10.2727904
+      ]
+    }, 
+    "address": "Parma, Province of Parma, Italy", 
+    "lat": 44.801485, 
+    "lng": 10.3279036, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Palma de Mallorca": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Palma de Mallorca", 
+    "encoding": "utf-8"
+  }, 
+  "Mantova": {
+    "status": "OK", 
+    "city": "Mantua", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Lombardy", 
+    "location": "Mantova", 
+    "country_long": "Italy", 
+    "county": "MN", 
+    "state": "Lombardy", 
+    "city_long": "Mantua", 
+    "bbox": {
+      "northeast": [
+        45.1863061, 
+        10.8060815
+      ], 
+      "southwest": [
+        45.13727919999999, 
+        10.7404199
+      ]
+    }, 
+    "address": "46100 Mantua, Province of Mantua, Italy", 
+    "lat": 45.1564168, 
+    "lng": 10.7913751, 
+    "postal": "46100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "M\u00fcnster-Westfalen": {
+    "status": "OK", 
+    "city": "M\u00fcnster", 
+    "confidence": 6, 
+    "ok": true, 
+    "road_long": "Westfalenstra\u00dfe", 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Nordrhein-Westfalen", 
+    "location": "M\u00fcnster-Westfalen", 
+    "country_long": "Germany", 
+    "county": "MS", 
+    "state": "NRW", 
+    "city_long": "M\u00fcnster", 
+    "street": "Westfalenstra\u00dfe", 
+    "bbox": {
+      "northeast": [
+        51.9215487, 
+        7.6514503
+      ], 
+      "southwest": [
+        51.87737, 
+        7.6297
+      ]
+    }, 
+    "address": "Westfalenstra\u00dfe, M\u00fcnster, Germany", 
+    "lat": 51.8994604, 
+    "lng": 7.6405456, 
+    "quality": "route", 
+    "accuracy": "GEOMETRIC_CENTER"
+  }, 
+  "Valencia": {
+    "status": "OK", 
+    "city": "Valencia", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Valencian Community", 
+    "location": "Valencia", 
+    "country_long": "Spain", 
+    "county": "V", 
+    "state": "Valencian Community", 
+    "city_long": "Valencia", 
+    "bbox": {
+      "northeast": [
+        39.5073224, 
+        -0.2914778
+      ], 
+      "southwest": [
+        39.308248, 
+        -0.4315448
+      ]
+    }, 
+    "address": "Valencia, Spain", 
+    "lat": 39.4699075, 
+    "lng": -0.3762881, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Gandia": {
+    "status": "OK", 
+    "city": "Gandia", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Valencian Community", 
+    "location": "Gandia", 
+    "country_long": "Spain", 
+    "county": "V", 
+    "state": "Valencian Community", 
+    "city_long": "Gandia", 
+    "bbox": {
+      "northeast": [
+        38.995477, 
+        -0.1490134
+      ], 
+      "southwest": [
+        38.9573132, 
+        -0.1977757
+      ]
+    }, 
+    "address": "Gandia, Valencia, Spain", 
+    "lat": 38.968032, 
+    "lng": -0.1844671, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "W\u00fcrzbourg": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "W\u00fcrzbourg", 
+    "encoding": "utf-8"
+  }, 
+  "Heidelberg": {
+    "status": "OK", 
+    "city": "Heidelberg", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Baden-W\u00fcrttemberg", 
+    "location": "Heidelberg", 
+    "country_long": "Germany", 
+    "county": "KA", 
+    "state": "BW", 
+    "city_long": "Heidelberg", 
+    "bbox": {
+      "northeast": [
+        49.4596927, 
+        8.7940496
+      ], 
+      "southwest": [
+        49.3517641, 
+        8.573178799999999
+      ]
+    }, 
+    "address": "Heidelberg, Germany", 
+    "lat": 49.3987524, 
+    "lng": 8.6724335, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Copenhaguen": {
+    "status": "OK", 
+    "city": "Copenhagen", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DK", 
+    "provider": "google", 
+    "state_long": "Capital Region of Denmark", 
+    "location": "Copenhaguen", 
+    "country_long": "Denmark", 
+    "county": "K\u00f8benhavn", 
+    "state": "Capital Region of Denmark", 
+    "city_long": "Copenhagen", 
+    "bbox": {
+      "northeast": [
+        55.7270936, 
+        12.6682952
+      ], 
+      "southwest": [
+        55.615441, 
+        12.4533824
+      ]
+    }, 
+    "address": "Copenhagen, Denmark", 
+    "lat": 55.6760968, 
+    "lng": 12.5683371, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Geneva": {
+    "status": "OK", 
+    "city": "Geneva", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "CH", 
+    "provider": "google", 
+    "state_long": "Geneva", 
+    "location": "Geneva", 
+    "country_long": "Switzerland", 
+    "county": "Gen\u00e8ve", 
+    "state": "GE", 
+    "city_long": "Geneva", 
+    "bbox": {
+      "northeast": [
+        46.232399, 
+        6.177856999999999
+      ], 
+      "southwest": [
+        46.17765989999999, 
+        6.1103201
+      ]
+    }, 
+    "address": "Geneva, Switzerland", 
+    "lat": 46.2043907, 
+    "lng": 6.1431577, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Tournon": {
+    "status": "OK", 
+    "city": "Tournon", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Auvergne-Rh\u00f4ne-Alpes", 
+    "location": "Tournon", 
+    "country_long": "France", 
+    "county": "Savoie", 
+    "state": "Auvergne-Rh\u00f4ne-Alpes", 
+    "city_long": "Tournon", 
+    "bbox": {
+      "northeast": [
+        45.653629, 
+        6.3457711
+      ], 
+      "southwest": [
+        45.6227341, 
+        6.310285899999999
+      ]
+    }, 
+    "address": "73460 Tournon, France", 
+    "lat": 45.642969, 
+    "lng": 6.318397, 
+    "postal": "73460", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Irache": {
+    "status": "OK", 
+    "city": "Irache", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Navarra", 
+    "location": "Irache", 
+    "country_long": "Spain", 
+    "county": "NA", 
+    "state": "Navarra", 
+    "city_long": "Irache", 
+    "bbox": {
+      "northeast": [
+        42.6499737, 
+        -2.0481178
+      ], 
+      "southwest": [
+        42.6406803, 
+        -2.0624219
+      ]
+    }, 
+    "address": "Irache, Navarra, Spain", 
+    "lat": 42.6457351, 
+    "lng": -2.0563675, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Glasgow": {
+    "status": "OK", 
+    "city": "Glasgow", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "GB", 
+    "provider": "google", 
+    "state_long": "Scotland", 
+    "location": "Glasgow", 
+    "country_long": "United Kingdom", 
+    "county": "Glasgow City", 
+    "state": "Scotland", 
+    "city_long": "Glasgow", 
+    "bbox": {
+      "northeast": [
+        55.9296412, 
+        -4.0717167
+      ], 
+      "southwest": [
+        55.781279, 
+        -4.3925278
+      ]
+    }, 
+    "address": "Glasgow, UK", 
+    "lat": 55.864237, 
+    "lng": -4.251806, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Erlangen": {
+    "status": "OK", 
+    "city": "ERH", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Bavaria", 
+    "location": "Erlangen", 
+    "country_long": "Germany", 
+    "county": "Middle Franconia", 
+    "state": "BY", 
+    "city_long": "Erlangen", 
+    "bbox": {
+      "northeast": [
+        49.6455844, 
+        11.0536044
+      ], 
+      "southwest": [
+        49.5327697, 
+        10.9153629
+      ]
+    }, 
+    "address": "Erlangen, Germany", 
+    "lat": 49.5896744, 
+    "lng": 11.0119611, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Onasbr\u00fcck": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Onasbr\u00fcck", 
+    "encoding": "utf-8"
+  }, 
+  "Bamberg": {
+    "status": "OK", 
+    "city": "BA", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Bavaria", 
+    "location": "Bamberg", 
+    "country_long": "Germany", 
+    "county": "Upper Franconia", 
+    "state": "BY", 
+    "city_long": "Bamberg", 
+    "bbox": {
+      "northeast": [
+        49.9286322, 
+        10.9607048
+      ], 
+      "southwest": [
+        49.8426458, 
+        10.8265043
+      ]
+    }, 
+    "address": "Bamberg, Germany", 
+    "lat": 49.8988135, 
+    "lng": 10.9027636, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Oxford": {
+    "status": "OK", 
+    "city": "Oxford", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "GB", 
+    "provider": "google", 
+    "state_long": "England", 
+    "location": "Oxford", 
+    "country_long": "United Kingdom", 
+    "county": "Oxfordshire", 
+    "state": "England", 
+    "city_long": "Oxford", 
+    "bbox": {
+      "northeast": [
+        51.7963005, 
+        -1.1751763
+      ], 
+      "southwest": [
+        51.704532, 
+        -1.3199993
+      ]
+    }, 
+    "address": "Oxford, UK", 
+    "lat": 51.7520209, 
+    "lng": -1.2577263, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Wittemberg": {
+    "neighborhood": "Wittemberg", 
+    "encoding": "utf-8", 
+    "county": "M\u00e1laga", 
+    "city_long": "M\u00e1laga", 
+    "lng": -4.4976828, 
+    "quality": "neighborhood", 
+    "city": "M\u00e1laga", 
+    "confidence": 8, 
+    "state": "AL", 
+    "location": "Wittemberg", 
+    "provider": "google", 
+    "accuracy": "APPROXIMATE", 
+    "status": "OK", 
+    "state_long": "Andaluc\u00eda", 
+    "bbox": {
+      "northeast": [
+        36.653099, 
+        -4.4953829
+      ], 
+      "southwest": [
+        36.650196, 
+        -4.5001959
+      ]
+    }, 
+    "address": "Wittemberg, 29140 M\u00e1laga, Spain", 
+    "lat": 36.6518213, 
+    "postal": "29140", 
+    "ok": true, 
+    "country": "ES", 
+    "country_long": "Spain", 
+    "sublocality": "Churriana"
+  }, 
+  "Laguna": {
+    "status": "OK", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "PH", 
+    "provider": "google", 
+    "state_long": "Calabarzon", 
+    "location": "Laguna", 
+    "country_long": "Philippines", 
+    "county": "Laguna", 
+    "state": "Calabarzon", 
+    "bbox": {
+      "northeast": [
+        14.5710739, 
+        121.6324679
+      ], 
+      "southwest": [
+        13.963392, 
+        121.0053029
+      ]
+    }, 
+    "address": "Laguna, Philippines", 
+    "lat": 14.1406629, 
+    "lng": 121.4691774, 
+    "quality": "administrative_area_level_2", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Padova": {
+    "status": "OK", 
+    "city": "Padua", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Veneto", 
+    "location": "Padova", 
+    "country_long": "Italy", 
+    "county": "PD", 
+    "state": "Veneto", 
+    "city_long": "Padua", 
+    "bbox": {
+      "northeast": [
+        45.4575001, 
+        11.9728649
+      ], 
+      "southwest": [
+        45.3555074, 
+        11.809626
+      ]
+    }, 
+    "address": "Padua, Province of Padua, Italy", 
+    "lat": 45.4064349, 
+    "lng": 11.8767611, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Budapest": {
+    "status": "OK", 
+    "city": "Budapest", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "HU", 
+    "provider": "google", 
+    "state_long": "Budapest", 
+    "location": "Budapest", 
+    "country_long": "Hungary", 
+    "county": "Budapest", 
+    "state": "Budapest", 
+    "city_long": "Budapest", 
+    "bbox": {
+      "northeast": [
+        47.613012, 
+        19.334505
+      ], 
+      "southwest": [
+        47.349415, 
+        18.9261011
+      ]
+    }, 
+    "address": "Budapest, Hungary", 
+    "lat": 47.497912, 
+    "lng": 19.040235, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Barcelone": {
+    "status": "OK", 
+    "city": "Barcelona", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Catalonia", 
+    "location": "Barcelone", 
+    "country_long": "Spain", 
+    "county": "Barcelona", 
+    "state": "CT", 
+    "city_long": "Barcelona", 
+    "bbox": {
+      "northeast": [
+        41.469576, 
+        2.2280099
+      ], 
+      "southwest": [
+        41.320004, 
+        2.0695257
+      ]
+    }, 
+    "address": "Barcelona, Spain", 
+    "lat": 41.3850639, 
+    "lng": 2.1734035, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Cervera": {
+    "status": "OK", 
+    "city": "Cervera", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Catalunya", 
+    "location": "Cervera", 
+    "country_long": "Spain", 
+    "county": "Lleida", 
+    "state": "CT", 
+    "city_long": "Cervera", 
+    "bbox": {
+      "northeast": [
+        41.6788442, 
+        1.2857932
+      ], 
+      "southwest": [
+        41.6632852, 
+        1.2588272
+      ]
+    }, 
+    "address": "25200 Cervera, Lleida, Spain", 
+    "lat": 41.671465, 
+    "lng": 1.272254, 
+    "postal": "25200", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Cahors": {
+    "status": "ERROR - No results found", 
+    "provider": "google", 
+    "ok": false, 
+    "location": "Cahors", 
+    "encoding": "utf-8"
+  }, 
+  "Saint-Peterburg": {
+    "status": "OK", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "RU", 
+    "provider": "google", 
+    "state_long": "Saint Petersburg", 
+    "location": "Saint-Peterburg", 
+    "country_long": "Russia", 
+    "state": "Saint Petersburg", 
+    "bbox": {
+      "northeast": [
+        60.233527, 
+        30.7349362
+      ], 
+      "southwest": [
+        59.6468681, 
+        29.4464429
+      ]
+    }, 
+    "address": "Saint Petersburg, Russia", 
+    "lat": 60.07623830000001, 
+    "lng": 30.1213829, 
+    "quality": "administrative_area_level_1", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "R\u00a0: rotuli": {
+    "status": "OK", 
+    "city": "Central Plateau", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "AU", 
+    "provider": "google", 
+    "state_long": "Tasmania", 
+    "location": "R\u00a0: rotuli", 
+    "country_long": "Australia", 
+    "county": "Central Highlands", 
+    "state": "TAS", 
+    "city_long": "Central Plateau", 
+    "bbox": {
+      "northeast": [
+        -41.8909878, 
+        146.3701263
+      ], 
+      "southwest": [
+        -41.9250717, 
+        146.345334
+      ]
+    }, 
+    "address": "Lake Rotuli, Central Plateau TAS 7304, Australia", 
+    "lat": -41.9083171, 
+    "lng": 146.3509294, 
+    "postal": "7304", 
+    "quality": "establishment", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Bonn": {
+    "status": "OK", 
+    "city": "BN", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "North Rhine-Westphalia", 
+    "location": "Bonn", 
+    "country_long": "Germany", 
+    "county": "K", 
+    "state": "NRW", 
+    "city_long": "Bonn", 
+    "bbox": {
+      "northeast": [
+        50.77442629999999, 
+        7.209418299999999
+      ], 
+      "southwest": [
+        50.63272749999999, 
+        7.0225513
+      ]
+    }, 
+    "address": "Bonn, Germany", 
+    "lat": 50.73743, 
+    "lng": 7.0982068, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Nancy": {
+    "status": "OK", 
+    "city": "Nancy", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Alsace-Champagne-Ardenne-Lorraine", 
+    "location": "Nancy", 
+    "country_long": "France", 
+    "county": "Meurthe-et-Moselle", 
+    "state": "Alsace-Champagne-Ardenne-Lorraine", 
+    "city_long": "Nancy", 
+    "bbox": {
+      "northeast": [
+        48.7092969, 
+        6.212632999999999
+      ], 
+      "southwest": [
+        48.66686499999999, 
+        6.1342411
+      ]
+    }, 
+    "address": "Nancy, France", 
+    "lat": 48.692054, 
+    "lng": 6.184417, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Rennes": {
+    "status": "OK", 
+    "city": "Rennes", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Brittany", 
+    "location": "Rennes", 
+    "country_long": "France", 
+    "county": "Ille-et-Vilaine", 
+    "state": "Brittany", 
+    "city_long": "Rennes", 
+    "bbox": {
+      "northeast": [
+        48.15497, 
+        -1.6243669
+      ], 
+      "southwest": [
+        48.0768609, 
+        -1.752542
+      ]
+    }, 
+    "address": "Rennes, France", 
+    "lat": 48.117266, 
+    "lng": -1.6777926, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "V\u00e9rone": {
+    "status": "OK", 
+    "city": "Verona", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Veneto", 
+    "location": "V\u00e9rone", 
+    "country_long": "Italy", 
+    "county": "VR", 
+    "state": "Veneto", 
+    "city_long": "Verona", 
+    "bbox": {
+      "northeast": [
+        45.4782664, 
+        11.0703201
+      ], 
+      "southwest": [
+        45.3742342, 
+        10.9147426
+      ]
+    }, 
+    "address": "Verona, Province of Verona, Italy", 
+    "lat": 45.43838419999999, 
+    "lng": 10.9916215, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Evora": {
+    "status": "OK", 
+    "city": "Evora", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "PT", 
+    "provider": "google", 
+    "state_long": "\u00c9vora District", 
+    "location": "Evora", 
+    "country_long": "Portugal", 
+    "county": "\u00c9vora", 
+    "state": "\u00c9vora District", 
+    "city_long": "Evora", 
+    "bbox": {
+      "northeast": [
+        38.6169193, 
+        -7.8435147
+      ], 
+      "southwest": [
+        38.5227211, 
+        -7.978503699999999
+      ]
+    }, 
+    "address": "Evora, Portugal", 
+    "lat": 38.571431, 
+    "lng": -7.913501999999999, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Sassari": {
+    "status": "OK", 
+    "city": "Sassari", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Sardinia", 
+    "location": "Sassari", 
+    "country_long": "Italy", 
+    "county": "SS", 
+    "state": "Sardinia", 
+    "city_long": "Sassari", 
+    "bbox": {
+      "northeast": [
+        40.7537418, 
+        8.597026
+      ], 
+      "southwest": [
+        40.6985241, 
+        8.4952694
+      ]
+    }, 
+    "address": "07100 Sassari, Province of Sassari, Italy", 
+    "lat": 40.7259269, 
+    "lng": 8.5556826, 
+    "postal": "07100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "K\u00f6nigsberg": {
+    "status": "OK", 
+    "city": "Kaliningrad", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "RU", 
+    "provider": "google", 
+    "state_long": "Kaliningrad Oblast", 
+    "location": "K\u00f6nigsberg", 
+    "country_long": "Russia", 
+    "county": "g. Kaliningrad", 
+    "state": "Kaliningrad Oblast", 
+    "city_long": "Kaliningrad", 
+    "bbox": {
+      "northeast": [
+        54.7786129, 
+        20.633394
+      ], 
+      "southwest": [
+        54.644606, 
+        20.2956661
+      ]
+    }, 
+    "address": "Kaliningrad, Kaliningrad Oblast, Russia", 
+    "lat": 54.7104264, 
+    "lng": 20.4522144, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Montpellier": {
+    "status": "OK", 
+    "city": "Montpellier", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "location": "Montpellier", 
+    "country_long": "France", 
+    "county": "H\u00e9rault", 
+    "state": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "city_long": "Montpellier", 
+    "bbox": {
+      "northeast": [
+        43.6532999, 
+        3.941279
+      ], 
+      "southwest": [
+        43.566744, 
+        3.807044
+      ]
+    }, 
+    "address": "Montpellier, France", 
+    "lat": 43.610769, 
+    "lng": 3.876716, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Aberdeen": {
+    "status": "OK", 
+    "city": "Aberdeen", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "GB", 
+    "provider": "google", 
+    "state_long": "Scotland", 
+    "location": "Aberdeen", 
+    "country_long": "United Kingdom", 
+    "county": "Aberdeen City", 
+    "state": "Scotland", 
+    "city_long": "Aberdeen", 
+    "bbox": {
+      "northeast": [
+        57.19565060000001, 
+        -2.0461811
+      ], 
+      "southwest": [
+        57.1041518, 
+        -2.2058925
+      ]
+    }, 
+    "address": "Aberdeen, UK", 
+    "lat": 57.149717, 
+    "lng": -2.094278, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Leipzig": {
+    "status": "OK", 
+    "city": "Leipzig", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "DE", 
+    "provider": "google", 
+    "state_long": "Saxony", 
+    "location": "Leipzig", 
+    "country_long": "Germany", 
+    "county": "Leipzig", 
+    "state": "SN", 
+    "city_long": "Leipzig", 
+    "bbox": {
+      "northeast": [
+        51.4480259, 
+        12.5506378
+      ], 
+      "southwest": [
+        51.23553889999999, 
+        12.2366322
+      ]
+    }, 
+    "address": "Leipzig, Germany", 
+    "lat": 51.3396955, 
+    "lng": 12.3730747, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Montauban": {
+    "status": "OK", 
+    "city": "Montauban", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "location": "Montauban", 
+    "country_long": "France", 
+    "county": "Tarn-et-Garonne", 
+    "state": "Languedoc-Roussillon-Midi-Pyr\u00e9n\u00e9es", 
+    "city_long": "Montauban", 
+    "bbox": {
+      "northeast": [
+        44.092125, 
+        1.442641
+      ], 
+      "southwest": [
+        43.951265, 
+        1.286469
+      ]
+    }, 
+    "address": "Montauban, France", 
+    "lat": 44.0221252, 
+    "lng": 1.3529599, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Venezia": {
+    "status": "OK", 
+    "city": "Venice", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Veneto", 
+    "location": "Venezia", 
+    "country_long": "Italy", 
+    "county": "VE", 
+    "state": "Veneto", 
+    "city_long": "Venice", 
+    "bbox": {
+      "northeast": [
+        45.5778666, 
+        12.5966574
+      ], 
+      "southwest": [
+        45.2334604, 
+        12.1668278
+      ]
+    }, 
+    "address": "Venice, Italy", 
+    "lat": 45.4408474, 
+    "lng": 12.3155151, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Graz": {
+    "status": "OK", 
+    "city": "Graz", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "AT", 
+    "provider": "google", 
+    "state_long": "Styria", 
+    "location": "Graz", 
+    "country_long": "Austria", 
+    "county": "Graz", 
+    "state": "Styria", 
+    "city_long": "Graz", 
+    "bbox": {
+      "northeast": [
+        47.1351393, 
+        15.53405
+      ], 
+      "southwest": [
+        47.01204, 
+        15.3495299
+      ]
+    }, 
+    "address": "Graz, Austria", 
+    "lat": 47.070714, 
+    "lng": 15.439504, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Sahag\u00f9n": {
+    "status": "OK", 
+    "city": "Sahag\u00fan", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "ES", 
+    "provider": "google", 
+    "state_long": "Castilla y Le\u00f3n", 
+    "location": "Sahag\u00f9n", 
+    "country_long": "Spain", 
+    "county": "Le\u00f3n", 
+    "state": "CL", 
+    "city_long": "Sahag\u00fan", 
+    "bbox": {
+      "northeast": [
+        42.3758786, 
+        -5.0209344
+      ], 
+      "southwest": [
+        42.3657566, 
+        -5.0359033
+      ]
+    }, 
+    "address": "24320 Sahag\u00fan, Le\u00f3n, Spain", 
+    "lat": 42.3709599, 
+    "lng": -5.029949300000001, 
+    "postal": "24320", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Arezzo": {
+    "status": "OK", 
+    "city": "Arezzo", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "IT", 
+    "provider": "google", 
+    "state_long": "Tuscany", 
+    "location": "Arezzo", 
+    "country_long": "Italy", 
+    "county": "AR", 
+    "state": "Tuscany", 
+    "city_long": "Arezzo", 
+    "bbox": {
+      "northeast": [
+        43.4995733, 
+        11.9240634
+      ], 
+      "southwest": [
+        43.3514365, 
+        11.8096336
+      ]
+    }, 
+    "address": "52100 Arezzo, Province of Arezzo, Italy", 
+    "lat": 43.46328390000001, 
+    "lng": 11.8796336, 
+    "postal": "52100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "Franeker": {
+    "status": "OK", 
+    "city": "Franeker", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "NL", 
+    "provider": "google", 
+    "state_long": "Friesland", 
+    "location": "Franeker", 
+    "country_long": "Netherlands", 
+    "county": "Franekeradeel", 
+    "state": "FR", 
+    "city_long": "Franeker", 
+    "bbox": {
+      "northeast": [
+        53.2021338, 
+        5.601080899999999
+      ], 
+      "southwest": [
+        53.1647348, 
+        5.493791799999999
+      ]
+    }, 
+    "address": "Franeker, Netherlands", 
+    "lat": 53.1888206, 
+    "lng": 5.5564857, 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }, 
+  "D\u00f4le": {
+    "status": "OK", 
+    "city": "Dole", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "FR", 
+    "provider": "google", 
+    "state_long": "Bourgogne-Franche-Comt\u00e9", 
+    "location": "D\u00f4le", 
+    "country_long": "France", 
+    "county": "Jura", 
+    "state": "Bourgogne-Franche-Comt\u00e9", 
+    "city_long": "Dole", 
+    "bbox": {
+      "northeast": [
+        47.1258398, 
+        5.551870999999999
+      ], 
+      "southwest": [
+        47.0219939, 
+        5.452884
+      ]
+    }, 
+    "address": "39100 Dole, France", 
+    "lat": 47.09534, 
+    "lng": 5.49081, 
+    "postal": "39100", 
+    "quality": "locality", 
+    "accuracy": "APPROXIMATE"
+  }
+}

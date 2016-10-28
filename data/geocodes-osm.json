@@ -1,0 +1,5131 @@
+{
+  "": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "encoding": "utf-8"
+  }, 
+  "K\u00f6nigsberg": {
+    "status": "OK", 
+    "city": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u0420\u0424", 
+    "osm_id": "1674442", 
+    "provider": "osm", 
+    "county": "\u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0439 \u043e\u043a\u0440\u0443\u0433 \u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434", 
+    "osm_type": "relation", 
+    "state": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c", 
+    "bbox": {
+      "northeast": [
+        54.7792148, 
+        20.6502012
+      ], 
+      "southwest": [
+        54.6319403, 
+        20.2940303
+      ]
+    }, 
+    "address": "\u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434, \u0433\u043e\u0440\u043e\u0434\u0441\u043a\u043e\u0439 \u043e\u043a\u0440\u0443\u0433 \u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434, \u041a\u0430\u043b\u0438\u043d\u0438\u043d\u0433\u0440\u0430\u0434\u0441\u043a\u0430\u044f \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, \u0420\u0424", 
+    "lat": "54.7066422", 
+    "lng": "20.5105166", 
+    "quality": "city", 
+    "location": "K\u00f6nigsberg"
+  }, 
+  "Innsburck": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Innsburck", 
+    "encoding": "utf-8"
+  }, 
+  "R\u00a0: rotuli": {
+    "status": "OK", 
+    "city": "Sorell", 
+    "confidence": 9, 
+    "neighborhood": "Park Beach", 
+    "encoding": "utf-8", 
+    "country": "Australia", 
+    "osm_id": "111963888", 
+    "provider": "osm", 
+    "county": "Sorell", 
+    "osm_type": "way", 
+    "state": "Tasmania", 
+    "street": "Rotuli Street", 
+    "bbox": {
+      "northeast": [
+        -42.8620716, 
+        147.6154593
+      ], 
+      "southwest": [
+        -42.8633868, 
+        147.6120677
+      ]
+    }, 
+    "address": "Rotuli Street, Park Beach, Dodges Ferry, Sorell, Tasmania, Australia", 
+    "lat": "-42.8624667", 
+    "ok": true, 
+    "lng": "147.6138469", 
+    "quality": "residential", 
+    "location": "R\u00a0: rotuli"
+  }, 
+  "Dilligen": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Dilligen", 
+    "encoding": "utf-8"
+  }, 
+  "Sig\u00fcenza": {
+    "status": "OK", 
+    "city": "Sig\u00fcenza", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "344844", 
+    "provider": "osm", 
+    "county": "Guadalajara", 
+    "osm_type": "relation", 
+    "state": "Castilla-La Mancha", 
+    "bbox": {
+      "northeast": [
+        41.2131159, 
+        -2.4685639
+      ], 
+      "southwest": [
+        40.988995, 
+        -2.8226704
+      ]
+    }, 
+    "address": "Sig\u00fcenza, Guadalajara, Castilla-La Mancha, Espa\u00f1a", 
+    "lat": "41.0670489", 
+    "lng": "-2.6424269", 
+    "quality": "administrative", 
+    "location": "Sig\u00fcenza"
+  }, 
+  "Bologne": {
+    "status": "OK", 
+    "city": "Bologna", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "43172", 
+    "provider": "osm", 
+    "county": "BO", 
+    "osm_type": "relation", 
+    "state": "EMR", 
+    "bbox": {
+      "northeast": [
+        44.556094, 
+        11.4336295
+      ], 
+      "southwest": [
+        44.421033, 
+        11.2296206
+      ]
+    }, 
+    "address": "Bologna, BO, EMR, Italia", 
+    "lat": "44.4936714", 
+    "lng": "11.3430347", 
+    "quality": "city", 
+    "location": "Bologne"
+  }, 
+  "Mondovi": {
+    "status": "OK", 
+    "city": "Mondov\u00ec", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "43091", 
+    "provider": "osm", 
+    "county": "CN", 
+    "osm_type": "relation", 
+    "state": "PIE", 
+    "bbox": {
+      "northeast": [
+        44.4677093, 
+        7.9034998
+      ], 
+      "southwest": [
+        44.3518955, 
+        7.6903843
+      ]
+    }, 
+    "address": "Mondov\u00ec, CN, PIE, Italia", 
+    "lat": "44.3900566", 
+    "lng": "7.8205115", 
+    "quality": "administrative", 
+    "location": "Mondovi"
+  }, 
+  "Ancona": {
+    "status": "OK", 
+    "city": "Ancona", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42499", 
+    "provider": "osm", 
+    "county": "AN", 
+    "osm_type": "relation", 
+    "state": "MAR", 
+    "bbox": {
+      "northeast": [
+        43.6314568, 
+        13.6090671
+      ], 
+      "southwest": [
+        43.5085486, 
+        13.3761772
+      ]
+    }, 
+    "address": "Ancona, AN, MAR, Italia", 
+    "lat": "43.6170137", 
+    "lng": "13.5170982", 
+    "quality": "city", 
+    "location": "Ancona"
+  }, 
+  "Onasbr\u00fcck": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Onasbr\u00fcck", 
+    "encoding": "utf-8"
+  }, 
+  "Pavia": {
+    "status": "OK", 
+    "city": "Pavia", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "44383", 
+    "provider": "osm", 
+    "county": "PV", 
+    "osm_type": "relation", 
+    "state": "LOM", 
+    "bbox": {
+      "northeast": [
+        45.2333058, 
+        9.2405513
+      ], 
+      "southwest": [
+        45.1557408, 
+        9.09038
+      ]
+    }, 
+    "address": "Pavia, PV, LOM, 27100, Italia", 
+    "lat": "45.1860043", 
+    "lng": "9.1546375", 
+    "postal": "27100", 
+    "quality": "city", 
+    "location": "Pavia"
+  }, 
+  "Giessen": {
+    "status": "OK", 
+    "city": "Gie\u00dfen", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "418617", 
+    "provider": "osm", 
+    "county": "Landkreis Gie\u00dfen", 
+    "osm_type": "relation", 
+    "state": "Hessen", 
+    "bbox": {
+      "northeast": [
+        50.6352285, 
+        8.7640475
+      ], 
+      "southwest": [
+        50.5264042, 
+        8.5557586
+      ]
+    }, 
+    "address": "Gie\u00dfen, Landkreis Gie\u00dfen, Regierungsbezirk Gie\u00dfen, Hessen, Deutschland", 
+    "lat": "50.5862066", 
+    "lng": "8.6742306", 
+    "quality": "administrative", 
+    "location": "Giessen"
+  }, 
+  "Modena": {
+    "status": "OK", 
+    "city": "Modena", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "43336", 
+    "provider": "osm", 
+    "county": "MO", 
+    "osm_type": "relation", 
+    "state": "EMR", 
+    "bbox": {
+      "northeast": [
+        44.7424432, 
+        11.0119528
+      ], 
+      "southwest": [
+        44.5644213, 
+        10.7829773
+      ]
+    }, 
+    "address": "Modena, MO, EMR, Italia", 
+    "lat": "44.6458885", 
+    "lng": "10.9255707", 
+    "quality": "city", 
+    "location": "Modena"
+  }, 
+  "Valence": {
+    "status": "OK", 
+    "city": "Valencia/Val\u00e8ncia", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "344953", 
+    "provider": "osm", 
+    "county": "Comarca de Val\u00e8ncia", 
+    "osm_type": "relation", 
+    "state": "Comunitat Valenciana", 
+    "bbox": {
+      "northeast": [
+        39.5666202, 
+        -0.2725204
+      ], 
+      "southwest": [
+        39.2784496, 
+        -0.4325511
+      ]
+    }, 
+    "address": "Valencia/Val\u00e8ncia, Comarca de Val\u00e8ncia, Valencia/Val\u00e8ncia, Comunitat Valenciana, Espa\u00f1a", 
+    "lat": "39.4699014", 
+    "lng": "-0.3759512", 
+    "quality": "city", 
+    "location": "Valence"
+  }, 
+  "Co\u00efmbra": {
+    "status": "OK", 
+    "city": "Coimbra", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Portugal", 
+    "osm_id": "25623904", 
+    "provider": "osm", 
+    "county": "Coimbra", 
+    "osm_type": "node", 
+    "state": "Centro", 
+    "bbox": {
+      "northeast": [
+        40.3709801, 
+        -8.2692056
+      ], 
+      "southwest": [
+        40.0509801, 
+        -8.5892056
+      ]
+    }, 
+    "address": "Coimbra, Baixo Mondego, Centro, Portugal", 
+    "lat": "40.2109801", 
+    "lng": "-8.4292056", 
+    "quality": "city", 
+    "location": "Co\u00efmbra"
+  }, 
+  "Fulda": {
+    "status": "OK", 
+    "city": "Fulda", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "454863", 
+    "provider": "osm", 
+    "county": "Landkreis Fulda", 
+    "osm_type": "relation", 
+    "state": "Hessen", 
+    "bbox": {
+      "northeast": [
+        50.6293394, 
+        9.7318787
+      ], 
+      "southwest": [
+        50.4994847, 
+        9.5659893
+      ]
+    }, 
+    "address": "Fulda, Landkreis Fulda, Regierungsbezirk Kassel, Hessen, Deutschland, Europe", 
+    "lat": "50.5521486", 
+    "lng": "9.676511", 
+    "quality": "administrative", 
+    "location": "Fulda"
+  }, 
+  "Aix-en-Provence": {
+    "status": "OK", 
+    "city": "Aix-en-Provence", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "70279", 
+    "provider": "osm", 
+    "county": "Aix-en-Provence", 
+    "osm_type": "relation", 
+    "state": "Provence-Alpes-C\u00f4te d'Azur", 
+    "bbox": {
+      "northeast": [
+        43.6259224, 
+        5.5063013
+      ], 
+      "southwest": [
+        43.4461058, 
+        5.2694745
+      ]
+    }, 
+    "address": "Aix-en-Provence, Bouches-du-Rh\u00f4ne, Provence-Alpes-C\u00f4te d'Azur, 13090;13100, France", 
+    "lat": "43.5298424", 
+    "lng": "5.4474738", 
+    "postal": "13090;13100", 
+    "quality": "city", 
+    "location": "Aix-en-Provence"
+  }, 
+  "D\u00f4le": {
+    "status": "OK", 
+    "city": "Dole", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "148676", 
+    "provider": "osm", 
+    "county": "Dole", 
+    "osm_type": "relation", 
+    "state": "Bourgogne-Franche-Comt\u00e9", 
+    "bbox": {
+      "northeast": [
+        47.1258353, 
+        5.5519576
+      ], 
+      "southwest": [
+        47.02203, 
+        5.4529405
+      ]
+    }, 
+    "address": "Dole, Jura, Bourgogne-Franche-Comt\u00e9, 39100, France", 
+    "lat": "47.0921047", 
+    "lng": "5.4925463", 
+    "postal": "39100", 
+    "quality": "administrative", 
+    "location": "D\u00f4le"
+  }, 
+  "Ingolstadt": {
+    "status": "OK", 
+    "city": "Ingolstadt", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "2110382406", 
+    "provider": "osm", 
+    "county": "Ingolstadt", 
+    "osm_type": "node", 
+    "state": "Bayern", 
+    "bbox": {
+      "northeast": [
+        48.9230165, 
+        11.5850395
+      ], 
+      "southwest": [
+        48.6030165, 
+        11.2650395
+      ]
+    }, 
+    "address": "Ingolstadt, OB, Bayern, Deutschland", 
+    "lat": "48.7630165", 
+    "lng": "11.4250395", 
+    "quality": "city", 
+    "location": "Ingolstadt"
+  }, 
+  "Paris": {
+    "status": "OK", 
+    "city": "Paris", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "7444", 
+    "provider": "osm", 
+    "county": "Paris", 
+    "osm_type": "relation", 
+    "state": "\u00cele-de-France", 
+    "bbox": {
+      "northeast": [
+        48.902156, 
+        2.4697602
+      ], 
+      "southwest": [
+        48.8155755, 
+        2.224122
+      ]
+    }, 
+    "address": "Paris, \u00cele-de-France, France", 
+    "lat": "48.8566101", 
+    "lng": "2.3514992", 
+    "quality": "city", 
+    "location": "Paris"
+  }, 
+  "Douai": {
+    "status": "OK", 
+    "city": "Douai", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "56243", 
+    "provider": "osm", 
+    "county": "Douai", 
+    "osm_type": "relation", 
+    "state": "Hauts-de-France", 
+    "bbox": {
+      "northeast": [
+        50.4105745, 
+        3.149484
+      ], 
+      "southwest": [
+        50.3491934, 
+        3.0514828
+      ]
+    }, 
+    "address": "Douai, Nord, Hauts-de-France, France", 
+    "lat": "50.3703683", 
+    "lng": "3.0761377", 
+    "quality": "administrative", 
+    "location": "Douai"
+  }, 
+  "Harderwijk": {
+    "status": "OK", 
+    "city": "Harderwijk", 
+    "confidence": 4, 
+    "neighborhood": "Harderwijk", 
+    "encoding": "utf-8", 
+    "country": "Nederland", 
+    "town": "Harderwijk", 
+    "osm_id": "2712801", 
+    "provider": "osm", 
+    "suburb": "Harderwijk", 
+    "osm_type": "relation", 
+    "state": "Gelderland", 
+    "bbox": {
+      "northeast": [
+        52.3708642, 
+        5.7128476
+      ], 
+      "southwest": [
+        52.3015381, 
+        5.5658636
+      ]
+    }, 
+    "address": "Harderwijk, Gelderland, Nederland", 
+    "lat": "52.33599915", 
+    "ok": true, 
+    "lng": "5.64027152139206", 
+    "quality": "administrative", 
+    "location": "Harderwijk"
+  }, 
+  "Rinteln": {
+    "status": "OK", 
+    "city": "Rinteln", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "1169354", 
+    "provider": "osm", 
+    "county": "Landkreis Schaumburg", 
+    "osm_type": "relation", 
+    "state": "Niedersachsen", 
+    "bbox": {
+      "northeast": [
+        52.2259386, 
+        9.247804
+      ], 
+      "southwest": [
+        52.0942523, 
+        8.9858838
+      ]
+    }, 
+    "address": "Rinteln, Landkreis Schaumburg, Niedersachsen, Deutschland", 
+    "lat": "52.1911407", 
+    "lng": "9.0779936", 
+    "quality": "administrative", 
+    "location": "Rinteln"
+  }, 
+  "Catania": {
+    "status": "OK", 
+    "city": "Catania", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "39230", 
+    "provider": "osm", 
+    "county": "CT", 
+    "osm_type": "relation", 
+    "state": "SIC", 
+    "bbox": {
+      "northeast": [
+        37.562386, 
+        15.125794
+      ], 
+      "southwest": [
+        37.3582971, 
+        14.9358674
+      ]
+    }, 
+    "address": "Catania, CT, SIC, Italia", 
+    "lat": "37.5021788", 
+    "lng": "15.0872574", 
+    "quality": "city", 
+    "location": "Catania"
+  }, 
+  "Valladolid": {
+    "status": "OK", 
+    "city": "Valladolid", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "349001", 
+    "provider": "osm", 
+    "county": "Valladolid", 
+    "osm_type": "relation", 
+    "state": "Castilla y Le\u00f3n", 
+    "bbox": {
+      "northeast": [
+        42.311842, 
+        -3.980442
+      ], 
+      "southwest": [
+        41.0940153, 
+        -5.5208907
+      ]
+    }, 
+    "address": "Valladolid, Castilla y Le\u00f3n, Espa\u00f1a", 
+    "lat": "41.7030484", 
+    "lng": "-4.69695077903513", 
+    "quality": "administrative", 
+    "location": "Valladolid"
+  }, 
+  "Perpignan": {
+    "status": "OK", 
+    "city": "Perpignan", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "18000", 
+    "provider": "osm", 
+    "county": "Perpignan", 
+    "osm_type": "relation", 
+    "state": "Occitanie", 
+    "bbox": {
+      "northeast": [
+        42.7488722, 
+        2.9825668
+      ], 
+      "southwest": [
+        42.6492606, 
+        2.8265889
+      ]
+    }, 
+    "address": "Perpignan, Pyr\u00e9n\u00e9es-Orientales, Occitanie, 66000;66100, France", 
+    "lat": "42.6953868", 
+    "lng": "2.8844713", 
+    "postal": "66000;66100", 
+    "quality": "city", 
+    "location": "Perpignan"
+  }, 
+  "Caen": {
+    "status": "OK", 
+    "city": "Caen", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "149197", 
+    "provider": "osm", 
+    "county": "Caen", 
+    "osm_type": "relation", 
+    "state": "Normandie", 
+    "bbox": {
+      "northeast": [
+        49.2162655, 
+        -0.3307281
+      ], 
+      "southwest": [
+        49.1530145, 
+        -0.4137769
+      ]
+    }, 
+    "address": "Caen, Calvados, Normandie, 14000, France", 
+    "lat": "49.1828008", 
+    "lng": "-0.3690814", 
+    "postal": "14000", 
+    "quality": "city", 
+    "location": "Caen"
+  }, 
+  "Nantes": {
+    "status": "OK", 
+    "city": "Nantes", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "59874", 
+    "provider": "osm", 
+    "county": "Nantes", 
+    "osm_type": "relation", 
+    "state": "Pays-de-la-Loire", 
+    "bbox": {
+      "northeast": [
+        47.2958583, 
+        -1.4788442
+      ], 
+      "southwest": [
+        47.1805856, 
+        -1.6418114
+      ]
+    }, 
+    "address": "Nantes, Loire-Atlantique, Pays-de-la-Loire, 44000;44100;44200;44300, France", 
+    "lat": "47.2186371", 
+    "lng": "-1.5541361", 
+    "postal": "44000;44100;44200;44300", 
+    "quality": "city", 
+    "location": "Nantes"
+  }, 
+  "Solsona": {
+    "status": "OK", 
+    "city": "Solsona", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "347349", 
+    "provider": "osm", 
+    "county": "Solson\u00e8s", 
+    "osm_type": "relation", 
+    "state": "CAT", 
+    "bbox": {
+      "northeast": [
+        42.0213828, 
+        1.5512045
+      ], 
+      "southwest": [
+        41.9675606, 
+        1.4839073
+      ]
+    }, 
+    "address": "Solsona, Solson\u00e8s, Lleida, CAT, Espa\u00f1a", 
+    "lat": "41.9945762", 
+    "lng": "1.5184038", 
+    "quality": "administrative", 
+    "location": "Solsona"
+  }, 
+  "Halle": {
+    "state": "Vlaanderen", 
+    "city": "Halle", 
+    "confidence": 4, 
+    "neighborhood": "Halle", 
+    "encoding": "utf-8", 
+    "country": "Belgi\u00eb - Belgique - Belgien", 
+    "osm_id": "4105928", 
+    "provider": "osm", 
+    "county": "Halle-Vilvoorde", 
+    "town": "Halle", 
+    "osm_type": "relation", 
+    "city_district": "Halle", 
+    "status": "OK", 
+    "bbox": {
+      "northeast": [
+        50.7785526, 
+        4.3125783
+      ], 
+      "southwest": [
+        50.6940192, 
+        4.1823422
+      ]
+    }, 
+    "address": "Halle, Halle-Vilvoorde, Vlaams-Brabant, Vlaanderen, Belgi\u00eb - Belgique - Belgien", 
+    "lat": "50.736253", 
+    "ok": true, 
+    "lng": "4.21992381462057", 
+    "quality": "administrative", 
+    "location": "Halle"
+  }, 
+  "Napoli": {
+    "status": "OK", 
+    "city": "Napoli", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "40767", 
+    "provider": "osm", 
+    "county": "NA", 
+    "osm_type": "relation", 
+    "state": "CAM", 
+    "bbox": {
+      "northeast": [
+        40.916123, 
+        14.3537376
+      ], 
+      "southwest": [
+        40.791193, 
+        14.1320999
+      ]
+    }, 
+    "address": "Napoli, NA, CAM, Italia", 
+    "lat": "40.8359336", 
+    "lng": "14.2487826", 
+    "quality": "city", 
+    "location": "Napoli"
+  }, 
+  "Die": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Die", 
+    "encoding": "utf-8"
+  }, 
+  "Dublin": {
+    "status": "OK", 
+    "city": "Dublin", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Ireland", 
+    "osm_id": "3473474851", 
+    "provider": "osm", 
+    "county": "County Dublin", 
+    "osm_type": "node", 
+    "bbox": {
+      "northeast": [
+        53.5097645, 
+        -6.1002731
+      ], 
+      "southwest": [
+        53.1897645, 
+        -6.4202731
+      ]
+    }, 
+    "address": "Dublin, County Dublin, Leinster, Ireland", 
+    "lat": "53.3497645", 
+    "lng": "-6.2602731", 
+    "quality": "city", 
+    "location": "Dublin"
+  }, 
+  "I\u00e9na": {
+    "status": "OK", 
+    "city": "Jena", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "240090160", 
+    "provider": "osm", 
+    "county": "Jena", 
+    "osm_type": "node", 
+    "state": "Th\u00fcringen", 
+    "bbox": {
+      "northeast": [
+        51.0931401, 
+        11.7433091
+      ], 
+      "southwest": [
+        50.7731401, 
+        11.4233091
+      ]
+    }, 
+    "address": "Jena, Th\u00fcringen, Deutschland", 
+    "lat": "50.9331401", 
+    "lng": "11.5833091", 
+    "quality": "city", 
+    "location": "I\u00e9na"
+  }, 
+  "Avila": {
+    "status": "OK", 
+    "city": "\u00c1vila", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "348905", 
+    "provider": "osm", 
+    "county": "\u00c1vila", 
+    "osm_type": "relation", 
+    "state": "Castilla y Le\u00f3n", 
+    "bbox": {
+      "northeast": [
+        40.7536666, 
+        -4.4536128
+      ], 
+      "southwest": [
+        40.5607574, 
+        -4.8164527
+      ]
+    }, 
+    "address": "\u00c1vila, Castilla y Le\u00f3n, Espa\u00f1a", 
+    "lat": "40.656478", 
+    "lng": "-4.7002171", 
+    "quality": "city", 
+    "location": "Avila"
+  }, 
+  "Pisa": {
+    "status": "OK", 
+    "city": "Pisa", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42527", 
+    "provider": "osm", 
+    "county": "PI", 
+    "osm_type": "relation", 
+    "state": "TOS", 
+    "bbox": {
+      "northeast": [
+        43.7509347, 
+        10.4562831
+      ], 
+      "southwest": [
+        43.5810052, 
+        10.2684553
+      ]
+    }, 
+    "address": "Pisa, PI, TOS, Italia", 
+    "lat": "43.7159395", 
+    "lng": "10.4018624", 
+    "quality": "city", 
+    "location": "Pisa"
+  }, 
+  "Fermo": {
+    "status": "OK", 
+    "city": "Fermo", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42331", 
+    "provider": "osm", 
+    "county": "FM", 
+    "osm_type": "relation", 
+    "state": "MAR", 
+    "bbox": {
+      "northeast": [
+        43.2344024, 
+        13.8292817
+      ], 
+      "southwest": [
+        43.105839, 
+        13.4892049
+      ]
+    }, 
+    "address": "Fermo, FM, MAR, Italia", 
+    "lat": "43.1604184", 
+    "lng": "13.7161408", 
+    "quality": "administrative", 
+    "location": "Fermo"
+  }, 
+  "Rome": {
+    "status": "OK", 
+    "city": "Lom\u00e9", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Togo", 
+    "osm_id": "6607308", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "state": "Lom\u00e9", 
+    "bbox": {
+      "northeast": [
+        6.2041066, 
+        1.3057378
+      ], 
+      "southwest": [
+        6.1124301, 
+        1.1754424
+      ]
+    }, 
+    "address": "Lom\u00e9, Togo", 
+    "lat": "6.1585759", 
+    "lng": "1.2516145045797", 
+    "quality": "city", 
+    "location": "Rome"
+  }, 
+  "Basle": {
+    "status": "OK", 
+    "city": "Avranches", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "3632222272", 
+    "provider": "osm", 
+    "county": "Avranches", 
+    "osm_type": "node", 
+    "state": "Normandie", 
+    "bbox": {
+      "northeast": [
+        48.8495007, 
+        -1.5161731
+      ], 
+      "southwest": [
+        48.8095007, 
+        -1.5561731
+      ]
+    }, 
+    "address": "La Basle, Avranches, Manche, Normandie, France", 
+    "lat": "48.8295007", 
+    "lng": "-1.5361731", 
+    "quality": "hamlet", 
+    "location": "Basle"
+  }, 
+  "Eperjes": {
+    "status": "OK", 
+    "city": "Pre\u0161ov", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Slovensko", 
+    "osm_id": "26037569", 
+    "provider": "osm", 
+    "osm_type": "node", 
+    "state": "Pre\u0161ovsk\u00fd kraj", 
+    "bbox": {
+      "northeast": [
+        49.157631, 
+        21.4001873
+      ], 
+      "southwest": [
+        48.837631, 
+        21.0801873
+      ]
+    }, 
+    "address": "Pre\u0161ov, Pre\u0161ovsk\u00fd kraj, V\u00fdchodn\u00e9 Slovensko, Slovensko", 
+    "lat": "48.997631", 
+    "lng": "21.2401873", 
+    "quality": "city", 
+    "location": "Eperjes"
+  }, 
+  "Lucca": {
+    "status": "OK", 
+    "city": "Lucca", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42659", 
+    "provider": "osm", 
+    "county": "LU", 
+    "osm_type": "relation", 
+    "state": "TOS", 
+    "bbox": {
+      "northeast": [
+        43.9592326, 
+        10.5737641
+      ], 
+      "southwest": [
+        43.7582935, 
+        10.3627442
+      ]
+    }, 
+    "address": "Lucca, LU, TOS, Italia", 
+    "lat": "43.8428381", 
+    "lng": "10.502876", 
+    "quality": "city", 
+    "location": "Lucca"
+  }, 
+  "Marburg": {
+    "status": "OK", 
+    "city": "Marburg", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "225494", 
+    "provider": "osm", 
+    "county": "Landkreis Marburg-Biedenkopf", 
+    "osm_type": "relation", 
+    "state": "Hessen", 
+    "bbox": {
+      "northeast": [
+        50.8598656, 
+        8.855956
+      ], 
+      "southwest": [
+        50.7371111, 
+        8.6274159
+      ]
+    }, 
+    "address": "Marburg, Landkreis Marburg-Biedenkopf, Regierungsbezirk Gie\u00dfen, Hessen, Deutschland", 
+    "lat": "50.8117327", 
+    "lng": "8.7757742", 
+    "quality": "administrative", 
+    "location": "Marburg"
+  }, 
+  "N\u00eemes": {
+    "status": "OK", 
+    "city": "N\u00eemes", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "378685", 
+    "provider": "osm", 
+    "county": "Nimes", 
+    "osm_type": "relation", 
+    "state": "Occitanie", 
+    "bbox": {
+      "northeast": [
+        43.9230177, 
+        4.4496605
+      ], 
+      "southwest": [
+        43.7412659, 
+        4.2356708
+      ]
+    }, 
+    "address": "N\u00eemes, Nimes, Gard, Occitanie, 30000;30900, France", 
+    "lat": "43.8374249", 
+    "lng": "4.3600687", 
+    "postal": "30000;30900", 
+    "quality": "city", 
+    "location": "N\u00eemes"
+  }, 
+  "Salamanque": {
+    "status": "OK", 
+    "city": "Salamanca", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "344342", 
+    "provider": "osm", 
+    "county": "Campo de Salamanca", 
+    "osm_type": "relation", 
+    "state": "Castilla y Le\u00f3n", 
+    "bbox": {
+      "northeast": [
+        40.9931932, 
+        -5.6226214
+      ], 
+      "southwest": [
+        40.9146276, 
+        -5.7358019
+      ]
+    }, 
+    "address": "Salamanca, Campo de Salamanca, Salamanca, Castilla y Le\u00f3n, Espa\u00f1a", 
+    "lat": "40.9651572", 
+    "lng": "-5.6640181", 
+    "quality": "city", 
+    "location": "Salamanque"
+  }, 
+  "Besan\u00e7on": {
+    "status": "OK", 
+    "city": "Besan\u00e7on", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "103599", 
+    "provider": "osm", 
+    "county": "Besan\u00e7on", 
+    "osm_type": "relation", 
+    "state": "Bourgogne-Franche-Comt\u00e9", 
+    "bbox": {
+      "northeast": [
+        47.3200746, 
+        6.0834844
+      ], 
+      "southwest": [
+        47.2006872, 
+        5.9409699
+      ]
+    }, 
+    "address": "Besan\u00e7on, Doubs, Bourgogne-Franche-Comt\u00e9, 25000, France", 
+    "lat": "47.237953", 
+    "lng": "6.0243246", 
+    "postal": "25000", 
+    "quality": "city", 
+    "location": "Besan\u00e7on"
+  }, 
+  "Frankfurt-on-Oder": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Frankfurt-on-Oder", 
+    "encoding": "utf-8"
+  }, 
+  "Groninguen": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Groninguen", 
+    "encoding": "utf-8"
+  }, 
+  "Duisburg": {
+    "status": "OK", 
+    "city": "Duisburg", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "240055326", 
+    "provider": "osm", 
+    "county": "Duisburg", 
+    "osm_type": "node", 
+    "state": "Nordrhein-Westfalen", 
+    "bbox": {
+      "northeast": [
+        51.5949994, 
+        6.9195621
+      ], 
+      "southwest": [
+        51.2749994, 
+        6.5995621
+      ]
+    }, 
+    "address": "Duisburg, Regierungsbezirk D\u00fcsseldorf, Nordrhein-Westfalen, Deutschland", 
+    "lat": "51.4349994", 
+    "lng": "6.7595621", 
+    "quality": "city", 
+    "location": "Duisburg"
+  }, 
+  "Zamosc": {
+    "status": "OK", 
+    "city": "Zamo\u015b\u0107", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Polska", 
+    "osm_id": "2904796", 
+    "provider": "osm", 
+    "county": "Zamo\u015b\u0107", 
+    "osm_type": "relation", 
+    "state": "lubelskie", 
+    "bbox": {
+      "northeast": [
+        50.7503786, 
+        23.3067944
+      ], 
+      "southwest": [
+        50.6924154, 
+        23.1902384
+      ]
+    }, 
+    "address": "Zamo\u015b\u0107, lubelskie, Polska", 
+    "lat": "50.721273", 
+    "lng": "23.2595887038379", 
+    "quality": "administrative", 
+    "location": "Zamosc"
+  }, 
+  "Huesca ": {
+    "status": "OK", 
+    "city": "Huesca", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "345769", 
+    "provider": "osm", 
+    "county": "Hoya de Huesca / Plana de Uesca", 
+    "osm_type": "relation", 
+    "state": "Arag\u00f3n", 
+    "bbox": {
+      "northeast": [
+        42.2450524, 
+        -0.3367489
+      ], 
+      "southwest": [
+        42.027962, 
+        -0.5179072
+      ]
+    }, 
+    "address": "Huesca, Hoya de Huesca / Plana de Uesca, Huesca, Arag\u00f3n, Espa\u00f1a", 
+    "lat": "42.1382539", 
+    "lng": "-0.40809", 
+    "quality": "city", 
+    "location": "Huesca "
+  }, 
+  "Baeza": {
+    "status": "OK", 
+    "city": "Baeza", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "1359447", 
+    "provider": "osm", 
+    "county": "Ja\u00e9n", 
+    "town": "Baeza", 
+    "osm_type": "relation", 
+    "state": "Andaluc\u00eda", 
+    "bbox": {
+      "northeast": [
+        38.0058601, 
+        -3.4411996
+      ], 
+      "southwest": [
+        37.9852669, 
+        -3.4861649
+      ]
+    }, 
+    "address": "Baeza, Ja\u00e9n, Andaluc\u00eda, Espa\u00f1a", 
+    "lat": "37.9945171", 
+    "lng": "-3.4708162", 
+    "quality": "town", 
+    "location": "Baeza"
+  }, 
+  "Kassel": {
+    "status": "OK", 
+    "city": "Kassel", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "62598", 
+    "provider": "osm", 
+    "county": "Kassel", 
+    "osm_type": "relation", 
+    "state": "Hessen", 
+    "bbox": {
+      "northeast": [
+        51.3690107, 
+        9.5697643
+      ], 
+      "southwest": [
+        51.2604367, 
+        9.3500845
+      ]
+    }, 
+    "address": "Kassel, Regierungsbezirk Kassel, Hessen, Deutschland, Europe", 
+    "lat": "51.3090209", 
+    "lng": "9.4762981", 
+    "quality": "city", 
+    "location": "Kassel"
+  }, 
+  "Urbino": {
+    "status": "OK", 
+    "city": "Urbino", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42568", 
+    "provider": "osm", 
+    "county": "PU", 
+    "osm_type": "relation", 
+    "state": "MAR", 
+    "bbox": {
+      "northeast": [
+        43.8402148, 
+        12.7737965
+      ], 
+      "southwest": [
+        43.6612984, 
+        12.4350055
+      ]
+    }, 
+    "address": "Urbino, PU, MAR, Italia", 
+    "lat": "43.7262608", 
+    "lng": "12.6363135", 
+    "quality": "administrative", 
+    "location": "Urbino"
+  }, 
+  "G\u00f6ttingen": {
+    "status": "OK", 
+    "city": "G\u00f6ttingen", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "191361", 
+    "provider": "osm", 
+    "county": "Landkreis G\u00f6ttingen", 
+    "osm_type": "relation", 
+    "state": "Niedersachsen", 
+    "bbox": {
+      "northeast": [
+        51.5909972, 
+        10.0539056
+      ], 
+      "southwest": [
+        51.4830119, 
+        9.8002642
+      ]
+    }, 
+    "address": "G\u00f6ttingen, Landkreis G\u00f6ttingen, Niedersachsen, Deutschland, Europe", 
+    "lat": "51.5327604", 
+    "lng": "9.9352051", 
+    "quality": "city", 
+    "location": "G\u00f6ttingen"
+  }, 
+  "Trier": {
+    "status": "OK", 
+    "city": "Trier", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "31941291", 
+    "provider": "osm", 
+    "county": "Trier", 
+    "osm_type": "node", 
+    "state": "Rheinland-Pfalz", 
+    "bbox": {
+      "northeast": [
+        49.9196208, 
+        6.8041878
+      ], 
+      "southwest": [
+        49.5996208, 
+        6.4841878
+      ]
+    }, 
+    "address": "Trier, Rheinland-Pfalz, 54290, Deutschland", 
+    "lat": "49.7596208", 
+    "lng": "6.6441878", 
+    "postal": "54290", 
+    "quality": "city", 
+    "location": "Trier"
+  }, 
+  "Strasbourg": {
+    "status": "OK", 
+    "city": "Strasbourg", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "71033", 
+    "provider": "osm", 
+    "county": "Strasbourg", 
+    "osm_type": "relation", 
+    "state": "Grand-Est", 
+    "bbox": {
+      "northeast": [
+        48.6461896, 
+        7.8360646
+      ], 
+      "southwest": [
+        48.491861, 
+        7.6881371
+      ]
+    }, 
+    "address": "Strasbourg, Bas-Rhin, Grand-Est, 67000;67100;67200, France", 
+    "lat": "48.584614", 
+    "lng": "7.7507127", 
+    "postal": "67000;67100;67200", 
+    "quality": "city", 
+    "location": "Strasbourg"
+  }, 
+  "Uppsala": {
+    "status": "OK", 
+    "city": "Uppsala", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Sverige", 
+    "osm_id": "25735371", 
+    "provider": "osm", 
+    "county": "Uppsala", 
+    "osm_type": "node", 
+    "state": "Uppsala l\u00e4n", 
+    "bbox": {
+      "northeast": [
+        60.0194126, 
+        17.80112
+      ], 
+      "southwest": [
+        59.6994126, 
+        17.48112
+      ]
+    }, 
+    "address": "Uppsala, Landskapet Uppland, Uppsala l\u00e4n, Svealand, Sverige", 
+    "lat": "59.8594126", 
+    "lng": "17.64112", 
+    "quality": "city", 
+    "location": "Uppsala"
+  }, 
+  "Bourges": {
+    "status": "OK", 
+    "city": "Bourges", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "50312", 
+    "provider": "osm", 
+    "county": "Bourges", 
+    "osm_type": "relation", 
+    "state": "Centre-Val de Loire", 
+    "bbox": {
+      "northeast": [
+        47.1300959, 
+        2.4719573
+      ], 
+      "southwest": [
+        47.0259507, 
+        2.3239701
+      ]
+    }, 
+    "address": "Bourges, Cher, Centre-Val de Loire, 18000, France", 
+    "lat": "47.0805693", 
+    "lng": "2.398932", 
+    "postal": "18000", 
+    "quality": "administrative", 
+    "location": "Bourges"
+  }, 
+  "Avignon": {
+    "status": "OK", 
+    "city": "Avignon", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "102478", 
+    "provider": "osm", 
+    "county": "Avignon", 
+    "osm_type": "relation", 
+    "state": "Provence-Alpes-C\u00f4te d'Azur", 
+    "bbox": {
+      "northeast": [
+        43.9967419, 
+        4.9271468
+      ], 
+      "southwest": [
+        43.8866492, 
+        4.7396309
+      ]
+    }, 
+    "address": "Avignon, Vaucluse, Provence-Alpes-C\u00f4te d'Azur, 84000, France", 
+    "lat": "43.9493143", 
+    "lng": "4.8060329", 
+    "postal": "84000", 
+    "quality": "city", 
+    "location": "Avignon"
+  }, 
+  "S\u00e9ville": {
+    "status": "OK", 
+    "city": "Sevilla", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "342563", 
+    "provider": "osm", 
+    "county": "Sevilla", 
+    "osm_type": "relation", 
+    "state": "Andaluc\u00eda", 
+    "bbox": {
+      "northeast": [
+        37.4529579, 
+        -5.819157
+      ], 
+      "southwest": [
+        37.3002036, 
+        -6.0329182
+      ]
+    }, 
+    "address": "Sevilla, Andaluc\u00eda, Espa\u00f1a", 
+    "lat": "37.3886303", 
+    "lng": "-5.995317", 
+    "quality": "city", 
+    "location": "S\u00e9ville"
+  }, 
+  "Siena": {
+    "status": "OK", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u4e2d\u56fd", 
+    "osm_id": "270056", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "bbox": {
+      "northeast": [
+        53.5608154, 
+        134.7754563
+      ], 
+      "southwest": [
+        8.8798516, 
+        73.4997347
+      ]
+    }, 
+    "address": "\u4e2d\u56fd", 
+    "lat": "35.000074", 
+    "lng": "104.999927", 
+    "quality": "administrative", 
+    "location": "Siena"
+  }, 
+  "Orange": {
+    "status": "OK", 
+    "city": "Orange County", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "United States of America", 
+    "osm_id": "396466", 
+    "provider": "osm", 
+    "county": "Orange County", 
+    "osm_type": "relation", 
+    "state": "California", 
+    "bbox": {
+      "northeast": [
+        33.9476346, 
+        -117.4128742
+      ], 
+      "southwest": [
+        33.333992, 
+        -118.1259059
+      ]
+    }, 
+    "address": "Orange County, California, United States of America", 
+    "lat": "33.7500378", 
+    "lng": "-117.870493", 
+    "quality": "administrative", 
+    "location": "Orange"
+  }, 
+  "Vienna": {
+    "status": "OK", 
+    "city": "Wien", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u00d6sterreich", 
+    "osm_id": "17328659", 
+    "provider": "osm", 
+    "osm_type": "node", 
+    "state": "Wien", 
+    "bbox": {
+      "northeast": [
+        48.3683537, 
+        16.5325042
+      ], 
+      "southwest": [
+        48.0483537, 
+        16.2125042
+      ]
+    }, 
+    "address": "Wien, \u00d6sterreich", 
+    "lat": "48.2083537", 
+    "lng": "16.3725042", 
+    "quality": "city", 
+    "location": "Vienna"
+  }, 
+  "Reims": {
+    "status": "OK", 
+    "city": "Reims", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "36458", 
+    "provider": "osm", 
+    "county": "Reims", 
+    "osm_type": "relation", 
+    "state": "Grand-Est", 
+    "bbox": {
+      "northeast": [
+        49.303192, 
+        4.1296955
+      ], 
+      "southwest": [
+        49.2039352, 
+        3.9857976
+      ]
+    }, 
+    "address": "Reims, Marne, Grand-Est, 51100, France", 
+    "lat": "49.2577886", 
+    "lng": "4.031926", 
+    "postal": "51100", 
+    "quality": "city", 
+    "location": "Reims"
+  }, 
+  "Rostock": {
+    "status": "OK", 
+    "city": "Rostock", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "1684321651", 
+    "provider": "osm", 
+    "county": "Rostock", 
+    "osm_type": "node", 
+    "state": "Mecklenburg-Vorpommern", 
+    "bbox": {
+      "northeast": [
+        54.2524445, 
+        12.2886127
+      ], 
+      "southwest": [
+        53.9324445, 
+        11.9686127
+      ]
+    }, 
+    "address": "Rostock, Mecklenburg-Vorpommern, Deutschland", 
+    "lat": "54.0924445", 
+    "lng": "12.1286127", 
+    "quality": "city", 
+    "location": "Rostock"
+  }, 
+  "Linz": {
+    "status": "OK", 
+    "city": "Linz", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u00d6sterreich", 
+    "osm_id": "25181326", 
+    "provider": "osm", 
+    "county": "Linz (Stadt)", 
+    "osm_type": "node", 
+    "state": "Ober\u00f6sterreich", 
+    "bbox": {
+      "northeast": [
+        48.4659078, 
+        14.446198
+      ], 
+      "southwest": [
+        48.1459078, 
+        14.126198
+      ]
+    }, 
+    "address": "Linz, Linz (Stadt), Ober\u00f6sterreich, \u00d6sterreich", 
+    "lat": "48.3059078", 
+    "lng": "14.286198", 
+    "quality": "city", 
+    "location": "Linz"
+  }, 
+  "Leiden": {
+    "status": "OK", 
+    "city": "Leiden", 
+    "confidence": 5, 
+    "neighborhood": "Leiden", 
+    "encoding": "utf-8", 
+    "country": "Nederland", 
+    "osm_id": "295092", 
+    "provider": "osm", 
+    "suburb": "Leiden", 
+    "osm_type": "relation", 
+    "state": "Zuid-Holland", 
+    "bbox": {
+      "northeast": [
+        52.1846262, 
+        4.5240377
+      ], 
+      "southwest": [
+        52.1189516, 
+        4.4388652
+      ]
+    }, 
+    "address": "Leiden, Zuid-Holland, Nederland", 
+    "lat": "52.1518157", 
+    "ok": true, 
+    "lng": "4.48110886662043", 
+    "quality": "administrative", 
+    "location": "Leiden"
+  }, 
+  "Almagro": {
+    "status": "OK", 
+    "city": "Almagro", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Philippines", 
+    "osm_id": "3756440", 
+    "provider": "osm", 
+    "county": "Almagro", 
+    "osm_type": "relation", 
+    "state": "Samar", 
+    "bbox": {
+      "northeast": [
+        12.0608324, 
+        124.3933589
+      ], 
+      "southwest": [
+        11.8383786, 
+        124.1750478
+      ]
+    }, 
+    "address": "Almagro, Samar, Eastern Visayas, Philippines", 
+    "lat": "11.95796905", 
+    "lng": "124.295583842573", 
+    "quality": "administrative", 
+    "location": "Almagro"
+  }, 
+  "Lleida": {
+    "status": "OK", 
+    "city": "Lleida", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "346345", 
+    "provider": "osm", 
+    "county": "Segri\u00e0", 
+    "osm_type": "relation", 
+    "state": "CAT", 
+    "bbox": {
+      "northeast": [
+        41.7403116, 
+        0.741977
+      ], 
+      "southwest": [
+        41.5103479, 
+        0.3638585
+      ]
+    }, 
+    "address": "Lleida, Segri\u00e0, Lleida, CAT, Espa\u00f1a", 
+    "lat": "41.6147605", 
+    "lng": "0.6267842", 
+    "quality": "city", 
+    "location": "Lleida"
+  }, 
+  "Altdorf bei Nuremberg": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Altdorf bei Nuremberg", 
+    "encoding": "utf-8"
+  }, 
+  "Lwow": {
+    "status": "OK", 
+    "city": "\u041b\u044c\u0432\u0456\u0432", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u0423\u043a\u0440\u0430\u0457\u043d\u0430", 
+    "osm_id": "2032280", 
+    "provider": "osm", 
+    "county": "\u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043c\u0456\u0441\u044c\u043a\u0430 \u0440\u0430\u0434\u0430", 
+    "osm_type": "relation", 
+    "state": "\u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c", 
+    "bbox": {
+      "northeast": [
+        49.9037122, 
+        24.1334136
+      ], 
+      "southwest": [
+        49.7678305, 
+        23.9051028
+      ]
+    }, 
+    "address": "\u041b\u044c\u0432\u0456\u0432, \u0413\u0430\u043b\u0438\u0446\u044c\u043a\u0438\u0439 \u0440\u0430\u0439\u043e\u043d, \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043c\u0456\u0441\u044c\u043a\u0430 \u0440\u0430\u0434\u0430, \u041b\u044c\u0432\u0456\u0432\u0441\u044c\u043a\u0430 \u043e\u0431\u043b\u0430\u0441\u0442\u044c, \u0423\u043a\u0440\u0430\u0457\u043d\u0430", 
+    "lat": "49.841952", 
+    "lng": "24.0315921", 
+    "quality": "city", 
+    "location": "Lwow"
+  }, 
+  "Cracow": {
+    "status": "OK", 
+    "city": "Huron County", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "United States of America", 
+    "osm_id": "4074468455", 
+    "provider": "osm", 
+    "county": "Huron County", 
+    "osm_type": "node", 
+    "state": "Michigan", 
+    "bbox": {
+      "northeast": [
+        43.7624498, 
+        -82.7999096
+      ], 
+      "southwest": [
+        43.7224498, 
+        -82.8399096
+      ]
+    }, 
+    "address": "Cracow, Huron County, Michigan, United States of America", 
+    "lat": "43.7424498", 
+    "lng": "-82.8199096", 
+    "quality": "hamlet", 
+    "location": "Cracow"
+  }, 
+  "Dorpat": {
+    "status": "OK", 
+    "city": "Tartu", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Eesti", 
+    "osm_id": "2153396", 
+    "provider": "osm", 
+    "county": "Tartu maakond", 
+    "osm_type": "relation", 
+    "bbox": {
+      "northeast": [
+        58.4109396, 
+        26.7980421
+      ], 
+      "southwest": [
+        58.3390198, 
+        26.6670755
+      ]
+    }, 
+    "address": "Tartu, Tartu maakond, Eesti", 
+    "lat": "58.3727059", 
+    "lng": "26.7237528", 
+    "quality": "city", 
+    "location": "Dorpat"
+  }, 
+  "Sedan": {
+    "status": "OK", 
+    "city": "Sedan", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "153920", 
+    "provider": "osm", 
+    "county": "Sedan", 
+    "osm_type": "relation", 
+    "state": "Grand-Est", 
+    "bbox": {
+      "northeast": [
+        49.7262938, 
+        4.9764494
+      ], 
+      "southwest": [
+        49.6723166, 
+        4.8771797
+      ]
+    }, 
+    "address": "Sedan, Ardennes, Grand-Est, 08200, France", 
+    "lat": "49.7033759", 
+    "lng": "4.9433409", 
+    "postal": "08200", 
+    "quality": "administrative", 
+    "location": "Sedan"
+  }, 
+  "Verceil": {
+    "status": "OK", 
+    "city": "Vercelli", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "1552703", 
+    "provider": "osm", 
+    "county": "VC", 
+    "osm_type": "relation", 
+    "state": "PIE", 
+    "bbox": {
+      "northeast": [
+        45.3723426, 
+        8.5136793
+      ], 
+      "southwest": [
+        45.2777348, 
+        8.3161725
+      ]
+    }, 
+    "address": "Vercelli, VC, PIE, Italia", 
+    "lat": "45.3251557", 
+    "lng": "8.4227666", 
+    "quality": "city", 
+    "location": "Verceil"
+  }, 
+  "Grenoble": {
+    "status": "OK", 
+    "city": "Grenoble", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "80348", 
+    "provider": "osm", 
+    "county": "Grenoble", 
+    "osm_type": "relation", 
+    "state": "Auvergne-Rh\u00f4ne-Alpes", 
+    "bbox": {
+      "northeast": [
+        45.2140762, 
+        5.7531176
+      ], 
+      "southwest": [
+        45.1541442, 
+        5.6776059
+      ]
+    }, 
+    "address": "Grenoble, Is\u00e8re, Auvergne-Rh\u00f4ne-Alpes, 38000;38100, France", 
+    "lat": "45.182478", 
+    "lng": "5.7210773", 
+    "postal": "38000;38100", 
+    "quality": "city", 
+    "location": "Grenoble"
+  }, 
+  "Edimbourg": {
+    "status": "OK", 
+    "city": "City of Edinburgh", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "UK", 
+    "osm_id": "1920901", 
+    "provider": "osm", 
+    "county": "City of Edinburgh", 
+    "osm_type": "relation", 
+    "state": "Scotland", 
+    "bbox": {
+      "northeast": [
+        56.0040837, 
+        -3.0749511
+      ], 
+      "southwest": [
+        55.8187919, 
+        -3.4495325
+      ]
+    }, 
+    "address": "City of Edinburgh, Scotland, UK", 
+    "lat": "55.9495628", 
+    "lng": "-3.1914971", 
+    "quality": "city", 
+    "location": "Edimbourg"
+  }, 
+  "Angers": {
+    "status": "OK", 
+    "city": "Angers", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "178351", 
+    "provider": "osm", 
+    "county": "Angers", 
+    "osm_type": "relation", 
+    "state": "Pays-de-la-Loire", 
+    "bbox": {
+      "northeast": [
+        47.5262993, 
+        -0.5085459
+      ], 
+      "southwest": [
+        47.4373546, 
+        -0.617693
+      ]
+    }, 
+    "address": "Angers, Maine-et-Loire, Pays-de-la-Loire, 49000;49100, France", 
+    "lat": "47.4739884", 
+    "lng": "-0.5515587", 
+    "postal": "49000;49100", 
+    "quality": "city", 
+    "location": "Angers"
+  }, 
+  "Burgo de Osma": {
+    "status": "OK", 
+    "city": "Tierras del Burgo", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "1433079688", 
+    "provider": "osm", 
+    "county": "Tierras del Burgo", 
+    "osm_type": "node", 
+    "state": "Castilla y Le\u00f3n", 
+    "bbox": {
+      "northeast": [
+        41.6071008, 
+        -3.0473033
+      ], 
+      "southwest": [
+        41.5671008, 
+        -3.0873033
+      ]
+    }, 
+    "address": "El Burgo de Osma, Tierras del Burgo, Soria, Castilla y Le\u00f3n, Espa\u00f1a", 
+    "lat": "41.5871008", 
+    "lng": "-3.0673033", 
+    "quality": "village", 
+    "location": "Burgo de Osma"
+  }, 
+  "Paderborn": {
+    "status": "OK", 
+    "city": "Paderborn", 
+    "confidence": 4, 
+    "neighborhood": "Paderborn", 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "5610766", 
+    "provider": "osm", 
+    "county": "Kreis Paderborn", 
+    "suburb": "Paderborn", 
+    "osm_type": "relation", 
+    "state": "Nordrhein-Westfalen", 
+    "bbox": {
+      "northeast": [
+        51.7587989, 
+        8.8354886
+      ], 
+      "southwest": [
+        51.6793659, 
+        8.7104923
+      ]
+    }, 
+    "address": "Paderborn, Kreis Paderborn, Regierungsbezirk Detmold, Nordrhein-Westfalen, Deutschland", 
+    "lat": "51.71895955", 
+    "ok": true, 
+    "lng": "8.76486977817756", 
+    "quality": "administrative", 
+    "location": "Paderborn"
+  }, 
+  "Zaragoza": {
+    "status": "OK", 
+    "city": "Zaragoza", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "345740", 
+    "provider": "osm", 
+    "county": "Zaragoza", 
+    "osm_type": "relation", 
+    "state": "Arag\u00f3n", 
+    "bbox": {
+      "northeast": [
+        41.9314873, 
+        -0.6803894
+      ], 
+      "southwest": [
+        41.4516625, 
+        -1.1737288
+      ]
+    }, 
+    "address": "Zaragoza, Arag\u00f3n, Espa\u00f1a", 
+    "lat": "41.6521342", 
+    "lng": "-0.8809427", 
+    "quality": "city", 
+    "location": "Zaragoza"
+  }, 
+  "Salzburg": {
+    "status": "OK", 
+    "city": "Salzburg", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u00d6sterreich", 
+    "osm_id": "2135966", 
+    "provider": "osm", 
+    "county": "Salzburg", 
+    "osm_type": "relation", 
+    "state": "Salzburg", 
+    "bbox": {
+      "northeast": [
+        47.8543955, 
+        13.1272799
+      ], 
+      "southwest": [
+        47.7512144, 
+        12.9856256
+      ]
+    }, 
+    "address": "Salzburg, 5020, \u00d6sterreich", 
+    "lat": "47.7981346", 
+    "lng": "13.0464806", 
+    "postal": "5020", 
+    "quality": "city", 
+    "location": "Salzburg"
+  }, 
+  "Est\u00a0: Estimation": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Est\u00a0: Estimation", 
+    "encoding": "utf-8"
+  }, 
+  "Camerino": {
+    "status": "OK", 
+    "city": "Camerino", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42321", 
+    "provider": "osm", 
+    "county": "MC", 
+    "osm_type": "relation", 
+    "state": "MAR", 
+    "bbox": {
+      "northeast": [
+        43.1967403, 
+        13.1679922
+      ], 
+      "southwest": [
+        43.0762421, 
+        12.9801112
+      ]
+    }, 
+    "address": "Camerino, MC, MAR, Italia", 
+    "lat": "43.1357641", 
+    "lng": "13.0683092", 
+    "quality": "administrative", 
+    "location": "Camerino"
+  }, 
+  "Pau": {
+    "status": "OK", 
+    "city": "Pau", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "162431", 
+    "provider": "osm", 
+    "county": "Pau", 
+    "osm_type": "relation", 
+    "state": "Nouvelle-Aquitaine", 
+    "bbox": {
+      "northeast": [
+        43.3580393, 
+        -0.2943048
+      ], 
+      "southwest": [
+        43.2857792, 
+        -0.3925512
+      ]
+    }, 
+    "address": "Pau, Pyr\u00e9n\u00e9es-Atlantiques, Nouvelle-Aquitaine, 64000, France", 
+    "lat": "43.2957547", 
+    "lng": "-0.3685667", 
+    "postal": "64000", 
+    "quality": "city", 
+    "location": "Pau"
+  }, 
+  "Stuttgart": {
+    "status": "OK", 
+    "city": "Stuttgart", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "1674026139", 
+    "provider": "osm", 
+    "county": "Stuttgart", 
+    "osm_type": "node", 
+    "state": "Baden-W\u00fcrttemberg", 
+    "bbox": {
+      "northeast": [
+        48.9384485, 
+        9.3400132
+      ], 
+      "southwest": [
+        48.6184485, 
+        9.0200132
+      ]
+    }, 
+    "address": "Stuttgart, Regierungsbezirk Stuttgart, Baden-W\u00fcrttemberg, Deutschland", 
+    "lat": "48.7784485", 
+    "lng": "9.1800132", 
+    "quality": "city", 
+    "location": "Stuttgart"
+  }, 
+  "Nimeguen": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "Nimeguen", 
+    "encoding": "utf-8"
+  }, 
+  "Lisbonne": {
+    "status": "OK", 
+    "city": "Lisboa", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Portugal", 
+    "osm_id": "265958490", 
+    "provider": "osm", 
+    "county": "Lisboa", 
+    "osm_type": "node", 
+    "state": "\u00c1rea Metropolitana de Lisboa", 
+    "bbox": {
+      "northeast": [
+        38.8677926, 
+        -8.976506
+      ], 
+      "southwest": [
+        38.5477926, 
+        -9.296506
+      ]
+    }, 
+    "address": "Lisboa, Grande Lisboa, \u00c1rea Metropolitana de Lisboa, Portugal", 
+    "lat": "38.7077926", 
+    "lng": "-9.136506", 
+    "quality": "city", 
+    "location": "Lisbonne"
+  }, 
+  "Ferrara": {
+    "status": "OK", 
+    "city": "Ferrara", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "43512", 
+    "provider": "osm", 
+    "county": "FE", 
+    "osm_type": "relation", 
+    "state": "EMR", 
+    "bbox": {
+      "northeast": [
+        44.937711, 
+        11.8770223
+      ], 
+      "southwest": [
+        44.6734331, 
+        11.4630611
+      ]
+    }, 
+    "address": "Ferrara, FE, EMR, Italia", 
+    "lat": "44.8371856", 
+    "lng": "11.6186451", 
+    "quality": "city", 
+    "location": "Ferrara"
+  }, 
+  "Oviedo": {
+    "status": "OK", 
+    "city": "Oviedo", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "346397", 
+    "provider": "osm", 
+    "county": "Asturias / Asturies", 
+    "osm_type": "relation", 
+    "state": "Asturias", 
+    "bbox": {
+      "northeast": [
+        43.4273246, 
+        -5.7423939
+      ], 
+      "southwest": [
+        43.2791499, 
+        -6.0169358
+      ]
+    }, 
+    "address": "Oviedo, Asturias / Asturies, Asturias, Espa\u00f1a", 
+    "lat": "43.3533424", 
+    "lng": "-5.87951423952683", 
+    "quality": "administrative", 
+    "location": "Oviedo"
+  }, 
+  "Mainz": {
+    "status": "OK", 
+    "city": "Mainz", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "240116263", 
+    "provider": "osm", 
+    "osm_type": "node", 
+    "state": "Rheinland-Pfalz", 
+    "bbox": {
+      "northeast": [
+        50.1599952, 
+        8.4310237
+      ], 
+      "southwest": [
+        49.8399952, 
+        8.1110237
+      ]
+    }, 
+    "address": "Mainz, Rheinland-Pfalz, Deutschland", 
+    "lat": "49.9999952", 
+    "lng": "8.2710237", 
+    "quality": "city", 
+    "location": "Mainz"
+  }, 
+  "Cambridge": {
+    "status": "OK", 
+    "city": "Cambridge", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "UK", 
+    "osm_id": "295355", 
+    "provider": "osm", 
+    "county": "Cambridgeshire", 
+    "osm_type": "relation", 
+    "state": "England", 
+    "bbox": {
+      "northeast": [
+        52.2372296, 
+        0.184552
+      ], 
+      "southwest": [
+        52.1579417, 
+        0.0686389
+      ]
+    }, 
+    "address": "Cambridge, Cambridgeshire, East of England, England, UK", 
+    "lat": "52.2033051", 
+    "lng": "0.124862", 
+    "quality": "city", 
+    "location": "Cambridge"
+  }, 
+  "J\u00a0: coll\u00e8ge j\u00e9suites": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "J\u00a0: coll\u00e8ge j\u00e9suites", 
+    "encoding": "utf-8"
+  }, 
+  "Orthez": {
+    "status": "OK", 
+    "city": "Orthez", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "167704", 
+    "provider": "osm", 
+    "county": "Pau", 
+    "osm_type": "relation", 
+    "state": "Nouvelle-Aquitaine", 
+    "bbox": {
+      "northeast": [
+        43.5330327, 
+        -0.7160796
+      ], 
+      "southwest": [
+        43.4559904, 
+        -0.8393207
+      ]
+    }, 
+    "address": "Orthez, Pau, Pyr\u00e9n\u00e9es-Atlantiques, Nouvelle-Aquitaine, 64300, France", 
+    "lat": "43.4874963", 
+    "lng": "-0.7738362", 
+    "postal": "64300", 
+    "quality": "administrative", 
+    "location": "Orthez"
+  }, 
+  "Vilnius": {
+    "status": "OK", 
+    "city": "Vilnius", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Lietuva", 
+    "osm_id": "1529146", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "state": "Vilniaus apskritis", 
+    "bbox": {
+      "northeast": [
+        54.83232, 
+        25.4815808
+      ], 
+      "southwest": [
+        54.5693374, 
+        25.0245351
+      ]
+    }, 
+    "address": "Vilnius, Vilniaus miesto savivaldyb\u0117, Vilniaus apskritis, Lietuva", 
+    "lat": "54.6870458", 
+    "lng": "25.2829111", 
+    "quality": "city", 
+    "location": "Vilnius"
+  }, 
+  "Utrecht": {
+    "status": "OK", 
+    "city": "Utrecht", 
+    "confidence": 3, 
+    "neighborhood": "Utrecht", 
+    "encoding": "utf-8", 
+    "country": "Nederland", 
+    "osm_id": "1433619", 
+    "provider": "osm", 
+    "county": "Bestuur Regio Utrecht", 
+    "suburb": "Utrecht", 
+    "osm_type": "relation", 
+    "state": "Utrecht", 
+    "bbox": {
+      "northeast": [
+        52.1356715, 
+        5.195155
+      ], 
+      "southwest": [
+        52.026282, 
+        5.0041608
+      ]
+    }, 
+    "address": "Utrecht, Bestuur Regio Utrecht, Utrecht, Nederland", 
+    "lat": "52.08095165", 
+    "ok": true, 
+    "lng": "5.12768031549829", 
+    "quality": "administrative", 
+    "location": "Utrecht"
+  }, 
+  "Corte": {
+    "status": "OK", 
+    "city": "Corte", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "1772249", 
+    "provider": "osm", 
+    "county": "Corte", 
+    "osm_type": "relation", 
+    "state": "Corse", 
+    "bbox": {
+      "northeast": [
+        42.344665, 
+        9.211775
+      ], 
+      "southwest": [
+        42.203174, 
+        8.926502
+      ]
+    }, 
+    "address": "Corte, Haute-Corse, Corse, 20250, France", 
+    "lat": "42.3060908", 
+    "lng": "9.1504022", 
+    "postal": "20250", 
+    "quality": "administrative", 
+    "location": "Corte"
+  }, 
+  "Moskva": {
+    "status": "OK", 
+    "city": "\u041c\u043e\u0441\u043a\u0432\u0430", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u0420\u0424", 
+    "osm_id": "2555133", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "state": "\u041c\u043e\u0441\u043a\u0432\u0430", 
+    "bbox": {
+      "northeast": [
+        55.9574097, 
+        37.9674277
+      ], 
+      "southwest": [
+        55.4913076, 
+        37.290502
+      ]
+    }, 
+    "address": "\u041c\u043e\u0441\u043a\u0432\u0430, \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0442\u0438\u0432\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, \u041c\u043e\u0441\u043a\u0432\u0430, \u0426\u0424\u041e, \u0420\u0424", 
+    "lat": "55.7506828", 
+    "lng": "37.6174976", 
+    "quality": "city", 
+    "location": "Moskva"
+  }, 
+  "Tol\u00e8de": {
+    "status": "OK", 
+    "city": "Toledo", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "342999", 
+    "provider": "osm", 
+    "county": "Toledo", 
+    "osm_type": "relation", 
+    "state": "Castilla-La Mancha", 
+    "bbox": {
+      "northeast": [
+        39.9254339, 
+        -3.8146904
+      ], 
+      "southwest": [
+        39.8120405, 
+        -4.1790591
+      ]
+    }, 
+    "address": "Toledo, Castilla-La Mancha, Espa\u00f1a", 
+    "lat": "39.8560679", 
+    "lng": "-4.0239567", 
+    "quality": "city", 
+    "location": "Tol\u00e8de"
+  }, 
+  "M\u00a0: matricules": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "M\u00a0: matricules", 
+    "encoding": "utf-8"
+  }, 
+  "Sahag\u00f9n": {
+    "status": "OK", 
+    "city": "Sahag\u00fan", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "345049", 
+    "provider": "osm", 
+    "county": "Le\u00f3n", 
+    "osm_type": "relation", 
+    "state": "Castilla y Le\u00f3n", 
+    "bbox": {
+      "northeast": [
+        42.4470639, 
+        -4.9032402
+      ], 
+      "southwest": [
+        42.2575236, 
+        -5.1095872
+      ]
+    }, 
+    "address": "Sahag\u00fan, Le\u00f3n, Castilla y Le\u00f3n, Espa\u00f1a", 
+    "lat": "42.3719042", 
+    "lng": "-5.0313137", 
+    "quality": "administrative", 
+    "location": "Sahag\u00f9n"
+  }, 
+  "Nagyszombat": {
+    "status": "OK", 
+    "city": "Trnava", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Slovensko", 
+    "osm_id": "289862512", 
+    "provider": "osm", 
+    "town": "Trnava", 
+    "osm_type": "way", 
+    "state": "Trnavsk\u00fd kraj", 
+    "bbox": {
+      "northeast": [
+        48.3992468, 
+        17.621498
+      ], 
+      "southwest": [
+        48.3491473, 
+        17.5403857
+      ]
+    }, 
+    "address": "Trnava, Trnavsk\u00fd kraj, Z\u00e1padn\u00e9 Slovensko, Slovensko", 
+    "lat": "48.3767652", 
+    "lng": "17.5858175", 
+    "quality": "city", 
+    "location": "Nagyszombat"
+  }, 
+  "Greifswald": {
+    "status": "OK", 
+    "city": "Greifswald", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "62363", 
+    "provider": "osm", 
+    "county": "Landkreis Vorpommern-Greifswald", 
+    "osm_type": "relation", 
+    "state": "Mecklenburg-Vorpommern", 
+    "bbox": {
+      "northeast": [
+        54.1853731, 
+        13.5078273
+      ], 
+      "southwest": [
+        54.0541157, 
+        13.3194771
+      ]
+    }, 
+    "address": "Greifswald, Landkreis Vorpommern-Greifswald, Mecklenburg-Vorpommern, Deutschland", 
+    "lat": "54.095791", 
+    "lng": "13.3815238", 
+    "quality": "administrative", 
+    "location": "Greifswald"
+  }, 
+  "Altamura": {
+    "status": "OK", 
+    "city": "Altamura", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "40743", 
+    "provider": "osm", 
+    "county": "BA", 
+    "osm_type": "relation", 
+    "state": "PUG", 
+    "bbox": {
+      "northeast": [
+        40.979833, 
+        16.6989722
+      ], 
+      "southwest": [
+        40.7259607, 
+        16.3444376
+      ]
+    }, 
+    "address": "Altamura, BA, PUG, Italia", 
+    "lat": "40.8283631", 
+    "lng": "16.5523505", 
+    "quality": "administrative", 
+    "location": "Altamura"
+  }, 
+  "Osuna": {
+    "status": "OK", 
+    "city": "Osuna", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "345559", 
+    "provider": "osm", 
+    "county": "Sevilla", 
+    "osm_type": "relation", 
+    "state": "Andaluc\u00eda", 
+    "bbox": {
+      "northeast": [
+        37.3925298, 
+        -4.9658618
+      ], 
+      "southwest": [
+        37.0815606, 
+        -5.2752119
+      ]
+    }, 
+    "address": "Osuna, Sevilla, Andaluc\u00eda, Espa\u00f1a", 
+    "lat": "37.2376627", 
+    "lng": "-5.10584", 
+    "quality": "administrative", 
+    "location": "Osuna"
+  }, 
+  "Braunsberg": {
+    "status": "OK", 
+    "city": "Braniewo", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Polska", 
+    "osm_id": "2982639", 
+    "provider": "osm", 
+    "county": "Braniewo", 
+    "osm_type": "relation", 
+    "state": "warmi\u0144sko-mazurskie", 
+    "bbox": {
+      "northeast": [
+        54.4040387, 
+        19.8494139
+      ], 
+      "southwest": [
+        54.3548587, 
+        19.7914739
+      ]
+    }, 
+    "address": "Braniewo, powiat braniewski, warmi\u0144sko-mazurskie, Polska", 
+    "lat": "54.3812553", 
+    "lng": "19.8236008", 
+    "quality": "administrative", 
+    "location": "Braunsberg"
+  }, 
+  "Erfurt": {
+    "status": "OK", 
+    "city": "Erfurt", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "240038130", 
+    "provider": "osm", 
+    "county": "Erfurt", 
+    "osm_type": "node", 
+    "state": "Th\u00fcringen", 
+    "bbox": {
+      "northeast": [
+        51.1377974, 
+        11.1887364
+      ], 
+      "southwest": [
+        50.8177974, 
+        10.8687364
+      ]
+    }, 
+    "address": "Erfurt, Th\u00fcringen, Deutschland, Europe", 
+    "lat": "50.9777974", 
+    "lng": "11.0287364", 
+    "quality": "city", 
+    "location": "Erfurt"
+  }, 
+  "Salerno": {
+    "status": "OK", 
+    "city": "Salerno", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "40671", 
+    "provider": "osm", 
+    "county": "SA", 
+    "osm_type": "relation", 
+    "state": "CAM", 
+    "bbox": {
+      "northeast": [
+        40.7269886, 
+        14.8741785
+      ], 
+      "southwest": [
+        40.6257205, 
+        14.7339986
+      ]
+    }, 
+    "address": "Salerno, SA, CAM, Italia", 
+    "lat": "40.6801561", 
+    "lng": "14.7596754", 
+    "quality": "city", 
+    "location": "Salerno"
+  }, 
+  "Kassa": {
+    "status": "OK", 
+    "city": "Ko\u0161ice", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Slovensko", 
+    "osm_id": "530544488", 
+    "provider": "osm", 
+    "county": "Ko\u0161ice", 
+    "osm_type": "node", 
+    "state": "Ko\u0161ick\u00fd kraj", 
+    "bbox": {
+      "northeast": [
+        48.8772272, 
+        21.4096774
+      ], 
+      "southwest": [
+        48.5572272, 
+        21.0896774
+      ]
+    }, 
+    "address": "Ko\u0161ice, Ko\u0161ick\u00fd kraj, V\u00fdchodn\u00e9 Slovensko, Slovensko", 
+    "lat": "48.7172272", 
+    "lng": "21.2496774", 
+    "quality": "city", 
+    "location": "Kassa"
+  }, 
+  "Alcal\u00e0 de Henares": {
+    "status": "OK", 
+    "city": "Alcal\u00e1 de Henares", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "345879", 
+    "provider": "osm", 
+    "county": "\u00c1rea metropolitana de Madrid y Corredor del Henares", 
+    "osm_type": "relation", 
+    "state": "Comunidad de Madrid", 
+    "bbox": {
+      "northeast": [
+        40.5451001, 
+        -3.2837754
+      ], 
+      "southwest": [
+        40.4458937, 
+        -3.4473981
+      ]
+    }, 
+    "address": "Alcal\u00e1 de Henares, \u00c1rea metropolitana de Madrid y Corredor del Henares, Comunidad de Madrid, Espa\u00f1a", 
+    "lat": "40.4818396", 
+    "lng": "-3.3644972", 
+    "quality": "city", 
+    "location": "Alcal\u00e0 de Henares"
+  }, 
+  "Nice": {
+    "status": "OK", 
+    "city": "Nice", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "170100", 
+    "provider": "osm", 
+    "county": "Alpes-Maritimes", 
+    "osm_type": "relation", 
+    "state": "Provence-Alpes-C\u00f4te d'Azur", 
+    "bbox": {
+      "northeast": [
+        43.7607635, 
+        7.323912
+      ], 
+      "southwest": [
+        43.6454189, 
+        7.1819535
+      ]
+    }, 
+    "address": "Nice, Alpes-Maritimes, Provence-Alpes-C\u00f4te d'Azur, 06000;06100;06200;06300, France", 
+    "lat": "43.7009358", 
+    "lng": "7.2683912", 
+    "postal": "06000;06100;06200;06300", 
+    "quality": "city", 
+    "location": "Nice"
+  }, 
+  "T\u00fcbingen": {
+    "status": "OK", 
+    "city": "T\u00fcbingen", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "2778914", 
+    "provider": "osm", 
+    "county": "Landkreis T\u00fcbingen", 
+    "osm_type": "relation", 
+    "state": "Baden-W\u00fcrttemberg", 
+    "bbox": {
+      "northeast": [
+        48.5937129, 
+        9.1310745
+      ], 
+      "southwest": [
+        48.4505844, 
+        8.9645683
+      ]
+    }, 
+    "address": "T\u00fcbingen, Landkreis T\u00fcbingen, Regierungsbezirk T\u00fcbingen, Baden-W\u00fcrttemberg, Deutschland", 
+    "lat": "48.5236164", 
+    "lng": "9.0535531", 
+    "quality": "administrative", 
+    "location": "T\u00fcbingen"
+  }, 
+  "Kiel ": {
+    "status": "OK", 
+    "city": "Kiel", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "24487450", 
+    "provider": "osm", 
+    "county": "Kiel", 
+    "osm_type": "node", 
+    "state": "Schleswig-Holstein", 
+    "bbox": {
+      "northeast": [
+        54.4816753, 
+        10.2971858
+      ], 
+      "southwest": [
+        54.1616753, 
+        9.9771858
+      ]
+    }, 
+    "address": "Kiel, Schleswig-Holstein, Deutschland", 
+    "lat": "54.3216753", 
+    "lng": "10.1371858", 
+    "quality": "city", 
+    "location": "Kiel "
+  }, 
+  "Cahors": {
+    "status": "OK", 
+    "city": "Cahors", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "122324", 
+    "provider": "osm", 
+    "county": "Cahors", 
+    "osm_type": "relation", 
+    "state": "Occitanie", 
+    "bbox": {
+      "northeast": [
+        44.5121316, 
+        1.5055415
+      ], 
+      "southwest": [
+        44.4010268, 
+        1.3725267
+      ]
+    }, 
+    "address": "Cahors, Lot, Occitanie, 46000, France", 
+    "lat": "44.4495", 
+    "lng": "1.4364999", 
+    "postal": "46000", 
+    "quality": "administrative", 
+    "location": "Cahors"
+  }, 
+  "Poitier": {
+    "status": "OK", 
+    "city": "Sarlat-la-Can\u00e9da", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "3776132662", 
+    "provider": "osm", 
+    "county": "Sarlat-la-Can\u00e9da", 
+    "osm_type": "node", 
+    "state": "Nouvelle-Aquitaine", 
+    "bbox": {
+      "northeast": [
+        44.9762143, 
+        1.3404076
+      ], 
+      "southwest": [
+        44.9562143, 
+        1.3204076
+      ]
+    }, 
+    "address": "Pech Poitier, Salignac-Eyvigues, Sarlat-la-Can\u00e9da, Dordogne, Nouvelle-Aquitaine, 24590, France", 
+    "lat": "44.9662143", 
+    "lng": "1.3304076", 
+    "postal": "24590", 
+    "quality": "locality", 
+    "location": "Poitier"
+  }, 
+  "Gerona": {
+    "status": "OK", 
+    "city": "GRN", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "343535", 
+    "provider": "osm", 
+    "county": "GRN", 
+    "osm_type": "relation", 
+    "state": "CAT", 
+    "bbox": {
+      "northeast": [
+        42.0297266, 
+        2.8982394
+      ], 
+      "southwest": [
+        41.9383698, 
+        2.7831004
+      ]
+    }, 
+    "address": "GRN, Girona, CAT, Espa\u00f1a", 
+    "lat": "41.9793006", 
+    "lng": "2.8199439", 
+    "quality": "city", 
+    "location": "Gerona"
+  }, 
+  "Cagliari": {
+    "status": "OK", 
+    "city": "Casteddu/Cagliari", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "39837", 
+    "provider": "osm", 
+    "county": "CA", 
+    "osm_type": "relation", 
+    "state": "SAR", 
+    "bbox": {
+      "northeast": [
+        39.282764, 
+        9.1818367
+      ], 
+      "southwest": [
+        39.1580302, 
+        9.0063456
+      ]
+    }, 
+    "address": "Casteddu/Cagliari, CA, SAR, 09121-09131, 09134, Italia", 
+    "lat": "39.2169525", 
+    "lng": "9.1128513", 
+    "postal": "09121-09131, 09134", 
+    "quality": "city", 
+    "location": "Cagliari"
+  }, 
+  "Pozsony": {
+    "status": "OK", 
+    "city": "Bratislava", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Slovensko", 
+    "osm_id": "1702499", 
+    "provider": "osm", 
+    "county": "Bratislava", 
+    "osm_type": "relation", 
+    "state": "Bratislavsk\u00fd kraj", 
+    "bbox": {
+      "northeast": [
+        48.265064, 
+        17.284531
+      ], 
+      "southwest": [
+        48.006657, 
+        16.946044
+      ]
+    }, 
+    "address": "Bratislava, Bratislavsk\u00fd kraj, Slovensko", 
+    "lat": "48.1359085", 
+    "lng": "17.1597440625", 
+    "quality": "administrative", 
+    "location": "Pozsony"
+  }, 
+  "Molsheim": {
+    "status": "OK", 
+    "city": "Molsheim", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "75457", 
+    "provider": "osm", 
+    "county": "Molsheim", 
+    "osm_type": "relation", 
+    "state": "Grand-Est", 
+    "bbox": {
+      "northeast": [
+        48.5619915, 
+        7.534163
+      ], 
+      "southwest": [
+        48.52908, 
+        7.4637186
+      ]
+    }, 
+    "address": "Molsheim, Bas-Rhin, Grand-Est, 67120, France", 
+    "lat": "48.5436171", 
+    "lng": "7.4930563", 
+    "postal": "67120", 
+    "quality": "administrative", 
+    "location": "Molsheim"
+  }, 
+  "Palermo": {
+    "status": "OK", 
+    "city": "Palermo", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "39513", 
+    "provider": "osm", 
+    "county": "PA", 
+    "osm_type": "relation", 
+    "state": "SIC", 
+    "bbox": {
+      "northeast": [
+        38.2245866, 
+        13.4522664
+      ], 
+      "southwest": [
+        38.0498804, 
+        13.2422875
+      ]
+    }, 
+    "address": "Palermo, PA, SIC, Italia", 
+    "lat": "38.11127", 
+    "lng": "13.3534422", 
+    "quality": "city", 
+    "location": "Palermo"
+  }, 
+  "Saumur": {
+    "state": "Pays-de-la-Loire", 
+    "city": "Saumur", 
+    "confidence": 6, 
+    "neighborhood": "Saumur", 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "5937556", 
+    "provider": "osm", 
+    "county": "Saumur", 
+    "town": "Saumur", 
+    "osm_type": "relation", 
+    "city_district": "Saumur", 
+    "status": "OK", 
+    "bbox": {
+      "northeast": [
+        47.276183, 
+        -0.037615
+      ], 
+      "southwest": [
+        47.2327313, 
+        -0.0995529
+      ]
+    }, 
+    "address": "Saumur, Maine-et-Loire, Pays-de-la-Loire, 49400, France", 
+    "lat": "47.25417435", 
+    "ok": true, 
+    "lng": "-0.0661852886972667", 
+    "postal": "49400", 
+    "quality": "administrative", 
+    "location": "Saumur"
+  }, 
+  "Vich": {
+    "status": "OK", 
+    "city": "Vic", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "341903", 
+    "provider": "osm", 
+    "county": "Osona", 
+    "osm_type": "relation", 
+    "state": "CAT", 
+    "bbox": {
+      "northeast": [
+        41.9597347, 
+        2.286518
+      ], 
+      "southwest": [
+        41.8816625, 
+        2.1660984
+      ]
+    }, 
+    "address": "Vic, Osona, BCN, CAT, Espa\u00f1a", 
+    "lat": "41.9292417", 
+    "lng": "2.2548654", 
+    "quality": "administrative", 
+    "location": "Vich"
+  }, 
+  "Dijon": {
+    "status": "OK", 
+    "city": "Dijon", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "74090", 
+    "provider": "osm", 
+    "county": "Dijon", 
+    "osm_type": "relation", 
+    "state": "Bourgogne-Franche-Comt\u00e9", 
+    "bbox": {
+      "northeast": [
+        47.377486, 
+        5.1020598
+      ], 
+      "southwest": [
+        47.2862577, 
+        4.9624588
+      ]
+    }, 
+    "address": "Dijon, C\u00f4te-d'Or, Bourgogne-Franche-Comt\u00e9, 21000, France", 
+    "lat": "47.3215806", 
+    "lng": "5.0414701", 
+    "postal": "21000", 
+    "quality": "city", 
+    "location": "Dijon"
+  }, 
+  "Milano": {
+    "status": "OK", 
+    "city": "Milano", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "44915", 
+    "provider": "osm", 
+    "county": "MI", 
+    "osm_type": "relation", 
+    "state": "LOM", 
+    "bbox": {
+      "northeast": [
+        45.5358482, 
+        9.2781103
+      ], 
+      "southwest": [
+        45.3867381, 
+        9.0408867
+      ]
+    }, 
+    "address": "Milano, MI, LOM, Italia", 
+    "lat": "45.4667971", 
+    "lng": "9.1904984", 
+    "quality": "city", 
+    "location": "Milano"
+  }, 
+  "M\u00fcnster-Westfalen": {
+    "status": "OK", 
+    "city": "M\u00fcnster", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "62591", 
+    "provider": "osm", 
+    "county": "M\u00fcnster", 
+    "osm_type": "relation", 
+    "state": "Nordrhein-Westfalen", 
+    "bbox": {
+      "northeast": [
+        52.0600251, 
+        7.7743634
+      ], 
+      "southwest": [
+        51.8401448, 
+        7.4737853
+      ]
+    }, 
+    "address": "M\u00fcnster, Regierungsbezirk M\u00fcnster, Nordrhein-Westfalen, Deutschland", 
+    "lat": "51.9501317", 
+    "lng": "7.61330165026119", 
+    "quality": "administrative", 
+    "location": "M\u00fcnster-Westfalen"
+  }, 
+  "Leuven": {
+    "state": "Vlaanderen", 
+    "city": "Leuven", 
+    "confidence": 7, 
+    "neighborhood": "Leuven", 
+    "encoding": "utf-8", 
+    "country": "Belgi\u00eb - Belgique - Belgien", 
+    "osm_id": "3921680", 
+    "provider": "osm", 
+    "county": "Leuven", 
+    "osm_type": "relation", 
+    "city_district": "Leuven", 
+    "status": "OK", 
+    "bbox": {
+      "northeast": [
+        50.8944869, 
+        4.7181492
+      ], 
+      "southwest": [
+        50.8681245, 
+        4.670762
+      ]
+    }, 
+    "address": "Leuven, Vlaams-Brabant, Vlaanderen, 3000, Belgi\u00eb - Belgique - Belgien", 
+    "lat": "50.88121295", 
+    "ok": true, 
+    "lng": "4.69418278098918", 
+    "postal": "3000", 
+    "quality": "administrative", 
+    "location": "Leuven"
+  }, 
+  "Breslau": {
+    "status": "OK", 
+    "city": "Wroc\u0142aw", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Polska", 
+    "osm_id": "2805691", 
+    "provider": "osm", 
+    "county": "Wroc\u0142aw", 
+    "osm_type": "relation", 
+    "state": "dolno\u015bl\u0105skie", 
+    "bbox": {
+      "northeast": [
+        51.2100604, 
+        17.1762192
+      ], 
+      "southwest": [
+        51.0426686, 
+        16.8073393
+      ]
+    }, 
+    "address": "Wroc\u0142aw, dolno\u015bl\u0105skie, Polska", 
+    "lat": "51.1263106", 
+    "lng": "16.9781963305126", 
+    "quality": "administrative", 
+    "location": "Breslau"
+  }, 
+  "Bordeaux": {
+    "status": "OK", 
+    "city": "Bordeaux", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "105270", 
+    "provider": "osm", 
+    "county": "Bordeaux", 
+    "osm_type": "relation", 
+    "state": "Nouvelle-Aquitaine", 
+    "bbox": {
+      "northeast": [
+        44.9161806, 
+        -0.5336837
+      ], 
+      "southwest": [
+        44.8107826, 
+        -0.6386986
+      ]
+    }, 
+    "address": "Bordeaux, Gironde, Nouvelle-Aquitaine, 33000;33100;33300;33800, France", 
+    "lat": "44.841225", 
+    "lng": "-0.5800363", 
+    "postal": "33000;33100;33300;33800", 
+    "quality": "city", 
+    "location": "Bordeaux"
+  }, 
+  "Genoa": {
+    "status": "OK", 
+    "city": "Genova", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "44875", 
+    "provider": "osm", 
+    "county": "GE", 
+    "osm_type": "relation", 
+    "state": "LIG", 
+    "bbox": {
+      "northeast": [
+        44.5198419, 
+        9.0955805
+      ], 
+      "southwest": [
+        44.3784709, 
+        8.6657195
+      ]
+    }, 
+    "address": "Genova, GE, LIG, Italia", 
+    "lat": "44.40726", 
+    "lng": "8.9338624", 
+    "quality": "city", 
+    "location": "Genoa"
+  }, 
+  "Helmstedt": {
+    "status": "OK", 
+    "city": "Helmstedt", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "1446649", 
+    "provider": "osm", 
+    "county": "Landkreis Helmstedt", 
+    "osm_type": "relation", 
+    "state": "Niedersachsen", 
+    "bbox": {
+      "northeast": [
+        52.2872682, 
+        11.0723671
+      ], 
+      "southwest": [
+        52.1754, 
+        10.9118835
+      ]
+    }, 
+    "address": "Helmstedt, Landkreis Helmstedt, Niedersachsen, Deutschland", 
+    "lat": "52.2277037", 
+    "lng": "11.0104702", 
+    "quality": "administrative", 
+    "location": "Helmstedt"
+  }, 
+  "O\u00f1ate": {
+    "status": "OK", 
+    "city": "O\u00f1ati", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "342577", 
+    "provider": "osm", 
+    "county": "Gipuzkoa", 
+    "osm_type": "relation", 
+    "state": "Euskadi", 
+    "bbox": {
+      "northeast": [
+        43.0820388, 
+        -2.3516038
+      ], 
+      "southwest": [
+        42.9467826, 
+        -2.4796091
+      ]
+    }, 
+    "address": "O\u00f1ati, Debagoiena / Alto Deba, Gipuzkoa, Euskadi, 20560;20567;20568;20569, Espa\u00f1a", 
+    "lat": "43.0328523", 
+    "lng": "-2.4137148", 
+    "postal": "20560;20567;20568;20569", 
+    "quality": "administrative", 
+    "location": "O\u00f1ate"
+  }, 
+  "Toulouse": {
+    "status": "OK", 
+    "city": "Toulouse", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "35738", 
+    "provider": "osm", 
+    "county": "Toulouse", 
+    "osm_type": "relation", 
+    "state": "Occitanie", 
+    "bbox": {
+      "northeast": [
+        43.668708, 
+        1.5153795
+      ], 
+      "southwest": [
+        43.532654, 
+        1.3503956
+      ]
+    }, 
+    "address": "Toulouse, Haute-Garonne, Occitanie, France", 
+    "lat": "43.6044622", 
+    "lng": "1.4442469", 
+    "quality": "city", 
+    "location": "Toulouse"
+  }, 
+  "Rome, Curie": {
+    "status": "OK", 
+    "city": "Roma", 
+    "confidence": 10, 
+    "neighborhood": "Municipio Roma XII", 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "32666820", 
+    "provider": "osm", 
+    "county": "RM", 
+    "suburb": "Municipio Roma XII", 
+    "osm_type": "way", 
+    "state": "LAZ", 
+    "street": "Viale dei Curie", 
+    "bbox": {
+      "northeast": [
+        41.8880996, 
+        12.4354555
+      ], 
+      "southwest": [
+        41.886806, 
+        12.4336833
+      ]
+    }, 
+    "address": "Viale dei Curie, Municipio Roma XII, Roma, RM, LAZ, 00164, Italia", 
+    "lat": "41.88741", 
+    "ok": true, 
+    "lng": "12.4345891", 
+    "postal": "00164", 
+    "quality": "track", 
+    "location": "Rome, Curie"
+  }, 
+  "Macerata": {
+    "status": "OK", 
+    "city": "Macerata", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42394", 
+    "provider": "osm", 
+    "county": "MC", 
+    "osm_type": "relation", 
+    "state": "MAR", 
+    "bbox": {
+      "northeast": [
+        43.3602296, 
+        13.5346588
+      ], 
+      "southwest": [
+        43.2506665, 
+        13.3781402
+      ]
+    }, 
+    "address": "Macerata, MC, MAR, Italia", 
+    "lat": "43.3007275", 
+    "lng": "13.4535897", 
+    "quality": "administrative", 
+    "location": "Macerata"
+  }, 
+  "Tortosa": {
+    "status": "OK", 
+    "city": "Tortosa", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "344613", 
+    "provider": "osm", 
+    "county": "Baix Ebre", 
+    "osm_type": "relation", 
+    "state": "CAT", 
+    "bbox": {
+      "northeast": [
+        40.897622, 
+        0.6642326
+      ], 
+      "southwest": [
+        40.7328857, 
+        0.2328099
+      ]
+    }, 
+    "address": "Tortosa, Baix Ebre, Tarragona, CAT, Espa\u00f1a", 
+    "lat": "40.8111899", 
+    "lng": "0.5207492", 
+    "quality": "administrative", 
+    "location": "Tortosa"
+  }, 
+  "Perugia": {
+    "status": "OK", 
+    "city": "Perugia", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42278", 
+    "provider": "osm", 
+    "county": "PG", 
+    "osm_type": "relation", 
+    "state": "UMB", 
+    "bbox": {
+      "northeast": [
+        43.2860719, 
+        12.5650226
+      ], 
+      "southwest": [
+        42.9934486, 
+        12.1731207
+      ]
+    }, 
+    "address": "Perugia, PG, UMB, Italia", 
+    "lat": "43.1119613", 
+    "lng": "12.3890104", 
+    "quality": "city", 
+    "location": "Perugia"
+  }, 
+  "Freiburg-im-Breisgau": {
+    "status": "OK", 
+    "city": "Freiburg im Breisgau", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "21973469", 
+    "provider": "osm", 
+    "county": "Freiburg im Breisgau", 
+    "osm_type": "node", 
+    "state": "Baden-W\u00fcrttemberg", 
+    "bbox": {
+      "northeast": [
+        48.6421322, 
+        8.463903
+      ], 
+      "southwest": [
+        47.3621322, 
+        7.183903
+      ]
+    }, 
+    "address": "Freiburg im Breisgau, Regierungsbezirk Freiburg, Baden-W\u00fcrttemberg, Deutschland", 
+    "lat": "48.0021322", 
+    "lng": "7.823903", 
+    "quality": "county", 
+    "location": "Freiburg-im-Breisgau"
+  }, 
+  "Praha": {
+    "status": "OK", 
+    "city": "Praha", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u010cesko", 
+    "osm_id": "439840", 
+    "provider": "osm", 
+    "county": "okres Hlavn\u00ed m\u011bsto Praha", 
+    "osm_type": "relation", 
+    "state": "Praha", 
+    "bbox": {
+      "northeast": [
+        50.1774301, 
+        14.7067869
+      ], 
+      "southwest": [
+        49.9419006, 
+        14.2244355
+      ]
+    }, 
+    "address": "Praha, okres Hlavn\u00ed m\u011bsto Praha, Hlavn\u00ed m\u011bsto Praha, Praha, \u010cesko", 
+    "lat": "50.0874654", 
+    "lng": "14.4212503", 
+    "quality": "city", 
+    "location": "Praha"
+  }, 
+  "Messina": {
+    "status": "OK", 
+    "city": "Messina", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "39514", 
+    "provider": "osm", 
+    "county": "ME", 
+    "osm_type": "relation", 
+    "state": "SIC", 
+    "bbox": {
+      "northeast": [
+        38.3014883, 
+        15.6532558
+      ], 
+      "southwest": [
+        38.0546529, 
+        15.4079341
+      ]
+    }, 
+    "address": "Messina, ME, SIC, Italia", 
+    "lat": "38.1937571", 
+    "lng": "15.5542082", 
+    "quality": "city", 
+    "location": "Messina"
+  }, 
+  "W\u00fcrzbourg": {
+    "status": "ERROR - No results found", 
+    "provider": "osm", 
+    "ok": false, 
+    "location": "W\u00fcrzbourg", 
+    "encoding": "utf-8"
+  }, 
+  "Escorial": {
+    "status": "OK", 
+    "city": "San Lorenzo de El Escorial", 
+    "confidence": 9, 
+    "neighborhood": "La Herrer\u00eda", 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "town": "San Lorenzo de El Escorial", 
+    "osm_id": "1264135", 
+    "provider": "osm", 
+    "county": "Cuenca del Guadarrama", 
+    "suburb": "La Herrer\u00eda", 
+    "osm_type": "relation", 
+    "state": "Comunidad de Madrid", 
+    "bbox": {
+      "northeast": [
+        40.5901207, 
+        -4.146777
+      ], 
+      "southwest": [
+        40.5880071, 
+        -4.1491424
+      ]
+    }, 
+    "address": "Real Monasterio de San Lorenzo de El Escorial, Patio de Reyes, La Herrer\u00eda, San Lorenzo de El Escorial, Cuenca del Guadarrama, Comunidad de Madrid, 28200, Espa\u00f1a", 
+    "lat": "40.5890139", 
+    "ok": true, 
+    "lng": "-4.14866663220939", 
+    "postal": "28200", 
+    "quality": "attraction", 
+    "location": "Escorial"
+  }, 
+  "Lund": {
+    "status": "OK", 
+    "city": "Lund", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Sverige", 
+    "osm_id": "2468628", 
+    "provider": "osm", 
+    "county": "Lund", 
+    "osm_type": "relation", 
+    "state": "Sk\u00e5ne", 
+    "bbox": {
+      "northeast": [
+        55.7412932, 
+        13.263408
+      ], 
+      "southwest": [
+        55.678392, 
+        13.1401854
+      ]
+    }, 
+    "address": "Lund, Sk\u00e5ne, G\u00f6taland, Sverige", 
+    "lat": "55.7029296", 
+    "lng": "13.1929449", 
+    "quality": "administrative", 
+    "location": "Lund"
+  }, 
+  "Monb\u00e9liard": {
+    "status": "OK", 
+    "city": "Montb\u00e9liard", 
+    "confidence": 10, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "3826421727", 
+    "provider": "osm", 
+    "county": "Montb\u00e9liard", 
+    "osm_type": "node", 
+    "state": "Bourgogne-Franche-Comt\u00e9", 
+    "street": "Rue du Coll\u00e8ge", 
+    "bbox": {
+      "northeast": [
+        47.5119271, 
+        6.8388145
+      ], 
+      "southwest": [
+        47.5118271, 
+        6.8387145
+      ]
+    }, 
+    "address": "H\u00f4tel Campanile Monb\u00e9liard - Sochaux, Rue du Coll\u00e8ge, Sochaux, Montb\u00e9liard, Doubs, Bourgogne-Franche-Comt\u00e9, 25600, France", 
+    "lat": "47.5118771", 
+    "lng": "6.8387645", 
+    "postal": "25600", 
+    "quality": "hotel", 
+    "location": "Monb\u00e9liard"
+  }, 
+  "Olomouc": {
+    "status": "OK", 
+    "city": "Olomouc", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u010cesko", 
+    "osm_id": "437057", 
+    "provider": "osm", 
+    "county": "okres Olomouc", 
+    "osm_type": "relation", 
+    "state": "St\u0159edn\u00ed Morava", 
+    "bbox": {
+      "northeast": [
+        49.6619655, 
+        17.396068
+      ], 
+      "southwest": [
+        49.5346988, 
+        17.1621222
+      ]
+    }, 
+    "address": "Olomouc, okres Olomouc, Olomouck\u00fd kraj, St\u0159edn\u00ed Morava, \u010cesko", 
+    "lat": "49.5940567", 
+    "lng": "17.251143", 
+    "quality": "city", 
+    "location": "Olomouc"
+  }, 
+  "Florence": {
+    "status": "OK", 
+    "city": "Firenze", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "42602", 
+    "provider": "osm", 
+    "county": "FI", 
+    "osm_type": "relation", 
+    "state": "TOS", 
+    "bbox": {
+      "northeast": [
+        43.8354631, 
+        11.3391283
+      ], 
+      "southwest": [
+        43.7258716, 
+        11.1506053
+      ]
+    }, 
+    "address": "Firenze, FI, TOS, Italia", 
+    "lat": "43.7698712", 
+    "lng": "11.2555757", 
+    "quality": "city", 
+    "location": "Florence"
+  }, 
+  "Pamplona": {
+    "status": "OK", 
+    "city": "Pamplona/Iru\u00f1a", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "344401", 
+    "provider": "osm", 
+    "county": "Navarra", 
+    "osm_type": "relation", 
+    "state": "Navarra", 
+    "bbox": {
+      "northeast": [
+        42.8427095, 
+        -1.6046591
+      ], 
+      "southwest": [
+        42.7888466, 
+        -1.695384
+      ]
+    }, 
+    "address": "Pamplona/Iru\u00f1a, Navarra, Espa\u00f1a", 
+    "lat": "42.8185502", 
+    "lng": "-1.6444164", 
+    "quality": "city", 
+    "location": "Pamplona"
+  }, 
+  "Granada": {
+    "status": "OK", 
+    "city": "Granada", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "344685", 
+    "provider": "osm", 
+    "county": "Granada", 
+    "osm_type": "relation", 
+    "state": "Andaluc\u00eda", 
+    "bbox": {
+      "northeast": [
+        37.2250172, 
+        -3.496324
+      ], 
+      "southwest": [
+        37.1367032, 
+        -3.7003615
+      ]
+    }, 
+    "address": "Granada, Andaluc\u00eda, Espa\u00f1a", 
+    "lat": "37.1830197", 
+    "lng": "-3.6021919", 
+    "quality": "city", 
+    "location": "Granada"
+  }, 
+  "Orihuela": {
+    "status": "OK", 
+    "city": "Orihuela", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "341472", 
+    "provider": "osm", 
+    "county": "Vega Baja del Segura", 
+    "osm_type": "relation", 
+    "state": "Comunitat Valenciana", 
+    "bbox": {
+      "northeast": [
+        38.3296105, 
+        -0.7069599
+      ], 
+      "southwest": [
+        37.8883108, 
+        -1.0367614
+      ]
+    }, 
+    "address": "Orihuela, Vega Baja del Segura, Alicante/Alacant, Comunitat Valenciana, Espa\u00f1a", 
+    "lat": "38.0906911", 
+    "lng": "-0.9466129", 
+    "quality": "administrative", 
+    "location": "Orihuela"
+  }, 
+  "Abo": {
+    "status": "OK", 
+    "city": "Turku", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Suomi", 
+    "osm_id": "399906", 
+    "provider": "osm", 
+    "county": "Turun seutukunta", 
+    "osm_type": "relation", 
+    "state": "Etel\u00e4-Suomi", 
+    "bbox": {
+      "northeast": [
+        60.7372962, 
+        22.4581649
+      ], 
+      "southwest": [
+        60.3335222, 
+        22.0661599
+      ]
+    }, 
+    "address": "Turku, Turun seutukunta, Varsinais-Suomi, Lounais-Suomen aluehallintovirasto, Etel\u00e4-Suomi, Suomi", 
+    "lat": "60.4517531", 
+    "lng": "22.2670522", 
+    "quality": "city", 
+    "location": "Abo"
+  }, 
+  "Torino": {
+    "status": "OK", 
+    "city": "Torino", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "43992", 
+    "provider": "osm", 
+    "county": "TO", 
+    "osm_type": "relation", 
+    "state": "PIE", 
+    "bbox": {
+      "northeast": [
+        45.1402175, 
+        7.7733388
+      ], 
+      "southwest": [
+        45.0067924, 
+        7.5778348
+      ]
+    }, 
+    "address": "Torino, TO, PIE, Italia", 
+    "lat": "45.0709201", 
+    "lng": "7.685972", 
+    "quality": "city", 
+    "location": "Torino"
+  }, 
+  "Saint-Andrews": {
+    "status": "OK", 
+    "city": "St Andrews", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "UK", 
+    "osm_id": "21511530", 
+    "provider": "osm", 
+    "county": "Fife", 
+    "town": "St Andrews", 
+    "osm_type": "node", 
+    "state": "Scotland", 
+    "bbox": {
+      "northeast": [
+        56.3803902, 
+        -2.7555843
+      ], 
+      "southwest": [
+        56.3003902, 
+        -2.8355843
+      ]
+    }, 
+    "address": "St Andrews, Fife, Scotland, UK", 
+    "lat": "56.3403902", 
+    "lng": "-2.7955843", 
+    "quality": "town", 
+    "location": "Saint-Andrews"
+  }, 
+  "Pont-\u00e0-Mousson": {
+    "status": "OK", 
+    "city": "Pont-\u00e0-Mousson", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "113038", 
+    "provider": "osm", 
+    "county": "Nancy", 
+    "osm_type": "relation", 
+    "state": "Grand-Est", 
+    "bbox": {
+      "northeast": [
+        48.9538633, 
+        6.08881
+      ], 
+      "southwest": [
+        48.8903606, 
+        6.0048753
+      ]
+    }, 
+    "address": "Pont-\u00e0-Mousson, Nancy, Meurthe-et-Moselle, Grand-Est, 54700, France", 
+    "lat": "48.9032946", 
+    "lng": "6.0546779", 
+    "postal": "54700", 
+    "quality": "administrative", 
+    "location": "Pont-\u00e0-Mousson"
+  }, 
+  "Parma": {
+    "status": "OK", 
+    "city": "Parma", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "43452", 
+    "provider": "osm", 
+    "county": "PR", 
+    "osm_type": "relation", 
+    "state": "EMR", 
+    "bbox": {
+      "northeast": [
+        44.9018699, 
+        10.4430681
+      ], 
+      "southwest": [
+        44.6639752, 
+        10.2145574
+      ]
+    }, 
+    "address": "Parma, PR, EMR, Italia", 
+    "lat": "44.8013678", 
+    "lng": "10.3280833", 
+    "quality": "city", 
+    "location": "Parma"
+  }, 
+  "Palma de Mallorca": {
+    "status": "OK", 
+    "city": "Palma", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "341321", 
+    "provider": "osm", 
+    "county": "Palma", 
+    "osm_type": "relation", 
+    "state": "Illes Balears", 
+    "bbox": {
+      "northeast": [
+        39.6584127, 
+        2.9977307
+      ], 
+      "southwest": [
+        39.1068691, 
+        2.563847
+      ]
+    }, 
+    "address": "Palma, Illes Balears, Espa\u00f1a", 
+    "lat": "39.5695818", 
+    "lng": "2.6500745", 
+    "quality": "city", 
+    "location": "Palma de Mallorca"
+  }, 
+  "Mantova": {
+    "status": "OK", 
+    "city": "Mantova", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "44232", 
+    "provider": "osm", 
+    "county": "MN", 
+    "osm_type": "relation", 
+    "state": "LOM", 
+    "bbox": {
+      "northeast": [
+        45.1868312, 
+        10.9042759
+      ], 
+      "southwest": [
+        45.1019574, 
+        10.7229025
+      ]
+    }, 
+    "address": "Mantova, MN, LOM, Italia", 
+    "lat": "45.1566683", 
+    "lng": "10.7917191", 
+    "quality": "city", 
+    "location": "Mantova"
+  }, 
+  "Valencia": {
+    "status": "OK", 
+    "city": "Valencia/Val\u00e8ncia", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "344953", 
+    "provider": "osm", 
+    "county": "Comarca de Val\u00e8ncia", 
+    "osm_type": "relation", 
+    "state": "Comunitat Valenciana", 
+    "bbox": {
+      "northeast": [
+        39.5666202, 
+        -0.2725204
+      ], 
+      "southwest": [
+        39.2784496, 
+        -0.4325511
+      ]
+    }, 
+    "address": "Valencia/Val\u00e8ncia, Comarca de Val\u00e8ncia, Valencia/Val\u00e8ncia, Comunitat Valenciana, Espa\u00f1a", 
+    "lat": "39.4699014", 
+    "lng": "-0.3759512", 
+    "quality": "city", 
+    "location": "Valencia"
+  }, 
+  "Gandia": {
+    "status": "OK", 
+    "city": "Gandia", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "339514", 
+    "provider": "osm", 
+    "county": "Valencia/Val\u00e8ncia", 
+    "osm_type": "relation", 
+    "state": "Comunitat Valenciana", 
+    "bbox": {
+      "northeast": [
+        39.0412816, 
+        -0.144242
+      ], 
+      "southwest": [
+        38.94981, 
+        -0.2970743
+      ]
+    }, 
+    "address": "Gandia, Safor, Valencia/Val\u00e8ncia, Comunitat Valenciana, Espa\u00f1a", 
+    "lat": "38.9675925", 
+    "lng": "-0.1803422", 
+    "quality": "administrative", 
+    "location": "Gandia"
+  }, 
+  "Heidelberg": {
+    "status": "OK", 
+    "city": "Heidelberg", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "240058050", 
+    "provider": "osm", 
+    "county": "Heidelberg", 
+    "osm_type": "node", 
+    "state": "Baden-W\u00fcrttemberg", 
+    "bbox": {
+      "northeast": [
+        49.5693582, 
+        8.854724
+      ], 
+      "southwest": [
+        49.2493582, 
+        8.534724
+      ]
+    }, 
+    "address": "Heidelberg, Regierungsbezirk Karlsruhe, Baden-W\u00fcrttemberg, Deutschland", 
+    "lat": "49.4093582", 
+    "lng": "8.694724", 
+    "quality": "city", 
+    "location": "Heidelberg"
+  }, 
+  "Copenhaguen": {
+    "status": "OK", 
+    "city": "K\u00f8benhavn", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Danmark", 
+    "osm_id": "13707878", 
+    "provider": "osm", 
+    "county": "K\u00f8benhavns Kommune", 
+    "osm_type": "node", 
+    "state": "Region Hovedstaden", 
+    "bbox": {
+      "northeast": [
+        55.8467243, 
+        12.7300724
+      ], 
+      "southwest": [
+        55.5267243, 
+        12.4100724
+      ]
+    }, 
+    "address": "K\u00f8benhavn, K\u00f8benhavns Kommune, Region Hovedstaden, Danmark", 
+    "lat": "55.6867243", 
+    "lng": "12.5700724", 
+    "quality": "city", 
+    "location": "Copenhaguen"
+  }, 
+  "Geneva": {
+    "status": "OK", 
+    "city": "Gen\u00e8ve", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Schweiz, Suisse, Svizzera, Svizra", 
+    "osm_id": "1685488", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "state": "Gen\u00e8ve", 
+    "bbox": {
+      "northeast": [
+        46.231885, 
+        6.1758527
+      ], 
+      "southwest": [
+        46.1777724, 
+        6.1102411
+      ]
+    }, 
+    "address": "Gen\u00e8ve, Schweiz, Suisse, Svizzera, Svizra", 
+    "lat": "46.2017559", 
+    "lng": "6.1466014", 
+    "quality": "city", 
+    "location": "Geneva"
+  }, 
+  "Tournon": {
+    "status": "OK", 
+    "city": "Tournon-sur-Rh\u00f4ne", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "127963", 
+    "provider": "osm", 
+    "county": "Tournon-sur-Rh\u00f4ne", 
+    "osm_type": "relation", 
+    "state": "Auvergne-Rh\u00f4ne-Alpes", 
+    "bbox": {
+      "northeast": [
+        45.0759959, 
+        4.8608271
+      ], 
+      "southwest": [
+        45.0303512, 
+        4.7705314
+      ]
+    }, 
+    "address": "Tournon-sur-Rh\u00f4ne, Ard\u00e8che, Auvergne-Rh\u00f4ne-Alpes, 07300, France", 
+    "lat": "45.0675156", 
+    "lng": "4.832852", 
+    "postal": "07300", 
+    "quality": "administrative", 
+    "location": "Tournon"
+  }, 
+  "Irache": {
+    "status": "OK", 
+    "city": "Ayegui", 
+    "confidence": 10, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "1334004", 
+    "provider": "osm", 
+    "county": "Navarra", 
+    "osm_type": "relation", 
+    "state": "Navarra", 
+    "street": "Carretera Galar - Viana", 
+    "bbox": {
+      "northeast": [
+        42.650509, 
+        -2.042592
+      ], 
+      "southwest": [
+        42.6498505, 
+        -2.0440069
+      ]
+    }, 
+    "address": "Monasterio de Santa Mar\u00eda la Real de Irache, Carretera Galar - Viana, Ayegui, Navarra, 31240, Espa\u00f1a", 
+    "lat": "42.650093", 
+    "lng": "-2.04316070624313", 
+    "postal": "31240", 
+    "quality": "place_of_worship", 
+    "location": "Irache"
+  }, 
+  "Glasgow": {
+    "status": "OK", 
+    "city": "Glasgow", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "United States of America", 
+    "osm_id": "130762", 
+    "provider": "osm", 
+    "county": "Barren County", 
+    "osm_type": "relation", 
+    "state": "Kentucky", 
+    "bbox": {
+      "northeast": [
+        37.051989, 
+        -85.8817489
+      ], 
+      "southwest": [
+        36.960672, 
+        -85.9761609
+      ]
+    }, 
+    "address": "Glasgow, Barren County, Kentucky, United States of America", 
+    "lat": "36.9958841", 
+    "lng": "-85.9119214", 
+    "quality": "city", 
+    "location": "Glasgow"
+  }, 
+  "Erlangen": {
+    "status": "OK", 
+    "city": "Erlangen", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "17193023", 
+    "provider": "osm", 
+    "county": "Erlangen", 
+    "osm_type": "node", 
+    "state": "Bayern", 
+    "bbox": {
+      "northeast": [
+        49.7581208, 
+        11.1636532
+      ], 
+      "southwest": [
+        49.4381208, 
+        10.8436532
+      ]
+    }, 
+    "address": "Erlangen, Mittelfranken, Bayern, Deutschland", 
+    "lat": "49.5981208", 
+    "lng": "11.0036532", 
+    "quality": "city", 
+    "location": "Erlangen"
+  }, 
+  "Bamberg": {
+    "status": "OK", 
+    "city": "Bamberg", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "1646638496", 
+    "provider": "osm", 
+    "county": "Bamberg", 
+    "town": "Bamberg", 
+    "osm_type": "node", 
+    "state": "Bayern", 
+    "bbox": {
+      "northeast": [
+        49.9326723, 
+        10.9276149
+      ], 
+      "southwest": [
+        49.8526723, 
+        10.8476149
+      ]
+    }, 
+    "address": "Bamberg, Oberfranken, Bayern, Deutschland", 
+    "lat": "49.8926723", 
+    "lng": "10.8876149", 
+    "quality": "town", 
+    "location": "Bamberg"
+  }, 
+  "Oxford": {
+    "status": "OK", 
+    "city": "Oxford", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "UK", 
+    "osm_id": "394037", 
+    "provider": "osm", 
+    "county": "Oxon", 
+    "osm_type": "relation", 
+    "state": "England", 
+    "bbox": {
+      "northeast": [
+        51.7962658, 
+        -1.1758133
+      ], 
+      "southwest": [
+        51.7109788, 
+        -1.3042471
+      ]
+    }, 
+    "address": "Oxford, Oxon, South East, England, UK", 
+    "lat": "51.7520131", 
+    "lng": "-1.2578498", 
+    "quality": "city", 
+    "location": "Oxford"
+  }, 
+  "Wittemberg": {
+    "status": "OK", 
+    "city": "Gulpen-Wittem", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Nederland", 
+    "osm_id": "2078283", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "state": "Limburg", 
+    "bbox": {
+      "northeast": [
+        50.8488894, 
+        5.9835185
+      ], 
+      "southwest": [
+        50.7503675, 
+        5.8194096
+      ]
+    }, 
+    "address": "Gulpen-Wittem, Limburg, Nederland", 
+    "lat": "50.79962605", 
+    "lng": "5.8905296752731", 
+    "quality": "administrative", 
+    "location": "Wittemberg"
+  }, 
+  "Laguna": {
+    "status": "OK", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Philippines", 
+    "osm_id": "1503483", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "state": "Laguna", 
+    "bbox": {
+      "northeast": [
+        14.56563, 
+        121.5968323
+      ], 
+      "southwest": [
+        13.9694897, 
+        121.0016263
+      ]
+    }, 
+    "address": "Laguna, Calabarzon, Philippines", 
+    "lat": "14.1696476", 
+    "lng": "121.3336526", 
+    "quality": "administrative", 
+    "location": "Laguna"
+  }, 
+  "Padova": {
+    "status": "OK", 
+    "city": "Padova", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "44836", 
+    "provider": "osm", 
+    "county": "PD", 
+    "osm_type": "relation", 
+    "state": "VEN", 
+    "bbox": {
+      "northeast": [
+        45.4573727, 
+        11.976435
+      ], 
+      "southwest": [
+        45.3395667, 
+        11.8054118
+      ]
+    }, 
+    "address": "Padova, PD, VEN, Italia", 
+    "lat": "45.4077172", 
+    "lng": "11.8734455", 
+    "quality": "city", 
+    "location": "Padova"
+  }, 
+  "Budapest": {
+    "status": "OK", 
+    "city": "Budapest", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Magyarorsz\u00e1g", 
+    "osm_id": "1244004", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "bbox": {
+      "northeast": [
+        47.6131468, 
+        19.3349258
+      ], 
+      "southwest": [
+        47.3496899, 
+        18.926166
+      ]
+    }, 
+    "address": "Budapest, K\u00f6z\u00e9p-Magyarorsz\u00e1g, Magyarorsz\u00e1g", 
+    "lat": "47.4983815", 
+    "lng": "19.0404707", 
+    "quality": "city", 
+    "location": "Budapest"
+  }, 
+  "V\u00e9rone": {
+    "status": "OK", 
+    "city": "Verona", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "44830", 
+    "provider": "osm", 
+    "county": "VR", 
+    "osm_type": "relation", 
+    "state": "VEN", 
+    "bbox": {
+      "northeast": [
+        45.5402282, 
+        11.1238954
+      ], 
+      "southwest": [
+        45.3493668, 
+        10.8767143
+      ]
+    }, 
+    "address": "Verona, VR, VEN, Italia", 
+    "lat": "45.4384958", 
+    "lng": "10.9924122", 
+    "quality": "city", 
+    "location": "V\u00e9rone"
+  }, 
+  "Barcelone": {
+    "status": "OK", 
+    "city": "Barcelona", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "347950", 
+    "provider": "osm", 
+    "county": "BCN", 
+    "osm_type": "relation", 
+    "state": "CAT", 
+    "bbox": {
+      "northeast": [
+        41.468252, 
+        2.2283555
+      ], 
+      "southwest": [
+        41.3174426, 
+        2.0524977
+      ]
+    }, 
+    "address": "Barcelona, BCN, CAT, Espa\u00f1a", 
+    "lat": "41.3825596", 
+    "lng": "2.1771353", 
+    "quality": "city", 
+    "location": "Barcelone"
+  }, 
+  "Cervera": {
+    "status": "OK", 
+    "city": "Cervera", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "343956", 
+    "provider": "osm", 
+    "county": "Segarra", 
+    "osm_type": "relation", 
+    "state": "CAT", 
+    "bbox": {
+      "northeast": [
+        41.7378347, 
+        1.337041
+      ], 
+      "southwest": [
+        41.6230622, 
+        1.2289685
+      ]
+    }, 
+    "address": "Cervera, Segarra, Lleida, CAT, Espa\u00f1a", 
+    "lat": "41.6730667", 
+    "lng": "1.2729426", 
+    "quality": "administrative", 
+    "location": "Cervera"
+  }, 
+  "K\u00f6ln": {
+    "status": "OK", 
+    "city": "K\u00f6ln", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "20953083", 
+    "provider": "osm", 
+    "county": "K\u00f6ln", 
+    "osm_type": "node", 
+    "state": "Nordrhein-Westfalen", 
+    "bbox": {
+      "northeast": [
+        51.0983611, 
+        7.1199738
+      ], 
+      "southwest": [
+        50.7783611, 
+        6.7999738
+      ]
+    }, 
+    "address": "K\u00f6ln, Regierungsbezirk K\u00f6ln, Nordrhein-Westfalen, 50667-51149, Deutschland", 
+    "lat": "50.9383611", 
+    "lng": "6.9599738", 
+    "postal": "50667-51149", 
+    "quality": "city", 
+    "location": "K\u00f6ln"
+  }, 
+  "Saint-Peterburg": {
+    "status": "OK", 
+    "city": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u0420\u0424", 
+    "osm_id": "421007", 
+    "provider": "osm", 
+    "osm_type": "relation", 
+    "state": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433", 
+    "bbox": {
+      "northeast": [
+        60.0907368, 
+        30.5673028
+      ], 
+      "southwest": [
+        59.7441481, 
+        30.0433427
+      ]
+    }, 
+    "address": "\u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0426\u0435\u043d\u0442\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0440\u0430\u0439\u043e\u043d, \u0421\u0430\u043d\u043a\u0442-\u041f\u0435\u0442\u0435\u0440\u0431\u0443\u0440\u0433, \u0421\u0435\u0432\u0435\u0440\u043e-\u0417\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u0444\u0435\u0434\u0435\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u043e\u043a\u0440\u0443\u0433, 190000, \u0420\u0424", 
+    "lat": "59.9387318", 
+    "lng": "30.3162286", 
+    "postal": "190000", 
+    "quality": "city", 
+    "location": "Saint-Peterburg"
+  }, 
+  "Bonn": {
+    "status": "OK", 
+    "city": "Bonn", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "26373169", 
+    "provider": "osm", 
+    "county": "Bonn", 
+    "osm_type": "node", 
+    "state": "Nordrhein-Westfalen", 
+    "bbox": {
+      "northeast": [
+        50.8958511, 
+        7.2606599
+      ], 
+      "southwest": [
+        50.5758511, 
+        6.9406599
+      ]
+    }, 
+    "address": "Bonn, Regierungsbezirk K\u00f6ln, Nordrhein-Westfalen, Deutschland", 
+    "lat": "50.7358511", 
+    "lng": "7.1006599", 
+    "quality": "city", 
+    "location": "Bonn"
+  }, 
+  "Nancy": {
+    "status": "OK", 
+    "city": "Nancy", 
+    "confidence": 6, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "52399", 
+    "provider": "osm", 
+    "county": "Nancy", 
+    "osm_type": "relation", 
+    "state": "Grand-Est", 
+    "bbox": {
+      "northeast": [
+        48.7092349, 
+        6.2126188
+      ], 
+      "southwest": [
+        48.666906, 
+        6.134292
+      ]
+    }, 
+    "address": "Nancy, Meurthe-et-Moselle, Grand-Est, 54000, France", 
+    "lat": "48.6937223", 
+    "lng": "6.1834097", 
+    "postal": "54000", 
+    "quality": "city", 
+    "location": "Nancy"
+  }, 
+  "Rennes": {
+    "status": "OK", 
+    "city": "Rennes", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "54517", 
+    "provider": "osm", 
+    "county": "Rennes", 
+    "osm_type": "relation", 
+    "state": "Bretagne", 
+    "bbox": {
+      "northeast": [
+        48.1549329, 
+        -1.6244197
+      ], 
+      "southwest": [
+        48.076839, 
+        -1.7526301
+      ]
+    }, 
+    "address": "Rennes, Ille-et-Vilaine, Bretagne, 35000;35200;35700, France", 
+    "lat": "48.1113387", 
+    "lng": "-1.6800197", 
+    "postal": "35000;35200;35700", 
+    "quality": "city", 
+    "location": "Rennes"
+  }, 
+  "Evora": {
+    "status": "OK", 
+    "city": "\u00c9vora", 
+    "confidence": 7, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Portugal", 
+    "osm_id": "6439506", 
+    "provider": "osm", 
+    "county": "\u00c9vora", 
+    "osm_type": "relation", 
+    "state": "Alentejo", 
+    "bbox": {
+      "northeast": [
+        38.5779771, 
+        -7.9008495
+      ], 
+      "southwest": [
+        38.566228, 
+        -7.9154532
+      ]
+    }, 
+    "address": "\u00c9vora, Alentejo Central, Alentejo, Portugal", 
+    "lat": "38.5707742", 
+    "lng": "-7.9092807", 
+    "quality": "city", 
+    "location": "Evora"
+  }, 
+  "Sassari": {
+    "status": "OK", 
+    "city": "Sassari", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "40683", 
+    "provider": "osm", 
+    "county": "SS", 
+    "osm_type": "relation", 
+    "state": "SAR", 
+    "bbox": {
+      "northeast": [
+        40.869301, 
+        8.6435988
+      ], 
+      "southwest": [
+        40.6517507, 
+        8.1308446
+      ]
+    }, 
+    "address": "Sassari, SS, SAR, 07100, 07040, Italia", 
+    "lat": "40.7232643", 
+    "lng": "8.5610074", 
+    "postal": "07100, 07040", 
+    "quality": "city", 
+    "location": "Sassari"
+  }, 
+  "Montpellier": {
+    "status": "OK", 
+    "city": "Montpellier", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "28722", 
+    "provider": "osm", 
+    "county": "Montpellier", 
+    "osm_type": "relation", 
+    "state": "Occitanie", 
+    "bbox": {
+      "northeast": [
+        43.6533542, 
+        3.9413208
+      ], 
+      "southwest": [
+        43.5667088, 
+        3.8070597
+      ]
+    }, 
+    "address": "Montpellier, H\u00e9rault, Occitanie, 34000;34070;34080;34090, France", 
+    "lat": "43.6112422", 
+    "lng": "3.8767337", 
+    "postal": "34000;34070;34080;34090", 
+    "quality": "city", 
+    "location": "Montpellier"
+  }, 
+  "Aberdeen": {
+    "status": "OK", 
+    "city": "Aberdeen", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "UK", 
+    "osm_id": "21063362", 
+    "provider": "osm", 
+    "osm_type": "node", 
+    "state": "Scotland", 
+    "bbox": {
+      "northeast": [
+        57.3052452, 
+        -1.9313744
+      ], 
+      "southwest": [
+        56.9852452, 
+        -2.2513744
+      ]
+    }, 
+    "address": "Aberdeen, Scotland, UK", 
+    "lat": "57.1452452", 
+    "lng": "-2.0913744", 
+    "quality": "city", 
+    "location": "Aberdeen"
+  }, 
+  "Tr\u00e8vise": {
+    "status": "OK", 
+    "city": "Treviso", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "45511", 
+    "provider": "osm", 
+    "county": "TV", 
+    "osm_type": "relation", 
+    "state": "VEN", 
+    "bbox": {
+      "northeast": [
+        45.7078497, 
+        12.2882487
+      ], 
+      "southwest": [
+        45.6136502, 
+        12.1696757
+      ]
+    }, 
+    "address": "Treviso, TV, VEN, Italia", 
+    "lat": "45.6658505", 
+    "lng": "12.2455414", 
+    "quality": "city", 
+    "location": "Tr\u00e8vise"
+  }, 
+  "Leipzig": {
+    "status": "OK", 
+    "city": "Leipzig", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Deutschland", 
+    "osm_id": "1681920624", 
+    "provider": "osm", 
+    "county": "Leipzig", 
+    "osm_type": "node", 
+    "state": "Sachsen", 
+    "bbox": {
+      "northeast": [
+        51.4991827, 
+        12.5410549
+      ], 
+      "southwest": [
+        51.1791827, 
+        12.2210549
+      ]
+    }, 
+    "address": "Leipzig, Sachsen, Deutschland", 
+    "lat": "51.3391827", 
+    "lng": "12.3810549", 
+    "quality": "city", 
+    "location": "Leipzig"
+  }, 
+  "Montauban": {
+    "status": "OK", 
+    "city": "Montauban", 
+    "confidence": 2, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "137735", 
+    "provider": "osm", 
+    "county": "Montauban", 
+    "osm_type": "relation", 
+    "state": "Occitanie", 
+    "bbox": {
+      "northeast": [
+        44.0922122, 
+        1.4427914
+      ], 
+      "southwest": [
+        43.9512579, 
+        1.2865419
+      ]
+    }, 
+    "address": "Montauban, Tarn-et-Garonne, Occitanie, 82000, France", 
+    "lat": "44.0175835", 
+    "lng": "1.3549991", 
+    "postal": "82000", 
+    "quality": "administrative", 
+    "location": "Montauban"
+  }, 
+  "Venezia": {
+    "status": "OK", 
+    "city": "Venezia", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "44741", 
+    "provider": "osm", 
+    "county": "VE", 
+    "osm_type": "relation", 
+    "state": "VEN", 
+    "bbox": {
+      "northeast": [
+        45.5779981, 
+        12.5965709
+      ], 
+      "southwest": [
+        45.2312466, 
+        12.1668859
+      ]
+    }, 
+    "address": "Venezia, VE, VEN, Italia", 
+    "lat": "45.4371908", 
+    "lng": "12.3345899", 
+    "quality": "city", 
+    "location": "Venezia"
+  }, 
+  "Graz": {
+    "status": "OK", 
+    "city": "Graz", 
+    "confidence": 3, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "\u00d6sterreich", 
+    "osm_id": "109163", 
+    "provider": "osm", 
+    "county": "Graz", 
+    "osm_type": "relation", 
+    "state": "Steiermark", 
+    "bbox": {
+      "northeast": [
+        47.1345, 
+        15.5342006
+      ], 
+      "southwest": [
+        47.0118864, 
+        15.3497141
+      ]
+    }, 
+    "address": "Graz, Steiermark, \u00d6sterreich", 
+    "lat": "47.0702563", 
+    "lng": "15.4385716", 
+    "quality": "city", 
+    "location": "Graz"
+  }, 
+  "Santiago de Compostella": {
+    "status": "OK", 
+    "city": "Santiago de Compostela", 
+    "confidence": 1, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Espa\u00f1a", 
+    "osm_id": "346204", 
+    "provider": "osm", 
+    "county": "A Coru\u00f1a", 
+    "osm_type": "relation", 
+    "state": "Galicia", 
+    "bbox": {
+      "northeast": [
+        42.989631, 
+        -8.3896424
+      ], 
+      "southwest": [
+        42.8241442, 
+        -8.6320115
+      ]
+    }, 
+    "address": "Santiago de Compostela, A Coru\u00f1a, Galicia, Espa\u00f1a", 
+    "lat": "42.8804219", 
+    "lng": "-8.5458607", 
+    "quality": "city", 
+    "location": "Santiago de Compostella"
+  }, 
+  "Franeker": {
+    "status": "OK", 
+    "city": "Franekeradeel", 
+    "confidence": 5, 
+    "neighborhood": "Franeker", 
+    "encoding": "utf-8", 
+    "country": "Nederland", 
+    "osm_id": "385297", 
+    "provider": "osm", 
+    "suburb": "Franeker", 
+    "osm_type": "relation", 
+    "state": "Friesland", 
+    "bbox": {
+      "northeast": [
+        53.2041945, 
+        5.6012259
+      ], 
+      "southwest": [
+        53.1636846, 
+        5.4939963
+      ]
+    }, 
+    "address": "Franeker, Franekeradeel, Friesland, Nederland", 
+    "lat": "53.18382835", 
+    "ok": true, 
+    "lng": "5.55292890936074", 
+    "quality": "administrative", 
+    "location": "Franeker"
+  }, 
+  "Orl\u00e9ans": {
+    "status": "OK", 
+    "city": "Orl\u00e9ans", 
+    "confidence": 4, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "France", 
+    "osm_id": "147559", 
+    "provider": "osm", 
+    "county": "Orl\u00e9ans", 
+    "osm_type": "relation", 
+    "state": "Centre-Val de Loire", 
+    "bbox": {
+      "northeast": [
+        47.9335389, 
+        1.9487114
+      ], 
+      "southwest": [
+        47.8132802, 
+        1.8757578
+      ]
+    }, 
+    "address": "Orl\u00e9ans, Loiret, Centre-Val de Loire, 45000;45100, France", 
+    "lat": "47.9027336", 
+    "lng": "1.9086066", 
+    "postal": "45000;45100", 
+    "quality": "city", 
+    "location": "Orl\u00e9ans"
+  }, 
+  "Arezzo": {
+    "status": "OK", 
+    "city": "Arezzo", 
+    "confidence": 5, 
+    "ok": true, 
+    "encoding": "utf-8", 
+    "country": "Italia", 
+    "osm_id": "3757780", 
+    "provider": "osm", 
+    "county": "AR", 
+    "osm_type": "relation", 
+    "state": "TOS", 
+    "bbox": {
+      "northeast": [
+        43.4855273, 
+        11.9125144
+      ], 
+      "southwest": [
+        43.4426729, 
+        11.8188476
+      ]
+    }, 
+    "address": "Arezzo, AR, TOS, 521, Italia", 
+    "lat": "43.4640246", 
+    "lng": "11.8604618783394", 
+    "postal": "521", 
+    "quality": "residential", 
+    "location": "Arezzo"
+  }
+}
