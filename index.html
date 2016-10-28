@@ -1,16 +1,44 @@
+<!doctype html>
+<html class="no-js" lang="">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Cartographie historique des universités en Europe</title>
+
+  <meta name="description" content="Cartographie historique des universités en Europe">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.css" media="screen" title="no title" charset="utf-8">
 
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.1/dist/leaflet.css" />
 
   <style>
 
-    input[type=range] {
-      width: 100%
+    body {
+      font-family: 'Roboto', sans-serif;
+      font-size: 12pt;
+    }
+
+    h1 {
+      font-weight: 400;
+      padding: 0 0 0 5%;
+    }
+
+    #selector {
+      padding: 0 5%;
+      width: 90%;
+      position: absolute;
+      bottom:40px
     }
 
     #map {
-      height: 80%;
+      height: 70%;
+      width: 100%;
+      position: absolute;
+      display: block;
     }
 
   </style>
@@ -18,10 +46,15 @@
 </head>
 <body>
 
-  <div id="slider"></div>
-  <p>Selection : <span id="year">1400</span></p>
 
-   <div id="map"></div>
+  <h1>Cartographie historique des universités en Europe</h1>
+  <div id="map"></div>
+
+
+  <div id="selector">
+    <p>Année : <span id="year">1400</span></p>
+    <div id="slider"></div>
+  </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/9.0.0/nouislider.js
@@ -30,6 +63,17 @@
 
 
   <script>
+
+
+    /*
+    * TODO
+    *
+    * - OK: fix geoloc
+    * - dates de fondation
+    * - titre :
+    * - échelle
+    * - nettoyage des données
+    */
 
     // setup map
     let map = L.map('map').setView([51.505, -0.09], 4);
@@ -50,12 +94,13 @@
     // store all circles objects
     const coords = {}
     // load geo coordinates
-    d3.json("data/geocodes-google.json", geoData => {
+    d3.json("data/geocodes-final.json", geoData => {
       Object.keys(geoData).forEach( (d,i) => {
-        let geo = geoData[d]
-        if(geo.lat && geo.lng) coords[d] = [geo.lat, geo.lng]
+        // let geo = geoData[d]
+        // if(geo.lat && geo.lng) coords[d] = [geo.lat, geo.lng]
+        coords[d] = geoData[d]
       })
-    })
+
 
     //
     d3.csv("data/universites.csv", data => {
@@ -97,6 +142,8 @@
 
     })
 
+  })
+
 
     const circles = {}
     function initMarkers(data, year) {
@@ -110,10 +157,11 @@
               color: 'red',
               fillColor: '#f03',
               fillOpacity: 0.5,
-              radius: 50
+              radius: 150
           })
 
-          circles[name].bindPopup(d, { showOnMouseOver: true });
+          circles[name].bindPopup(name, { showOnMouseOver: true });
+
           markers.addLayer(circles[name])
         }
       })
@@ -124,6 +172,7 @@
     function updateMarkers(data, year){
 
       console.log("updated")
+
       // loop through data
       data.map(d => {
 
@@ -145,5 +194,6 @@
 
       map.addLayer(markers)
     }
+
   </script>
 </body>
