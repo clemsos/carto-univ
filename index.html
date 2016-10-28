@@ -52,7 +52,7 @@
 
 
   <div id="selector">
-    <p>Année : <span id="year">1400</span></p>
+    <p>Année : <span id="year">year</span></p>
     <div id="slider"></div>
   </div>
 
@@ -69,10 +69,11 @@
     * TODO
     *
     * - OK: fix geoloc
-    * - dates de fondation
-    * - titre :
+    * - OK: montrer seulement ce qu'il y a dans les données
+    * - OK: dates de fondation
+    * - OK titre
     * - échelle
-    * - nettoyage des données
+    * - Eric: nettoyage des données
     */
 
     // setup map
@@ -86,114 +87,168 @@
         minZoom: 0,
       	maxZoom: 20,
       	ext: 'png'
-    }).addTo(map);
+    }).addTo(map)
 
-    // create storage
-    const markers = new L.FeatureGroup()
+    // Created a layer to put all our markers
+    const markersLayer = new L.LayerGroup()
+    markersLayer.addTo(map)
 
-    // store all circles objects
-    const coords = {}
     // load geo coordinates
     d3.json("data/geocodes-final.json", geoData => {
+
+      // compute geo coordinates
+      const coords = {}
       Object.keys(geoData).forEach( (d,i) => {
         // let geo = geoData[d]
         // if(geo.lat && geo.lng) coords[d] = [geo.lat, geo.lng]
         coords[d] = geoData[d]
       })
 
+      // load data
+      d3.csv("data/universites.csv", rawData => {
 
-    //
-    d3.csv("data/universites.csv", data => {
-      const years = Object.keys(data[0]).map(d => parseInt(d) )
+        // get all years
+        const years = Object.keys(rawData[0]).map(d => parseInt(d) )
+        let startYear = d3.min(years)
+        let endYear = d3.max(years)
+        d3.select("#year").text(startYear + "-" + endYear)
 
-      // default values
-      console.log(d3.min(years), d3.max(years))
+        // create slider
+        const slider = document.getElementById('slider')
 
-      let year = d3.min(years)
+        noUiSlider.create(slider, {
+        	start: [startYear, endYear],
+        	connect: true,
+          step: 20,
+        	range: {
+        		'min': d3.min(years),
+        		'max': d3.max(years)
+        	},
+          pips: {
+            mode: 'count',
+            values: 10,
+            density: 1,
+            stepped: true
+          }
+        })
 
-      // init visual rendering on map
-      initMarkers(data, year)
+        // show slider value on the page
+        slider.noUiSlider.on('slide', value => {
+          let start = Math.floor(value[0])
+          let end = Math.floor(value[1])
 
-      // create slider
-      const slider = document.getElementById('slider')
+          // compute list of valid years
+          let yearList = getYearList(years, start, end )
+          updateMarkers(data,yearList)
 
-      noUiSlider.create(slider, {
-      	start: year,
-      	connect: true,
-        step: 20,
-      	range: {
-      		'min': d3.min(years),
-      		'max': d3.max(years)
-      	},
-        pips: {
-          mode: 'count',
-          values: 10,
-          density: 1,
-          stepped: true
-        }
+          d3.select("#year").text(start + "-" +end)
+
+        })
+
+        // parse our data
+        const toBeRemoved = ["J : collège jésuites", "Est : Estimation", "M : matricules", "", "R : rotuli"]
+
+        let data = []
+        rawData.forEach(d => {
+          let name = d["Université"]
+          if ( ! toBeRemoved.indexOf(name) > -1 ) {
+            let values = {
+              name : name,
+              founded : parseInt(d["Date de fondation"]),
+              years : {},
+              latlng: coords[name]
+            }
+
+            Object.keys(d).forEach(year => {
+              let point = { year: year, count : null, type : null}
+              let split = d[year].split(":")
+              if(split.length > 1) {
+                point.type = split[0]
+                point.count = parseInt(split[1])
+              }
+              values.years[year] = point
+            })
+            data.push(values)
+          }
+        })
+
+        // log number of results
+        console.log(data.length, 'results')
+
+        // init visual rendering on map
+        let yearList = getYearList(years, startYear, endYear )
+        updateMarkers(data,yearList)
+
       })
-
-      // show slider value on the page
-      slider.noUiSlider.on('slide', value => {
-        year  = Math.floor(value)
-        d3.select("#year").text(year)
-        updateMarkers(data, year)
-      })
-
     })
 
-  })
-
-
-    const circles = {}
-    function initMarkers(data, year) {
-
-      // loop through data
-      data.map(d => {
-        let name  = d["Université"]
-        let coord = coords[name]
-        if (coord) {
-          circles[name] = L.circle(coord, {
-              color: 'red',
-              fillColor: '#f03',
-              fillOpacity: 0.5,
-              radius: 150
-          })
-
-          circles[name].bindPopup(name, { showOnMouseOver: true });
-
-          markers.addLayer(circles[name])
-        }
-      })
-      map.addLayer(markers)
-      markers.bringToFront()
+    function getYearList(years, start, end) {
+      let yearList = []
+      years.forEach(y => { if (y >= start && y <= end) yearList.push(y) })
+      return yearList
     }
 
-    function updateMarkers(data, year){
 
-      console.log("updated")
+  function updateMarkers(data, yearList){
+    // console.log("updated :" + yearList.length + ' valid dates from '+ d3.min(yearList) +" to "+ d3.max(yearList))
 
-      // loop through data
-      data.map(d => {
+    // The first thing we do here is clear the markers from the layer.
+    markersLayer.clearLayers()
 
-        let count = []
-        let name  = d["Université"]
-        if(d[year]) count = d[year].split(":")
+    // store all data values
+    let values = []
 
-        let circle = circles[name]
+    // Then we loop through our data to calculate all values
+    data.forEach(d => {
 
-        if(name && coords[name] && count.length > 1 && circle) {
+      // sum of all count in the valid years
+      let count = d3.sum(yearList.map(year =>  d.years[year].count ))
 
-          let coord = coords[name]
-          let c = parseInt(count[1])
+      // // new univ are in green
+      d.color = (d.created == d3.min(yearList)) ? 'green' : 'red'
 
-          circle.setRadius(c*30)
-          markers.addLayer(circle)
-        }
+      // check if there is a value
+      if (count || d.created == d3.min(yearList)) {
+        // store value
+        d.count = count
+        values.push(d)
+      }
+    })
+
+    /*
+    * NOW LET'S DRAW STUFF !
+    */
+
+    // calculate scale
+    let counts = values.map(v => v.count)
+    let scale = d3.scale
+        .linear()
+        .domain([d3.min(counts),d3.max(counts)])
+        .range([10000, 400000])
+
+    // create an array to store our markers
+    let circles = values.map( d => {
+      // console.log(Math.floor(scale(d.count)))
+      return L.circle(d.latlng, {
+          color: d.color,
+          fillColor: '#f03',
+          fillOpacity: 0.5,
+          weight: 1,
+          radius: Math.floor(scale(d.count))
       })
+      .bindPopup(d.name, { showOnMouseOver: true })
+    })
 
-      map.addLayer(markers)
-    }
+    // console.log(circles.length)
+    let markers = L.featureGroup(circles)
+
+    // add markers to map
+    markersLayer.addLayer(markers)
+
+    map.fitBounds(markers.getBounds())
+    markers.bringToFront()
+
+  }
 
   </script>
 </body>
