@@ -366,7 +366,7 @@
               d3.select("#stop").classed("hidden", false)
               isPlaying = setInterval(function () {
                   next()
-              }, 300)
+              }, 600)
             }
           }
 
@@ -441,7 +441,7 @@
 
             markers
               .transition()
-              .duration(250)
+              .duration(500)
               .ease('sine')
               .attr("r", d => d.isNew ? 15 : 6)
 
