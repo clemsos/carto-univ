@@ -303,8 +303,12 @@
 
           // get all years
           const years = Object.keys(rawData[0]).map(d => parseInt(d) )
-          // get first year in the list
-          now = d3.min(years)
+
+          // get default year from URL
+          var hash = location.hash.substr(1)
+          if(parseInt(hash) != NaN && parseInt(hash) > d3.min(years) && parseInt(hash) < d3.max(years)) now = parseInt(hash)
+          else now = d3.min(years) // fallback on first listed year
+
           d3.select("#year").text(now)
 
           // create slider
@@ -321,18 +325,30 @@
           updateMap()
 
           d3.select("#next")
-            .on("click", d=> next() )
+            .on("click", d=>{
+              d3.event.preventDefault()
+              next()
+            })
 
           d3.select("#prev")
-            .on("click", d=> prev() )
+            .on("click", d=> {
+              d3.event.preventDefault()
+              prev()
+            })
 
           var isPlaying;
 
           d3.select("#play")
-            .on("click", function (d) { play(this) } )
+            .on("click", function (d) {
+              d3.event.preventDefault()
+              play(this)
+            })
 
           d3.select("#stop")
-            .on("click", function(d) { stop(this) } )
+            .on("click", function(d) {
+              d3.event.preventDefault()
+              stop(this) 
+            })
 
 
           function play(_this) {
@@ -451,6 +467,9 @@
 
             // update counts in caption
             updateCaption(data, now, legend)
+
+            // update hash
+            window.location.hash = "#"+now
 
           }
 
