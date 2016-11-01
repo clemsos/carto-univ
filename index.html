@@ -17,9 +17,21 @@
 
   <style>
 
+    /* reset */
+    html, body, div, h1 {
+      padding: 0;
+      margin: 0;
+      border: 0;
+      font-size: 100%;
+      font: inherit;
+      vertical-align: baseline;
+    }
+
     body {
       font-family: 'Roboto', sans-serif;
       font-size: 12pt;
+      background: #FFF3E5;
+      color: #705540
     }
 
     h1 {
@@ -47,12 +59,33 @@
     }
 
     #map {
-      height: 70%;
+      height: 100%;
       width: 80%;
+      padding: 0;
       margin-left: 20%;
       position: absolute;
       display: block;
+      background: #FFF3E5
     }
+
+    #map path {
+      fill : #BD906F;
+      border : none;
+    }
+
+    #slider {
+      z-index: 1000
+    }
+    #slider div , .noUi-marker{
+      color: #D4877F;
+    }
+    #slider .noUi-marker {
+      background: #D4877F
+    }
+
+    .default {fill : #BD906F; }
+    .focused { fill : #705540; }
+    .faded { fill : #D4877F;}
 
   </style>
 
@@ -87,7 +120,6 @@
   <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
 
   <script>
-
     /*
     * TODO
     *
@@ -101,17 +133,28 @@
     */
 
     // setup map
-    let map = L.map('map').setView([51.505, -0.09], 4);
+    let map = L.map('map').setView([48.5692557,7.6220094,], 4);
 
     let url = 'http://tile.thunderforest.com/transport/{z}/{x}/{y}.png'
     let attribution = '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 
-    L.tileLayer(url, {
+    const tiles = L.tileLayer(url, {
         attribution: attribution,
         minZoom: 0,
       	maxZoom: 20,
       	ext: 'png'
-    }).addTo(map)
+    })
+
+    // create d3 map layout from leaflet
+    const svg = d3.select(map.getPanes().overlayPane).append("svg"),
+      d3map = svg.append("g").attr("class", "leaflet-zoom-hide")
+
+    //  create a d3.geo.path to convert GeoJSON to SVG
+    const transform = d3.geo.transform({point: projectPoint}),
+      path = d3.geo.path().projection(transform)
+
+    // declare global
+    var values;
 
     // Created a layer to put all our markers
     const markersLayer = new L.LayerGroup()
@@ -119,25 +162,34 @@
 
     // load all needed files
     d3.queue()
+      // map created from https://geojson-maps.kyd.com.au/
+      .defer(d3.json, "data/europe.geo.json")
+      // capitals at https://www.npmjs.com/package/capitals-coordinates
+      .defer(d3.json, "data/europe-capitals.geo.json")
+      // name and colors for the caption
       .defer(d3.json, "docs/legend.json")
+      // geocoding with google API + handfix
       .defer(d3.json, "data/geocodes-final.json")
+      // actual data
       .defer(d3.dsv("\t"), "./docs/Tout-Univ-religion-par-an.csv")
-      .await(function(error, legend, coords, rawData) {
+      .await(function(error, europe, capitals, legend, coords, rawData) {
           if (error) throw error
           console.log("data loaded")
 
-          // TODO : fix cities names
-          // console.log("--- TODO :fix cities");
-          // let cities = rawData.map(d => d["Univ"])
-          // let coordsCities = Object.keys(coords)
-          // cities.forEach(d => { if (! coords[d]) {
-          //   console.log(d)
-          // } else {
-          //   let index = coordsCities.indexOf(d)
-          //   if (index > -1) coordsCities.splice(index, 1)
-          // }
-          // })
-          // console.log(coordsCities)
+          const europeFeatures = d3map
+            .append("g")
+            .attr("class", "europe")
+            .selectAll("path")
+              .data(europe.features)
+            .enter()
+            .append("path")
+
+          // add capitals using leaflet
+          let capitalsLayer = L.geoJson(capitals, {});
+          let overlayMaps = {"Map": tiles,  "Capitals": capitalsLayer }
+
+          // initialize up the L.control.layers
+          L.control.layers({}, overlayMaps).addTo(map);
 
           // draw caption
           initCaption(legend)
@@ -167,58 +219,112 @@
           d3.select("#year").text(now)
 
           // create slider
-          const slider = document.getElementById('slider')
-
-          noUiSlider.create(slider, {
-          	start:  now, //[startYear, endYear],
-          	connect: true,
-            step: 20,
-          	range: {
-          		'min': d3.min(years),
-          		'max': d3.max(years)
-          	},
-            pips: {
-              mode: 'count',
-              values: 10,
-              density: 1,
-              stepped: true
-            }
-          })
+          const slider = createSlider(now, years)
 
           // show slider value on the page
           slider.noUiSlider.on('slide', value => {
             let now = Math.floor(value)
-            // let end = Math.floor(value[1])
-
-            // compute list of valid years
-            // let yearList = getYearList(years, start, end )
-
             d3.select("#year").text(now)
 
             // update display
-            updateMarkers(data, now)
+            values = getValuesForYear(data, now)
+            // updateMarkers(values)
+            updateMap()
 
             // update counts in caption
             updateCaption(data, now, legend)
           })
 
-          // log number of results
-          console.log(data.length, 'results')
 
           // init visual rendering on map
-          // let yearList = getYearList(years, startYear, endYear )
-          updateMarkers(data, now)
+          values = getValuesForYear(data, now)
+
+          // create markers
+          let markers = d3map
+              .append("g")
+              .attr("class", "markers")
+            .selectAll("circle")
+              .data(values)
+
+          // updatePoints(values)
+          // updateMarkers(values)
+
+          map.on("moveend", updateMap)
+          // map.on("update", updateMap)
+          updateMap()
 
           // update counts in caption
           updateCaption(data, now, legend)
 
+          // fit the SVG element to leaflet's map layer
+          function updateMap() {
+
+            let bounds = path.bounds(europe),
+                topLeft = bounds[0],
+                bottomRight = bounds[1];
+
+            // map.fitBounds(markers.getBounds())
+
+            svg.attr("width", bottomRight[0] - topLeft[0])
+      				.attr("height", bottomRight[1] - topLeft[1])
+      				.style("left", topLeft[0] + "px")
+      				.style("top", topLeft[1] + "px");
+
+            d3map.attr("transform", "translate(" + -topLeft[0] + ","
+			                                  + -topLeft[1] + ")");
+
+            // initialize the path data
+            europeFeatures.attr("d", path)
+
+            // console.log(values.length, " cities")
+
+            // remove existing point
+            d3map.selectAll("circle").remove()
+
+            // update markers
+            markers
+              .data(values)
+              .enter()
+            .append("circle")
+              .attr("class", "marker")
+              .attr("r", 5)
+              .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
+              .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
+              .style("fill", (d,i) => d.data.color )
+              .style("opacity", .7)
+
+          }
+
+
+
       });
 
+  // helpers for d3
+  function projectPoint(x, y) {
+    let point = map.latLngToLayerPoint(new L.LatLng(y, x));
+    this.stream.point(point.x, point.y);
+  }
 
-  function getYearList(years, start, end) {
-    let yearList = []
-    years.forEach(y => { if (y >= start && y <= end) yearList.push(y) })
-    return yearList
+  function createSlider(now, years) {
+    let slider = document.getElementById('slider')
+
+    noUiSlider.create(slider, {
+      start:  now, //[startYear, endYear],
+      connect: true,
+      step: 20,
+      range: {
+        'min': d3.min(years),
+        'max': d3.max(years)
+      },
+      pips: {
+        mode: 'count',
+        values: 10,
+        density: 1,
+        stepped: true
+      }
+    })
+
+    return slider
   }
 
   function initCaption(legend) {
@@ -243,7 +349,6 @@
       .attr("text-anchor", "left")
       .attr("x", 20)
       .attr("y", 5)
-      // .style("font-size", ".9em")
       .text(d => d.nom)
 
   }
@@ -261,32 +366,37 @@
 
     let countsWithInfo = Object.keys(legend).map(d => Object.assign( legend[d], { count : counts[d]}) )
 
-    d3.selectAll(".caption")
+    captions = d3.selectAll(".caption")
       .data(countsWithInfo)
-        .select("text")
-      .attr("fill", d => d.count ? "rgba(0,0,0,.8)" : "#CCC" )
-      .text(d => d.count ? d.nom + "("+d.count+")" : d.nom )
+      .classed("faded", d => !d.count)
+      .classed("focused", d=> d.count)
+    .select("text")
+        .text(d => { console.log(d); return d.count ? d.nom + "("+d.count+")" : d.nom} )
   }
 
-  function updateMarkers(data, year){
-    // console.log("updated :" + yearList.length + ' valid dates from '+ d3.min(yearList) +" to "+ d3.max(yearList))
-
-    // The first thing we do here is clear the markers from the layer.
-    markersLayer.clearLayers()
-
+  function getValuesForYear(data, year) {
     // parse values for a specific year
     let values = []
     data.forEach(d => {
       if(d.years[year]) { // check if there is a value in the year
         let value = {
           name : d.name,
-          latLng : d.latLng,
+          LatLng : d.LatLng = new L.LatLng(d.latLng[0], d.latLng[1]),
           year : year,
           data: d.years[year]
         }
         values.push(value)
       }
     })
+    return values
+  }
+
+  function updateMarkers(values){
+    // console.log("updated :" + yearList.length + ' valid dates from '+ d3.min(yearList) +" to "+ d3.max(yearList))
+
+    // The first thing we do here is clear the markers from the layer.
+    markersLayer.clearLayers()
+
 
     // console.log(values);
     /*
@@ -318,10 +428,17 @@
 
     // add markers to map
     markersLayer.addLayer(markers)
-
-    map.fitBounds(markers.getBounds())
     markers.bringToFront()
 
+    // autofit map
+    // map.fitBounds(markers.getBounds())
+
+  }
+
+  function getYearList(years, start, end) {
+    let yearList = []
+    years.forEach(y => { if (y >= start && y <= end) yearList.push(y) })
+    return yearList
   }
 
   </script>
