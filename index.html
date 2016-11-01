@@ -54,7 +54,9 @@
       padding: 0 5%;
       width: 90%;
       position: absolute;
-      bottom:12%
+      bottom:12%;
+      pointer-events: none;
+      z-index: 1000
     }
 
     #selector p {
@@ -82,8 +84,8 @@
       margin-top: 5%;
       margin-left: 20%;
       padding-left: 10px;
-      /*border: 1px solid red;*/
-      z-index: 1001
+      z-index: 1001;
+      pointer-events: none;
     }
 
     .no-fill path {
@@ -91,8 +93,8 @@
       border : none;
     }
 
-    #selector {
-      z-index: 1000
+    #slider {
+      pointer-events: auto;
     }
     #slider div , .noUi-marker{
       color: #D4877F;
@@ -118,7 +120,8 @@
     #controls a, #controls a:visited {
       font-size: 1.5em;
       color: #BD906F;
-      padding: .5em
+      padding: .5em;
+      pointer-events: auto;
     }
 
     #controls a:hover, #controls a.active {
