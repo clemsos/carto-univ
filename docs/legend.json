@@ -1,13 +1,13 @@
 {
-  "A": {
-    "abbr": "A",
-    "color": "darkgreen",
-    "nom": "Anglican"
-  },
   "C": {
     "abbr": "C",
     "color": "red",
     "nom": "Catholique"
+  },
+  "A": {
+    "abbr": "A",
+    "color": "darkgreen",
+    "nom": "Anglican"
   },
   "C&PL": {
     "abbr": "C&PL",

@@ -541,12 +541,20 @@
       }
     })
 
-    let countsWithInfo = Object.keys(legend).map(d => Object.assign( legend[d], { count : counts[d]}) )
+    let countsWithInfo = Object.keys(legend)
+        .map(d => Object.assign( legend[d], { count : counts[d]}) )
+        .sort( (a,b) => {
+          let c1 = a.count ? a.count : 0
+          let c2 = b.count ? b.count : 0
+          console.log(c1, c2);
+          return c1 < c2
+        })// sort alphabetically
 
     captions = d3.selectAll(".caption")
       .data(countsWithInfo)
       .classed("faded", d => !d.count)
       .classed("focused", d=> d.count)
+      .transition()
     .select("text")
         .text(d => d.count ? d.nom + " ("+d.count+")" : d.nom )
   }
