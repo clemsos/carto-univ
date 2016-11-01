@@ -1,0 +1,47 @@
+{
+  "A": {
+    "abbr": "A",
+    "color": "darkgreen",
+    "nom": "Anglican"
+  },
+  "C": {
+    "abbr": "C",
+    "color": "red",
+    "nom": "Cath"
+  },
+  "C&PL": {
+    "abbr": "C&PL",
+    "color": "lightgreen",
+    "nom": "Cath et Luth (Orange, Rintel)"
+  },
+  "H": {
+    "abbr": "H",
+    "color": "black",
+    "nom": "Hussite"
+  },
+  "O": {
+    "abbr": "O",
+    "color": "pink",
+    "nom": "Orthodoxe"
+  },
+  "P": {
+    "abbr": "P",
+    "color": "blue",
+    "nom": "Protestant"
+  },
+  "PC": {
+    "abbr": "PC",
+    "color": "darkblue",
+    "nom": " Calviniste"
+  },
+  "PL": {
+    "abbr": "PL",
+    "color": "steelblue",
+    "nom": " Luth\u00e9rien"
+  },
+  "Pb": {
+    "abbr": "Pb",
+    "color": "purple",
+    "nom": " Presbyt\u00e9rien"
+  }
+}

@@ -34,9 +34,16 @@
       bottom:40px
     }
 
+    #caption {
+      position: fixed;
+      z-index :1000;
+      background-color: rgba(0,0,0,.3)
+    }
+
     #map {
       height: 70%;
       width: 100%;
+      margin-left: 250px;
       position: absolute;
       display: block;
     }
@@ -46,17 +53,16 @@
 </head>
 <body>
 
-
   <h1>Cartographie historique des universités en Europe</h1>
-  <div id="map"></div>
-
+  <div id="main">
+    <div id="map"></div>
+    <svg id="caption"></svg>
+  </div>
 
   <div id="selector">
     <p>Année : <span id="year">year</span></p>
     <div id="slider"></div>
   </div>
-
-  <svg id="caption"></svg>
 
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js" charset="utf-8"></script>
@@ -77,7 +83,7 @@
     * - OK: montrer seulement ce qu'il y a dans les données
     * - OK: dates de fondation
     * - OK titre
-    * - ok (Eric): nettoyage des données
+    * - OK (Eric): nettoyage des données
     * - échelle
     */
 
@@ -104,13 +110,25 @@
       .defer(d3.json, "docs/legend.json")
       .defer(d3.json, "data/geocodes-final.json")
       .defer(d3.dsv("\t"), "./docs/Tout-Univ-religion-par-an.csv")
-      .await(function(error, legendRaw, coords, rawData) {
+      .await(function(error, legend, coords, rawData) {
           if (error) throw error
           console.log("data loaded")
 
-          // parse legend data
-          let legend = {}
-          legendRaw.forEach( d => { legend[d.abbr] = d })
+          // TODO : fix cities names
+          // console.log("--- TODO :fix cities");
+          // let cities = rawData.map(d => d["Univ"])
+          // let coordsCities = Object.keys(coords)
+          // cities.forEach(d => { if (! coords[d]) {
+          //   console.log(d)
+          // } else {
+          //   let index = coordsCities.indexOf(d)
+          //   if (index > -1) coordsCities.splice(index, 1)
+          // }
+          // })
+          // console.log(coordsCities)
+
+          // draw caption
+          initCaption(legend)
 
           // merge all data into a single object
           let data = rawData.map( d => {
@@ -167,6 +185,9 @@
 
             // update display
             updateMarkers(data, now)
+
+            // update counts in caption
+            updateCaption(data, now, legend)
           })
 
           // log number of results
@@ -174,7 +195,10 @@
 
           // init visual rendering on map
           // let yearList = getYearList(years, startYear, endYear )
-          updateMarkers(data,now)
+          updateMarkers(data, now)
+
+          // update counts in caption
+          updateCaption(data, now, legend)
 
       });
 
@@ -183,6 +207,53 @@
     let yearList = []
     years.forEach(y => { if (y >= start && y <= end) yearList.push(y) })
     return yearList
+  }
+
+  function initCaption(legend) {
+
+    // draw caption
+    let captions = d3.select("#caption")
+      .attr("width", 250)
+      .attr("height", 300)
+      .selectAll(".caption")
+        .data(Object.keys(legend).map(d => legend[d]))
+        .enter()
+      .append("g")
+        .attr("class", "caption")
+        .attr("transform", (d,i) => "translate(20,"+(i*30+20)+")")
+
+    captions.append("circle")
+        .attr("r", 10)
+        .attr("class", d => d.color )
+        .style("fill", d => d.color )
+
+    captions.append("text")
+      .attr("text-anchor", "left")
+      .attr("x", 20)
+      .attr("y", 5)
+      .text(d => d.nom)
+
+  }
+
+  function updateCaption(data, year, legend) {
+
+    // count occurence
+    let counts = {}
+    data.forEach(d => {
+      if (d.years[year]) {
+        let abbr = d.years[year].abbr
+        counts[abbr] = counts[abbr] ? counts[abbr]+1 : 1;
+      }
+    })
+
+    let countsWithInfo = Object.keys(legend).map(d => Object.assign( legend[d], { count : counts[d]}) )
+
+    d3.selectAll(".caption")
+      .data(countsWithInfo)
+        .select("text")
+      .attr("fill", d => d.count ? "white" : "rgba(0,0,0,.5)" )
+      .text(d => d.count ? d.nom + "("+d.count+")" : d.nom )
+
   }
 
 
@@ -199,14 +270,14 @@
         let value = {
           name : d.name,
           latLng : d.latLng,
-          color : d.color,
-          year : d.years[year]
+          year : year,
+          data: d.years[year]
         }
         values.push(value)
       }
     })
 
-    console.log(values);
+    // console.log(values);
     /*
     * NOW LET'S DRAW STUFF !
     */
@@ -222,11 +293,11 @@
     let circles = values.map( d => {
       // console.log(Math.floor(scale(d.count)))
       return L.circle(d.latLng, {
-          color: d.color,
-          fillColor: '#f03',
+          fillColor: d.data.color,
+          color: d.data.color,
           fillOpacity: 0.5,
           weight: 1,
-          radius: 300 //Math.floor(scale(d.count))
+          radius: 3000 //Math.floor(scale(d.count))
       })
       .bindPopup(d.name, { showOnMouseOver: true })
     })
@@ -239,19 +310,6 @@
 
     map.fitBounds(markers.getBounds())
     markers.bringToFront()
-
-    // draw caption
-    // let caption = d3.select("#caption")
-    //   .selectAll(".caption")
-    //     .data([d3.min(counts), d3.median(counts), d3.max(counts)])
-    //     .enter()
-    //   .append("g")
-    //   .attr("class", "caption")
-    //   .append("circle")
-    //     .attr("r", d => scale(d))
-
-
-
 
   }
 
