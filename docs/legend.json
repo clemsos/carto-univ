@@ -32,16 +32,21 @@
   "PC": {
     "abbr": "PC",
     "color": "darkblue",
-    "nom": " Calviniste"
+    "nom": "Calviniste"
   },
   "PL": {
     "abbr": "PL",
     "color": "steelblue",
-    "nom": " Luth\u00e9rien"
+    "nom": "Luth\u00e9rien"
   },
   "Pb": {
     "abbr": "Pb",
     "color": "purple",
-    "nom": " Presbyt\u00e9rien"
+    "nom": "Presbyt\u00e9rien"
+  },
+  "F" : {
+    "abbr" : "F",
+    "color": "gray",
+    "nom": "Fermé"
   }
 }
