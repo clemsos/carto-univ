@@ -397,7 +397,7 @@
             // initialize the path data
             europeFeatures.attr("d", path)
 
-            // d3map.selectAll("circle").remove()
+            d3map.selectAll("circle").remove()
 
             // update markers
             let markers = d3map.selectAll("circle")
@@ -408,7 +408,7 @@
               .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
 
             markers
-              .remove()
+              // .remove()
               .enter()
               .append("circle")
                 .attr("class", "marker")
@@ -537,13 +537,9 @@
     let points = []
     data.forEach(d => {
       if(d.years[year]) { // check if there is a value in the year
-        let point = {
-          year,
-          LatLng : d.LatLng,
-          data : d.years[year],
-          info : d.info,
-          name : d.name
-        }
+        let point = Object.assign({}, d)
+        point.year = year
+        point.data = d.years[year]
         points.push(point)
       }
     })
