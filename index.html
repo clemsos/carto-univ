@@ -73,7 +73,7 @@
       border : none;
     }
 
-    #slider {
+    #selector {
       z-index: 1000
     }
     #slider div , .noUi-marker{
@@ -92,6 +92,24 @@
       z-index : 2000;
     }
 
+    #controls {
+      padding: 1em
+    }
+
+    #controls a, #controls a:visited {
+      text-decoration: none;
+      font-size: 1.5em;
+      color: #BD906F;
+      padding: .5em
+    }
+
+    #controls a:hover, #controls a.active {
+      color: #705540;
+    }
+    .hidden {
+      display: none
+    }
+
     .default {fill : #BD906F; }
     .focused { fill : #705540; }
     .faded { fill : #D4877F;}
@@ -107,14 +125,21 @@
       <h1>Cartographie historique des universités en Europe</h1>
       <p>
         E. Guichard et C. Renaud, 2016
-        <br><small>d'après C. Ducrot</small>
+        <br><small>d'après C. Ducrot. Projet financé par le Conseil scientifique de l'Enssib.</small>
       </p>
       <svg id="caption"></svg>
     </div>
   </div>
 
+
   <div id="selector">
-    <p>Année : <span id="year">year</span></p>
+    <div id="controls">
+      <a href="#" id="prev">&#x23ee;</a>
+      <a href="#" id="play">&#x23f5;</a>
+      <a href="#" id="stop" class="hidden">&#x23f9;</a>
+      <a href="#" id="next">&#x23ed;</a>
+      <span>Année : <span id="year">year</span></span>
+    </div>
     <div id="slider"></div>
   </div>
 
@@ -162,7 +187,7 @@
       path = d3.geo.path().projection(transform)
 
     // declare global
-    var values;
+    var now
 
     // Define the div for the tooltip
     const tooltip = d3.select("body")
@@ -189,7 +214,6 @@
       .await(function(error, europe, capitals, legend, coords, rawData) {
           if (error) throw error
           console.log("data loaded")
-
 
           const europeFeatures = d3map
             .append("g")
@@ -229,8 +253,8 @@
 
           // get all years
           const years = Object.keys(rawData[0]).map(d => parseInt(d) )
-          let now = d3.min(years)
-          // let endYear = d3.max(years)
+          // get first year in the list
+          now = d3.min(years)
           d3.select("#year").text(now)
 
           // create slider
@@ -238,48 +262,71 @@
 
           // show slider value on the page
           slider.noUiSlider.on('slide', value => {
-            let now = Math.floor(value)
-            d3.select("#year").text(now)
-
-            // update display
-            values = getValuesForYear(data, now)
-            // updateMarkers(values)
+            now = Math.floor(value)
             updateMap()
-
-            // update counts in caption
-            updateCaption(data, now, legend)
           })
 
-
-          // init visual rendering on map
-          values = getValuesForYear(data, now)
-
-          // create markers
-          let markers = d3map
-              .append("g")
-              .attr("class", "markers")
-            .selectAll("circle")
-              .data(values)
-
-          // updatePoints(values)
-          // updateMarkers(values)
-
+          //markers
           map.on("moveend", updateMap)
-          // map.on("update", updateMap)
           updateMap()
 
-          // update counts in caption
-          updateCaption(data, now, legend)
+          d3.select("#next")
+            .on("click", d=> next() )
+
+          d3.select("#prev")
+            .on("click", d=> prev() )
+
+          var isPlaying;
+
+          d3.select("#play")
+            .on("click", function (d) {
+              d3.select(this).classed("hidden", true)
+              d3.select("#stop").classed("hidden", false)
+              if(!isPlaying) {
+                isPlaying = setInterval(function () {
+                    next()
+                }, 75)
+              }
+            })
+
+          d3.select("#stop")
+            .on("click", function(d) {
+              clearInterval(isPlaying)
+              d3.select(this).classed("hidden", true)
+              d3.select("#play").classed("hidden", false)
+              isPlaying = null
+            })
+
+          function prev() {
+            let i = years.indexOf(now)
+            let prev = years[--i]
+            if( i >= 0 ) now = prev
+            updateMap()
+            slider.noUiSlider.set(now)
+          }
+
+          function next() {
+            let i = years.indexOf(now)
+            let next = years[++i]
+            if( i <= years.length ) now = next
+            updateMap()
+            slider.noUiSlider.set(now)
+          }
 
           // fit the SVG element to leaflet's map layer
           function updateMap() {
+
+            // show current year
+            d3.select("#year").text(now)
+
+            let values = getValuesForYear(data, now)
+            console.log(values.length, " cities")
 
             let bounds = path.bounds(europe),
                 topLeft = bounds[0],
                 bottomRight = bounds[1];
 
             // map.fitBounds(markers.getBounds())
-
             svg.attr("width", bottomRight[0] - topLeft[0])
       				.attr("height", bottomRight[1] - topLeft[1])
       				.style("left", topLeft[0] + "px")
@@ -291,23 +338,26 @@
             // initialize the path data
             europeFeatures.attr("d", path)
 
-            // console.log(values.length, " cities")
-
-            // remove existing point
-            d3map.selectAll("circle").remove()
-
             // update markers
+            let markers = d3map.selectAll("circle")
+                      .data(values)
+
             markers
-              .data(values)
-              .enter()
-            .append("circle")
-              .attr("class", "marker")
-              .attr("r", 5)
               .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
               .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
-              .style("fill", (d,i) => d.data.color )
-              .style("opacity", .7)
-              .style("cursor", "pointer")
+
+            markers.exit().remove()
+
+            markers
+              .enter()
+              .append("circle")
+                .attr("class", "marker")
+                .attr("r", 5)
+                .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
+                .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
+                .style("fill", (d,i) => d.data.color )
+                .style("opacity", .7)
+                .style("cursor", "pointer")
               .on("mouseover", function(d) {
                   console.log("clicked", d.name);
 
@@ -324,19 +374,22 @@
                       .style("top", (window.pageYOffset + matrix.f - 25) + "px");
 
                 })
-                .on("mouseout", function(d) {
+              .on("mouseout", function(d) {
                   tooltip.transition()
                       .duration(500)
                       .style("opacity", 0)
                 })
 
+            // update counts in caption
+            updateCaption(data, now, legend)
 
           }
 
-
-
       });
 
+  function play() {
+
+  }
   // helpers for d3
   function projectPoint(x, y) {
     let point = map.latLngToLayerPoint(new L.LatLng(y, x));
