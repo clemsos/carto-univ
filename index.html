@@ -337,9 +337,9 @@
 
           function play(_this) {
             console.log("play");
-            d3.select(_this).classed("hidden", true)
-            d3.select("#stop").classed("hidden", false)
-            if(!isPlaying) {
+            if(!isPlaying && now < d3.max(years)) {
+              d3.select(_this).classed("hidden", true)
+              d3.select("#stop").classed("hidden", false)
               isPlaying = setInterval(function () {
                   next()
               }, 100)
@@ -385,7 +385,7 @@
                 topLeft = bounds[0],
                 bottomRight = bounds[1];
 
-            // map.fitBounds(markers.getBounds())
+
             svg.attr("width", bottomRight[0] - topLeft[0])
       				.attr("height", bottomRight[1] - topLeft[1])
       				.style("left", topLeft[0] + "px")
@@ -444,6 +444,10 @@
                   d3.select("#infobox")
                     .html("")
                 })
+
+
+            // autofit map
+            // autoFitMap(values)
 
             // update counts in caption
             updateCaption(data, now, legend)
@@ -545,6 +549,15 @@
       }
     })
     return values
+  }
+
+  function autoFitMap(values) {
+    let circles = values.map( d => L.circle(d.LatLng, {}))
+    console.log(circles);
+    let markers = L.featureGroup( circles )
+    console.log(markers);
+    // markers.addTo(map)
+    map.fitBounds(markers.getBounds())
   }
 
   function updateMarkers(values){
