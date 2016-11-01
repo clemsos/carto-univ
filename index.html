@@ -397,6 +397,8 @@
             // initialize the path data
             europeFeatures.attr("d", path)
 
+            // d3map.selectAll("circle").remove()
+
             // update markers
             let markers = d3map.selectAll("circle")
                       .data(values)
@@ -405,20 +407,20 @@
               .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
               .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
 
-            markers.exit().remove()
-
             markers
+              .remove()
               .enter()
               .append("circle")
                 .attr("class", "marker")
                 .attr("r", 6)
                 .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
                 .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
-                .style("fill", (d,i) => d.data.color )
+              .style("fill", d => d.data.color )
                 .style("opacity", .7)
                 .style("cursor", "pointer")
               .on("mouseover", function(d) {
                   console.log("clicked", d.name);
+                  console.log(d);
 
                   tooltip.transition()
                     .duration(200)
@@ -433,7 +435,9 @@
                       .style("top", (window.pageYOffset + matrix.f - 25) + "px");
 
                   d3.select("#infobox")
-                    .html('<h3>' + d.name +'</h3>' + d.info.join("<br>"))
+                    .html('<h3>' + d.name +'</h3>'
+                        + '<h4>' + d.data.nom + '</h4>'
+                        + d.info.join("<br>"))
 
                 })
               .on("mouseout", function(d) {
@@ -445,10 +449,6 @@
                     .html("")
                 })
 
-
-            // autofit map
-            // autoFitMap(values)
-
             // update counts in caption
             updateCaption(data, now, legend)
 
@@ -456,9 +456,6 @@
 
       });
 
-  function play() {
-
-  }
   // helpers for d3
   function projectPoint(x, y) {
     let point = map.latLngToLayerPoint(new L.LatLng(y, x));
@@ -537,18 +534,20 @@
 
   function getValuesForYear(data, year) {
     // parse values for a specific year
-    let values = []
+    let points = []
     data.forEach(d => {
       if(d.years[year]) { // check if there is a value in the year
-        let value = {
-          year : year,
-          data: d.years[year]
+        let point = {
+          year,
+          LatLng : d.LatLng,
+          data : d.years[year],
+          info : d.info,
+          name : d.name
         }
-        let point = Object.assign(d, value)
-        values.push(point)
+        points.push(point)
       }
     })
-    return values
+    return points
   }
 
   function autoFitMap(values) {
