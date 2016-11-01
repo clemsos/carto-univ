@@ -78,7 +78,7 @@
       z-index: 1001
     }
 
-    #map path {
+    .no-fill path {
       fill : #BD906F;
       border : none;
     }
@@ -194,7 +194,9 @@
 
     // create d3 map layout from leaflet
     const svg = d3.select(map.getPanes().overlayPane).append("svg"),
-      d3map = svg.append("g").attr("class", "leaflet-zoom-hide")
+      d3map = svg.append("g")
+        .attr("class", "leaflet-zoom-hide")
+        .classed("no-fill", true)
 
     //  create a d3.geo.path to convert GeoJSON to SVG
     const transform = d3.geo.transform({point: projectPoint}),
@@ -240,8 +242,24 @@
             .append("path")
 
           // add capitals using leaflet
-          let capitalsLayer = L.geoJson(capitals, {});
+          let capitalsLayer = L.geoJson(capitals, {
+            pointToLayer: function(feature, latlng) {
+                return L.circleMarker(latlng, {
+                      radius: 3,
+                      fillColor: "#FFF3E5",
+                      fillOpacity: .3,
+                      color: "#705540",
+                      weight: 0,
+                      opacity: .7
+                })
+            },
+           onEachFeature: function (feature, layer) {
+              layer.bindPopup(feature.properties.name);
+           }
+          });
+
           let overlayMaps = {"Map": tiles,  "Capitals": capitalsLayer }
+          // capitalsLayer.addTo(map)
 
           // initialize up the L.control.layers
           L.control.layers({}, overlayMaps).addTo(map);
@@ -306,7 +324,7 @@
               if(!isPlaying) {
                 isPlaying = setInterval(function () {
                     next()
-                }, 75)
+                }, 100)
               }
             })
 
