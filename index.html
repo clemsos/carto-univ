@@ -68,6 +68,16 @@
       background: #FFF3E5
     }
 
+    #infobox {
+      position : absolute;
+      width : 20%;
+      height: 50%;
+      margin-top: 5%;
+      margin-left: 20%;
+      /*border: 1px solid red;*/
+      z-index: 1001
+    }
+
     #map path {
       fill : #BD906F;
       border : none;
@@ -114,6 +124,7 @@
     .focused { fill : #705540; }
     .faded { fill : #D4877F;}
 
+
   </style>
 
 </head>
@@ -121,6 +132,9 @@
 
   <div id="main">
     <div id="map"></div>
+    <div id="infobox">
+
+    </div>
     <div id="legend">
       <h1>Cartographie historique des universités en Europe</h1>
       <p>
@@ -211,7 +225,9 @@
       .defer(d3.json, "data/geocodes-final.json")
       // actual data
       .defer(d3.dsv("\t"), "./docs/Tout-Univ-religion-par-an.csv")
-      .await(function(error, europe, capitals, legend, coords, rawData) {
+      // geocoding with google API + handfix
+      .defer(d3.json, "./docs/notes.json")
+      .await(function(error, europe, capitals, legend, coords, rawData, notes) {
           if (error) throw error
           console.log("data loaded")
 
@@ -236,7 +252,9 @@
           // merge all data into a single object
           let data = rawData.map( d => {
             let name = d["Univ"],
-              latLng = coords[ name ]
+              coord = coords[ name ]
+
+            let LatLng = new L.LatLng(coord[0], coord[1])
 
             let years = {}
             Object.keys(d).forEach( y => {
@@ -244,9 +262,12 @@
               years[y] = value
             })
 
+            let info = notes[name]
+
             return {
+              info,
               name,
-              latLng,
+              LatLng,
               years
             }
           })
@@ -373,11 +394,17 @@
                       .style("left", (window.pageXOffset + matrix.e + 5) + "px")
                       .style("top", (window.pageYOffset + matrix.f - 25) + "px");
 
+                  d3.select("#infobox")
+                    .html('<h3>' + d.name +'</h3>' + d.info.join("<br>"))
+
                 })
               .on("mouseout", function(d) {
                   tooltip.transition()
                       .duration(500)
                       .style("opacity", 0)
+
+                  d3.select("#infobox")
+                    .html("")
                 })
 
             // update counts in caption
@@ -472,12 +499,11 @@
     data.forEach(d => {
       if(d.years[year]) { // check if there is a value in the year
         let value = {
-          name : d.name,
-          LatLng : d.LatLng = new L.LatLng(d.latLng[0], d.latLng[1]),
           year : year,
           data: d.years[year]
         }
-        values.push(value)
+        let point = Object.assign(d, value)
+        values.push(point)
       }
     })
     return values
