@@ -366,7 +366,7 @@
               d3.select("#stop").classed("hidden", false)
               isPlaying = setInterval(function () {
                   next()
-              }, 100)
+              }, 300)
             }
           }
 
@@ -403,12 +403,11 @@
             d3.select("#year").text(now)
 
             let values = getValuesForYear(data, now)
-            console.log(values.length, " cities")
+            // console.log(values.length, " cities")
 
             let bounds = path.bounds(europe),
                 topLeft = bounds[0],
                 bottomRight = bounds[1];
-
 
             svg.attr("width", bottomRight[0] - topLeft[0])
       				.attr("height", bottomRight[1] - topLeft[1])
@@ -421,57 +420,59 @@
             // initialize the path data
             europeFeatures.attr("d", path)
 
-            d3map.selectAll("circle").remove()
-
-            // update markers
             let markers = d3map.selectAll("circle")
-                      .data(values)
+              .data(values)
+
+            markers.exit().remove()
+
+            markers
+              .enter()
+              .append("circle")
 
             markers
               .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
               .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
 
             markers
-              // .remove()
-              .enter()
-              .append("circle")
-                .attr("class", "marker")
-                .attr("r", 6)
-                .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
-                .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
+              .attr("class", "marker")
               .style("fill", d => d.data.color )
                 .style("opacity", .7)
                 .style("cursor", "pointer")
-              .on("mouseover", function(d) {
-                  console.log("clicked", d.name);
-                  console.log(d);
 
-                  tooltip.transition()
-                    .duration(200)
-                    .style("opacity", .9)
+            markers
+              .transition()
+              .duration(400)
+              .attr("r", d => d.isNew ? 15 :6)
 
-                  // position tooltip
-                  let matrix = this.getScreenCTM()
-                    .translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
+            markers.on("mouseover", function(d) {
+                // console.log("clicked", d.name);
+                // console.log(d);
+                tooltip.transition()
+                  .duration(200)
+                  .style("opacity", .9)
 
-                  tooltip.html(d.name)
-                      .style("left", (window.pageXOffset + matrix.e + 5) + "px")
-                      .style("top", (window.pageYOffset + matrix.f - 25) + "px");
+                // position tooltip
+                let matrix = this.getScreenCTM()
+                  .translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
 
-                  d3.select("#infobox .content")
-                    .html('<h3>' + d.name +'</h3>'
-                        + '<h4>' + d.data.nom + '</h4>'
-                        + d.info.join("<br>"))
+                tooltip.html(d.name)
+                    .style("left", (window.pageXOffset + matrix.e + 5) + "px")
+                    .style("top", (window.pageYOffset + matrix.f - 25) + "px");
 
-                })
-              .on("mouseout", function(d) {
-                  tooltip.transition()
-                      .duration(500)
-                      .style("opacity", 0)
+                d3.select("#infobox .content")
+                  .html('<h3>' + d.name +'</h3>'
+                      + '<h4>' + d.data.nom + '</h4>'
+                      + d.info.join("<br>"))
 
-                  d3.select("#infobox .content")
-                    .html("")
-                })
+              })
+            .on("mouseout", function(d) {
+                tooltip.transition()
+                    .duration(500)
+                    .style("opacity", 0)
+
+                d3.select("#infobox .content")
+                  .html("")
+              })
 
             // update counts in caption
             updateCaption(data, now, legend)
@@ -481,163 +482,173 @@
 
           }
 
-      });
+    // helpers for d3
 
-  // helpers for d3
+    function createSlider(now, years) {
+      let slider = document.getElementById('slider')
+
+      noUiSlider.create(slider, {
+        start:  now, //[startYear, endYear],
+        connect: true,
+        step: 20,
+        range: {
+          'min': d3.min(years),
+          'max': d3.max(years)
+        },
+        pips: {
+          mode: 'count',
+          values: 10,
+          density: 1,
+          stepped: true
+        }
+      })
+
+      return slider
+    }
+
+    function initCaption(legend) {
+
+      // draw caption
+      let captions = d3.select("#caption")
+        .attr("width", 250)
+        .attr("height", 300)
+        .selectAll(".caption")
+          .data(Object.keys(legend).map(d => legend[d]))
+          .enter()
+        .append("g")
+          .attr("class", "caption")
+          .attr("transform", (d,i) => "translate(20,"+(i*30+20)+")")
+
+
+      captions.append("circle")
+          .attr("r", 8)
+          .attr("class", d => d.color )
+          .style("fill", d => d.color )
+
+      captions.append("text")
+        .attr("text-anchor", "left")
+        .attr("x", 20)
+        .attr("y", 5)
+        .text(d => d.nom)
+
+    }
+
+    function updateCaption(data, year, legend) {
+
+      // count occurence
+      let counts = {}
+      data.forEach(d => {
+        if (d.years[year]) {
+          let abbr = d.years[year].abbr
+          counts[abbr] = counts[abbr] ? counts[abbr]+1 : 1;
+        }
+      })
+
+      let countsWithInfo = Object.keys(legend)
+          .map(d => Object.assign( legend[d], { count : counts[d]}) )
+          // .sort( (a,b) => {
+          //   let c1 = a.count ? a.count : 0
+          //   let c2 = b.count ? b.count : 0
+          //   console.log(c1, c2);
+          //   return c1 < c2
+          // })// sort alphabetically
+
+      captions = d3.selectAll(".caption")
+        .data(countsWithInfo)
+        .classed("faded", d => !d.count)
+        .classed("focused", d=> d.count)
+        .transition()
+      .select("text")
+          .text(d => d.count ? d.nom + " ("+d.count+")" : d.nom )
+    }
+
+    function getValuesForYear(data) {
+      // parse values for a specific year
+      let points = []
+
+      // check is it a new univ
+      let prevYear = (now == d3.min(years)) ? now : now - 1
+
+      data.forEach(d => {
+        if(d.years[now]) { // check if there is a value in the year
+          let point = Object.assign({}, d)
+          point.isNew = (
+            ! d.years[prevYear]
+            || ( d.years[now].abbr != "F" && d.years[prevYear].abbr == "F")
+          ) ? true : false
+
+          point.year = year
+          point.data = d.years[now]
+          points.push(point)
+        }
+      })
+      return points
+    }
+
+    function autoFitMap(values) {
+      let circles = values.map( d => L.circle(d.LatLng, {}))
+      console.log(circles);
+      let markers = L.featureGroup( circles )
+      console.log(markers);
+      // markers.addTo(map)
+      map.fitBounds(markers.getBounds())
+    }
+
+    function updateMarkers(values){
+      // console.log("updated :" + yearList.length + ' valid dates from '+ d3.min(yearList) +" to "+ d3.max(yearList))
+
+      // The first thing we do here is clear the markers from the layer.
+      markersLayer.clearLayers()
+
+
+      // console.log(values);
+      /*
+      * NOW LET'S DRAW STUFF !
+      */
+
+      // calculate scale
+      // let counts = values.map(v => v.count)
+      // let scale = d3.scale
+      //     .linear()
+      //     .domain([d3.min(counts),d3.max(counts)])
+      //     .range([10000, 400000])
+
+      // create an array to store our markers
+      let circles = values.map( d => {
+        // console.log(Math.floor(scale(d.count)))
+        return L.circle(d.latLng, {
+            fillColor: d.data.color,
+            color: d.data.color,
+            fillOpacity: 0.5,
+            weight: 1,
+            radius: 3000 //Math.floor(scale(d.count))
+        })
+        .bindPopup(d.name, { showOnMouseOver: true })
+      })
+
+      // console.log(circles.length)
+      let markers = L.featureGroup(circles)
+
+      // add markers to map
+      markersLayer.addLayer(markers)
+      markers.bringToFront()
+
+      // autofit map
+      // map.fitBounds(markers.getBounds())
+
+    }
+
+    function getYearList(years, start, end) {
+      let yearList = []
+      years.forEach(y => { if (y >= start && y <= end) yearList.push(y) })
+      return yearList
+    }
+
+  })
+
   function projectPoint(x, y) {
     let point = map.latLngToLayerPoint(new L.LatLng(y, x));
     this.stream.point(point.x, point.y);
-  }
-
-  function createSlider(now, years) {
-    let slider = document.getElementById('slider')
-
-    noUiSlider.create(slider, {
-      start:  now, //[startYear, endYear],
-      connect: true,
-      step: 20,
-      range: {
-        'min': d3.min(years),
-        'max': d3.max(years)
-      },
-      pips: {
-        mode: 'count',
-        values: 10,
-        density: 1,
-        stepped: true
-      }
-    })
-
-    return slider
-  }
-
-  function initCaption(legend) {
-
-    // draw caption
-    let captions = d3.select("#caption")
-      .attr("width", 250)
-      .attr("height", 300)
-      .selectAll(".caption")
-        .data(Object.keys(legend).map(d => legend[d]))
-        .enter()
-      .append("g")
-        .attr("class", "caption")
-        .attr("transform", (d,i) => "translate(20,"+(i*30+20)+")")
-
-
-    captions.append("circle")
-        .attr("r", 8)
-        .attr("class", d => d.color )
-        .style("fill", d => d.color )
-
-    captions.append("text")
-      .attr("text-anchor", "left")
-      .attr("x", 20)
-      .attr("y", 5)
-      .text(d => d.nom)
-
-  }
-
-  function updateCaption(data, year, legend) {
-
-    // count occurence
-    let counts = {}
-    data.forEach(d => {
-      if (d.years[year]) {
-        let abbr = d.years[year].abbr
-        counts[abbr] = counts[abbr] ? counts[abbr]+1 : 1;
-      }
-    })
-
-    let countsWithInfo = Object.keys(legend)
-        .map(d => Object.assign( legend[d], { count : counts[d]}) )
-        // .sort( (a,b) => {
-        //   let c1 = a.count ? a.count : 0
-        //   let c2 = b.count ? b.count : 0
-        //   console.log(c1, c2);
-        //   return c1 < c2
-        // })// sort alphabetically
-
-    captions = d3.selectAll(".caption")
-      .data(countsWithInfo)
-      .classed("faded", d => !d.count)
-      .classed("focused", d=> d.count)
-      .transition()
-    .select("text")
-        .text(d => d.count ? d.nom + " ("+d.count+")" : d.nom )
-  }
-
-  function getValuesForYear(data, year) {
-    // parse values for a specific year
-    let points = []
-    data.forEach(d => {
-      if(d.years[year]) { // check if there is a value in the year
-        let point = Object.assign({}, d)
-        point.year = year
-        point.data = d.years[year]
-        points.push(point)
-      }
-    })
-    return points
-  }
-
-  function autoFitMap(values) {
-    let circles = values.map( d => L.circle(d.LatLng, {}))
-    console.log(circles);
-    let markers = L.featureGroup( circles )
-    console.log(markers);
-    // markers.addTo(map)
-    map.fitBounds(markers.getBounds())
-  }
-
-  function updateMarkers(values){
-    // console.log("updated :" + yearList.length + ' valid dates from '+ d3.min(yearList) +" to "+ d3.max(yearList))
-
-    // The first thing we do here is clear the markers from the layer.
-    markersLayer.clearLayers()
-
-
-    // console.log(values);
-    /*
-    * NOW LET'S DRAW STUFF !
-    */
-
-    // calculate scale
-    // let counts = values.map(v => v.count)
-    // let scale = d3.scale
-    //     .linear()
-    //     .domain([d3.min(counts),d3.max(counts)])
-    //     .range([10000, 400000])
-
-    // create an array to store our markers
-    let circles = values.map( d => {
-      // console.log(Math.floor(scale(d.count)))
-      return L.circle(d.latLng, {
-          fillColor: d.data.color,
-          color: d.data.color,
-          fillOpacity: 0.5,
-          weight: 1,
-          radius: 3000 //Math.floor(scale(d.count))
-      })
-      .bindPopup(d.name, { showOnMouseOver: true })
-    })
-
-    // console.log(circles.length)
-    let markers = L.featureGroup(circles)
-
-    // add markers to map
-    markersLayer.addLayer(markers)
-    markers.bringToFront()
-
-    // autofit map
-    // map.fitBounds(markers.getBounds())
-
-  }
-
-  function getYearList(years, start, end) {
-    let yearList = []
-    years.forEach(y => { if (y >= start && y <= end) yearList.push(y) })
-    return yearList
   }
 
   </script>
