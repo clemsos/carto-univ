@@ -128,6 +128,10 @@
       display: none
     }
 
+    #year {
+      font-size: 2em
+    }
+
     .default {fill : #BD906F; }
     .focused { fill : #705540; }
     .faded { fill : #D4877F;}
@@ -141,7 +145,7 @@
   <div id="main">
     <div id="map"></div>
     <div id="infobox">
-
+      <div class="content"></div>
     </div>
     <div id="legend">
       <h1>Cartographie historique des universités en Europe</h1>
@@ -160,7 +164,7 @@
       <a href="#" id="play">&#x23f5;</a>
       <a href="#" id="stop" class="hidden">&#x23f9;</a>
       <a href="#" id="next">&#x23ed;</a>
-      <span>Année : <span id="year">year</span></span>
+      <span class="annee"><span id="year">year</span> An</span>
     </div>
     <div id="slider"></div>
   </div>
@@ -188,7 +192,10 @@
     */
 
     // setup map
-    let map = L.map('map').setView([48.5692557,7.6220094,], 4);
+    let map = L.map('map', { zoomControl: false }).setView([48.5692557,7.6220094,], 4);
+
+    // add zoom controls
+    L.control.zoom({ position:'topright' }).addTo(map);
 
     let url = 'http://tile.thunderforest.com/transport/{z}/{x}/{y}.png'
     let attribution = '&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -200,8 +207,6 @@
       	ext: 'png'
     })
 
-    // map scale
-    L.control.scale({position  : "topright"}).addTo(map)
 
     // create d3 map layout from leaflet
     const svg = d3.select(map.getPanes().overlayPane).append("svg"),
@@ -274,6 +279,9 @@
 
           // initialize up the L.control.layers
           L.control.layers({}, overlayMaps).addTo(map);
+
+          // map scale
+          L.control.scale({position  : "bottomright"}).addTo(map)
 
           // draw caption
           initCaption(legend)
@@ -450,7 +458,7 @@
                       .style("left", (window.pageXOffset + matrix.e + 5) + "px")
                       .style("top", (window.pageYOffset + matrix.f - 25) + "px");
 
-                  d3.select("#infobox")
+                  d3.select("#infobox .content")
                     .html('<h3>' + d.name +'</h3>'
                         + '<h4>' + d.data.nom + '</h4>'
                         + d.info.join("<br>"))
@@ -461,7 +469,7 @@
                       .duration(500)
                       .style("opacity", 0)
 
-                  d3.select("#infobox")
+                  d3.select("#infobox .content")
                     .html("")
                 })
 
