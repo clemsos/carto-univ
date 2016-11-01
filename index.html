@@ -441,8 +441,9 @@
 
             markers
               .transition()
-              .duration(400)
-              .attr("r", d => d.isNew ? 15 :6)
+              .duration(250)
+              .ease('sine')
+              .attr("r", d => d.isNew ? 15 : 6)
 
             markers.on("mouseover", function(d) {
                 // console.log("clicked", d.name);
@@ -571,7 +572,9 @@
 
       data.forEach(d => {
         if(d.years[now]) { // check if there is a value in the year
+
           let point = Object.assign({}, d)
+
           point.isNew = (
             ! d.years[prevYear]
             || ( d.years[now].abbr != "F" && d.years[prevYear].abbr == "F")
