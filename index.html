@@ -23,27 +23,33 @@
     }
 
     h1 {
+      font-size: 1.6em;
+    }
+
+    h1, p {
       font-weight: 400;
-      padding: 0 0 0 5%;
+      padding: 0 5% 0 5%;
     }
 
     #selector {
       padding: 0 5%;
       width: 90%;
       position: absolute;
-      bottom:40px
+      bottom:12%
     }
 
-    #caption {
-      position: fixed;
-      z-index :1000;
-      background-color: rgba(0,0,0,.3)
+    #selector p {
+      padding:0
+    }
+
+    #legend {
+      width: 20%;
     }
 
     #map {
       height: 70%;
-      width: 100%;
-      margin-left: 250px;
+      width: 80%;
+      margin-left: 20%;
       position: absolute;
       display: block;
     }
@@ -53,10 +59,16 @@
 </head>
 <body>
 
-  <h1>Cartographie historique des universités en Europe</h1>
   <div id="main">
     <div id="map"></div>
-    <svg id="caption"></svg>
+    <div id="legend">
+      <h1>Cartographie historique des universités en Europe</h1>
+      <p>
+        E. Guichard et C. Renaud, 2016
+        <br><small>d'après C. Ducrot</small>
+      </p>
+      <svg id="caption"></svg>
+    </div>
   </div>
 
   <div id="selector">
@@ -84,6 +96,7 @@
     * - OK: dates de fondation
     * - OK titre
     * - OK (Eric): nettoyage des données
+    * - OK : légende
     * - échelle
     */
 
@@ -103,7 +116,6 @@
     // Created a layer to put all our markers
     const markersLayer = new L.LayerGroup()
     markersLayer.addTo(map)
-
 
     // load all needed files
     d3.queue()
@@ -223,7 +235,7 @@
         .attr("transform", (d,i) => "translate(20,"+(i*30+20)+")")
 
     captions.append("circle")
-        .attr("r", 10)
+        .attr("r", 8)
         .attr("class", d => d.color )
         .style("fill", d => d.color )
 
@@ -231,6 +243,7 @@
       .attr("text-anchor", "left")
       .attr("x", 20)
       .attr("y", 5)
+      // .style("font-size", ".9em")
       .text(d => d.nom)
 
   }
@@ -251,11 +264,9 @@
     d3.selectAll(".caption")
       .data(countsWithInfo)
         .select("text")
-      .attr("fill", d => d.count ? "white" : "rgba(0,0,0,.5)" )
+      .attr("fill", d => d.count ? "rgba(0,0,0,.8)" : "#CCC" )
       .text(d => d.count ? d.nom + "("+d.count+")" : d.nom )
-
   }
-
 
   function updateMarkers(data, year){
     // console.log("updated :" + yearList.length + ' valid dates from '+ d3.min(yearList) +" to "+ d3.max(yearList))
