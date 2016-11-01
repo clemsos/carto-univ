@@ -83,6 +83,15 @@
       background: #D4877F
     }
 
+    .tooltip {
+      color: #705540;
+      position: absolute;
+      text-align: center;
+      border: 0px;
+      pointer-events: none;
+      z-index : 2000;
+    }
+
     .default {fill : #BD906F; }
     .focused { fill : #705540; }
     .faded { fill : #D4877F;}
@@ -108,7 +117,6 @@
     <p>Année : <span id="year">year</span></p>
     <div id="slider"></div>
   </div>
-
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js" charset="utf-8"></script>
 
@@ -156,6 +164,12 @@
     // declare global
     var values;
 
+    // Define the div for the tooltip
+    const tooltip = d3.select("body")
+        .append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0)
+
     // Created a layer to put all our markers
     const markersLayer = new L.LayerGroup()
     markersLayer.addTo(map)
@@ -175,6 +189,7 @@
       .await(function(error, europe, capitals, legend, coords, rawData) {
           if (error) throw error
           console.log("data loaded")
+
 
           const europeFeatures = d3map
             .append("g")
@@ -292,6 +307,29 @@
               .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
               .style("fill", (d,i) => d.data.color )
               .style("opacity", .7)
+              .style("cursor", "pointer")
+              .on("mouseover", function(d) {
+                  console.log("clicked", d.name);
+
+                  tooltip.transition()
+                    .duration(200)
+                    .style("opacity", .9)
+
+                  // position tooltip
+                  let matrix = this.getScreenCTM()
+                    .translate(+ this.getAttribute("cx"), + this.getAttribute("cy"));
+
+                  tooltip.html(d.name)
+                      .style("left", (window.pageXOffset + matrix.e + 5) + "px")
+                      .style("top", (window.pageYOffset + matrix.f - 25) + "px");
+
+                })
+                .on("mouseout", function(d) {
+                  tooltip.transition()
+                      .duration(500)
+                      .style("opacity", 0)
+                })
+
 
           }
 
@@ -340,6 +378,7 @@
         .attr("class", "caption")
         .attr("transform", (d,i) => "translate(20,"+(i*30+20)+")")
 
+
     captions.append("circle")
         .attr("r", 8)
         .attr("class", d => d.color )
@@ -371,7 +410,7 @@
       .classed("faded", d => !d.count)
       .classed("focused", d=> d.count)
     .select("text")
-        .text(d => { console.log(d); return d.count ? d.nom + "("+d.count+")" : d.nom} )
+        .text(d => d.count ? d.nom + "("+d.count+")" : d.nom )
   }
 
   function getValuesForYear(data, year) {
