@@ -400,7 +400,7 @@
               .enter()
               .append("circle")
                 .attr("class", "marker")
-                .attr("r", 5)
+                .attr("r", 6)
                 .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
                 .attr("cy", d => map.latLngToLayerPoint( d.LatLng ).y)
                 .style("fill", (d,i) => d.data.color )
