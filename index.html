@@ -347,7 +347,7 @@
           d3.select("#stop")
             .on("click", function(d) {
               d3.event.preventDefault()
-              stop(this) 
+              stop(this)
             })
 
 
@@ -548,7 +548,7 @@
       .classed("faded", d => !d.count)
       .classed("focused", d=> d.count)
     .select("text")
-        .text(d => d.count ? d.nom + "("+d.count+")" : d.nom )
+        .text(d => d.count ? d.nom + " ("+d.count+")" : d.nom )
   }
 
   function getValuesForYear(data, year) {
