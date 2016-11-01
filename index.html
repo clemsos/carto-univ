@@ -428,6 +428,7 @@
             markers
               .enter()
               .append("circle")
+              .attr("r", 6)
 
             markers
               .attr("cx", d => map.latLngToLayerPoint( d.LatLng ).x)
