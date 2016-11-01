@@ -442,7 +442,7 @@
 
             markers
               .transition()
-              .duration(500)
+              .duration(300)
               .ease('sine')
               .attr("r", d => d.isNew ? 15 : 6)
 
@@ -577,7 +577,8 @@
           let point = Object.assign({}, d)
 
           point.isNew = (
-            ! d.years[prevYear]
+            now == d3.min(years)
+            || ! d.years[prevYear]
             || ( d.years[now].abbr != "F" && d.years[prevYear].abbr == "F")
           ) ? true : false
 
