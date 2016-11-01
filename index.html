@@ -192,6 +192,9 @@
       	ext: 'png'
     })
 
+    // map scale
+    L.control.scale({position  : "topright"}).addTo(map)
+
     // create d3 map layout from leaflet
     const svg = d3.select(map.getPanes().overlayPane).append("svg"),
       d3map = svg.append("g")
