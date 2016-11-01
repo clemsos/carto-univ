@@ -318,28 +318,36 @@
           var isPlaying;
 
           d3.select("#play")
-            .on("click", function (d) {
-              d3.select(this).classed("hidden", true)
-              d3.select("#stop").classed("hidden", false)
-              if(!isPlaying) {
-                isPlaying = setInterval(function () {
-                    next()
-                }, 100)
-              }
-            })
+            .on("click", function (d) { play(this) } )
 
           d3.select("#stop")
-            .on("click", function(d) {
-              clearInterval(isPlaying)
-              d3.select(this).classed("hidden", true)
-              d3.select("#play").classed("hidden", false)
-              isPlaying = null
-            })
+            .on("click", function(d) { stop(this) } )
+
+
+          function play(_this) {
+            console.log("play");
+            d3.select(_this).classed("hidden", true)
+            d3.select("#stop").classed("hidden", false)
+            if(!isPlaying) {
+              isPlaying = setInterval(function () {
+                  next()
+              }, 100)
+            }
+          }
+
+          function stop(_this) {
+            console.log("stop");
+            clearInterval(isPlaying)
+            d3.select(_this).classed("hidden", true)
+            d3.select("#play").classed("hidden", false)
+            isPlaying = null
+          }
 
           function prev() {
             let i = years.indexOf(now)
             let prev = years[--i]
             if( i >= 0 ) now = prev
+            else stop()
             updateMap()
             slider.noUiSlider.set(now)
           }
@@ -347,7 +355,8 @@
           function next() {
             let i = years.indexOf(now)
             let next = years[++i]
-            if( i <= years.length ) now = next
+            if( next <= d3.max(years) ) now = next
+            else stop()
             updateMap()
             slider.noUiSlider.set(now)
           }
