@@ -116,11 +116,20 @@
       padding: 1em
     }
 
+    #stop img, #play img {
+      width: 25px;
+      max-height: 25px;
+    }
+
+    #prev img, #next img {
+      width: 35px;
+      max-height: 25px;
+    }
 
     #controls a, #controls a:visited {
       font-size: 1.5em;
       color: #BD906F;
-      padding: .5em;
+      padding: .5em .2em .5em .3em;
       pointer-events: auto;
     }
 
@@ -138,7 +147,6 @@
     .default {fill : #BD906F; }
     .focused { fill : #705540; }
     .faded { fill : #D4877F;}
-
 
   </style>
 
@@ -163,10 +171,10 @@
 
   <div id="selector">
     <div id="controls">
-      <a href="#" id="prev">&#x23ee;</a>
-      <a href="#" id="play">&#x23f5;</a>
-      <a href="#" id="stop" class="hidden">&#x23f9;</a>
-      <a href="#" id="next">&#x23ed;</a>
+      <a href="#" id="prev"><img src="img/prev.png" alt="Année précédente"></a>
+      <a href="#" class="play" id="play"><img src="img/play.png" alt="Année suivante"></a>
+      <a href="#" id="stop" class="hidden"><img src="img/stop.png" alt="Stop"></a>
+      <a href="#" id="next"><img src="img/next.png" alt="Play"></a>
       <span class="annee"><span id="year">year</span> An</span>
     </div>
     <div id="slider"></div>
