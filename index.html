@@ -40,7 +40,7 @@
 
     h1, p {
       font-weight: 400;
-      padding: 0 5% 0 5%;
+      /*padding: 0 5% 0 5%;*/
     }
 
 
@@ -50,42 +50,70 @@
       font-weight: 600;
     }
 
+    #main {
+      display: flex; /* or inline-flex */
+      /*flex-direction: row;*/
+      flex-flow: row wrap;
+      align-items: flex-start;
+    }
+
+    #title, #selector {
+      height: 150px;
+    }
+
+    #title, #legend {
+      width: 20%;
+      float:left
+    }
+
+    #selector, #map-container {
+      width: 65%;
+    }
+
+    #map-container {
+      padding : 0;
+      width:69%;
+      padding-bottom: 2%
+    }
+
+    #map, #legend {
+      height: 70vh;
+    }
+
     #selector {
-      padding: 0 5%;
-      width: 90%;
-      position: absolute;
-      bottom:12%;
+      float:left
       pointer-events: none;
-      z-index: 1000
+      z-index: 1000;
     }
 
     #selector p {
       padding:0
     }
 
-    #legend {
-      width: 20%;
-    }
-
     #map {
-      height: 100%;
-      width: 80%;
+      width: 100%;
       padding: 0;
-      margin-left: 20%;
-      position: absolute;
       display: block;
       background: #FFF3E5
     }
 
-    #infobox {
-      position : absolute;
-      width : 20%;
-      height: 50%;
+    #infobox {;
       margin-top: 5%;
-      margin-left: 20%;
-      padding-left: 10px;
       z-index: 1001;
       pointer-events: none;
+    }
+
+    .card {
+      margin: 10px;
+      padding: 10px;
+      padding: 2% 2% 0 2%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      transition: 0.3s;
+    }
+
+    /* On mouse-over, add a deeper shadow */
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
     .no-fill path {
@@ -148,36 +176,66 @@
     .focused { fill : #705540; }
     .faded { fill : #D4877F;}
 
+    /* Mobile specific*/
+    @media only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: portrait), only screen and (min-device-width: 320px) and (max-device-width: 736px) and (orientation: landscape) {
+
+        .box {
+          width:100%
+        }
+
+        .hide-on-mobile {
+          display:none
+        }
+
+        #selector {
+          height : auto
+        }
+
+    }
+
   </style>
 
 </head>
 <body>
 
   <div id="main">
-    <div id="map"></div>
-    <div id="infobox">
-      <div class="content"></div>
-    </div>
-    <div id="legend">
+
+    <div id="title" class="card">
       <h1>Cartographie historique des universités en Europe</h1>
       <p>
         <a href="http://caducrot.free.fr/">C. Ducrot</a>, <a href="http://barthes.ens.fr/atelier/" target="_blank">E. Guichard</a> et <a href="http://clementrenaud.com" target="_blank">C. Renaud</a>, 2016.
         <br><small> Projet financé par le Conseil scientifique de l'<a href="http://www.enssib.fr" target="_blank">Enssib</a>.</small>
       </p>
+    </div>
+
+    <div id="selector" class="card">
+      <div id="controls">
+        <a href="#" id="prev"><img src="img/prev.png" alt="Année précédente"></a>
+        <a href="#" class="play" id="play"><img src="img/play.png" alt="Année suivante"></a>
+        <a href="#" id="stop" class="hidden"><img src="img/stop.png" alt="Stop"></a>
+        <a href="#" id="next"><img src="img/next.png" alt="Play"></a>
+        <span class="annee"><span id="year">year</span> An</span>
+      </div>
+      <div id="slider" class="hide-on-mobile"></div>
+    </div>
+
+    <div id="legend" class="card" >
       <svg id="caption"></svg>
+      <div id="infobox">
+        <div class="content"></div>
+      </div>
     </div>
-  </div>
+
+    <div id="map-container" class="card">
+      <div id="map" ></div>
+    </div>
 
 
-  <div id="selector">
-    <div id="controls">
-      <a href="#" id="prev"><img src="img/prev.png" alt="Année précédente"></a>
-      <a href="#" class="play" id="play"><img src="img/play.png" alt="Année suivante"></a>
-      <a href="#" id="stop" class="hidden"><img src="img/stop.png" alt="Stop"></a>
-      <a href="#" id="next"><img src="img/next.png" alt="Play"></a>
-      <span class="annee"><span id="year">year</span> An</span>
-    </div>
-    <div id="slider"></div>
+
+
+
+
+
   </div>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.17/d3.js" charset="utf-8"></script>
@@ -199,7 +257,7 @@
     * - OK titre
     * - OK (Eric): nettoyage des données
     * - OK : légende
-    * - échelle
+    * - OK: échelle
     */
 
     // setup map
